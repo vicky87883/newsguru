@@ -8,7 +8,8 @@ $result = mysqli_query($con,$query);
 $result2 = mysqli_query($con,$query2);
 $result3 = mysqli_query($con,$query3);
 $result4 = mysqli_query($con,$query4);
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
 <meta charset=utf-8>
