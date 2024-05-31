@@ -281,7 +281,6 @@ Ironically, the S-400 missile system, which is supplied from Russia, is used by 
 </p>
 </div>
 	<?php include('sociallink.php') ?>
-	<?php include('relatedpost.php') ?>
 </div>
 <?php include('rightside.php') ?></div>
 </div>
