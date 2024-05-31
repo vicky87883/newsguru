@@ -1,7 +1,5 @@
 <?php
 require_once('dbcon.php');
-mysqli_set_charset('utf8');
-
 $query = "SELECT * FROM `frontload`   ORDER BY `id` DESC;";
 $query2 = "SELECT * FROM `mostpopular`   ORDER BY `id` DESC;";
 $query3 = "SELECT * FROM `dontmiss`   ORDER BY `id` DESC;";
