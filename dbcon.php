@@ -4,7 +4,7 @@ $server = "localhost";
 $user = "vikram";
 $password = "Parjapat@123";
 $db = "coder";
-mysqli_set_charset('utf8');
+$conn->set_charset("utf8mb4");
 $con = mysqli_connect($server,$user,$password,$db);
 if($con)
 {
