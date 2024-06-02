@@ -9,12 +9,11 @@ $result = mysqli_query($con,$query);
 <html class=no-js lang=en>
 <head>
 <meta charset=utf-8>
-<meta charset="UTF-8">
 <meta http-equiv=x-ua-compatible content="ie=edge">
 <title>Latest Sport News Live | newsguru.live</title>
 <meta name=description content="Get the most recent updates on Cricket, Football, Tennis, WWE, and World Cup 2023. Stay informed with the latest sports news from around the world.">
 <meta name=viewport content="width=device-width, initial-scale=1">
-<link rel=manifest href=site.webmanifest>
+<meta charset="UTF-8">
 <link rel="shortcut icon" type=image/x-icon href=../assets/imgs/favicon.svg>
 <link rel=stylesheet href=assets/css/style.css>
 <link rel=stylesheet href=assets/css/widgets.css>
