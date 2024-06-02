@@ -1,6 +1,7 @@
 <?php
 require_once('dbcon.php');
 $query = "SELECT * FROM `sports`   ORDER BY `id` DESC;";
+$con->set_charset("utf8mb4");
 $result = mysqli_query($con,$query);
 ?>
 <?php include "script.php" ?>
