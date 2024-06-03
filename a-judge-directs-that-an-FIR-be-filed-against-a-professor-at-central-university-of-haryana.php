@@ -15,8 +15,7 @@ $result4 = mysqli_query($con,$query4);
 <head>
 	<meta charset=utf-8>
 	<meta http-equiv=x-ua-compatible content="ie=edge">
-	<title>A judge directs that an FIR be filed against a professor at Central University of Haryana | Latest News India
-		- Newsguru.live</title>
+	<title>A judge directs that an FIR be filed against a professor at Central University of Haryana</title>
 	<meta name=news_keywords content="central-university-of-haryana,cuh,judge,professor,FIR" itemprop="keywords" />
 	<meta name=description
 		content="Stay informed about the latest legal developments at Central University of Haryana with our comprehensive coverage."
@@ -278,8 +277,6 @@ $result4 = mysqli_query($con,$query4);
 								cancelling the petitioner's appointment pursuant to the notice dated August 28, 2023 on
 								September 27, 2023," the VC said.</p>
 						</div>
-						<?php include('sociallink.php') ?>
-						<?php include('relatedpost.php') ?>
 					</div>
 					<?php include('rightside.php') ?>
 				</div>
