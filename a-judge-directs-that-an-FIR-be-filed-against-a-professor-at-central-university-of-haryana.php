@@ -195,7 +195,7 @@ $result4 = mysqli_query($con,$query4);
 							</div>
 						</figure>
 						<div class=single-excerpt>
-							<p class=font-large>Ravinder Saini<br>Mahendragarh, February 29</p>
+							<div><strong>Ravinder Saini<br>Mahendragarh, February 29</strong></div></p>
 							<p>In the news again is the Central University of Haryana (CUH) in relation to the
 								appointment of a professor in the Political Science Department, which happened more than
 								a year ago.</p><mark>Subjudice case<br><br>The high court has placed the matter under
