@@ -49,7 +49,6 @@
                                         <li class=mega-menu-item>
                                             <a href="https://www.newsguru.live/sport/latest-sport-news.php">
                                                 <span class=mr-15>
-                                                    <ion-icon name=desktop-outline></ion-icon>
                                                 </span>Sports
                                             </a>
                                             
