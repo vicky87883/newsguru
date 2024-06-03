@@ -44,7 +44,6 @@
                                     <ul class="main-menu d-none d-lg-inline">
                                         <li class=menu-item-has-children>
                                             <a href=#><span class=mr-15>
-                                                    <ion-icon name=home-outline></ion-icon>
                                                 </span>Home</a>
                                         </li>
                                         <li class=mega-menu-item>
