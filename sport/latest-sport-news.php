@@ -177,7 +177,7 @@ $result = mysqli_query($con,$query);
 <div class="col-lg-8 col-md-12">
 <div class="latest-post mb-50">
 <div class=loop-list-style-1>
-<?php
+		<?php
                         while($row = mysqli_fetch_assoc($result))
                         {
                             ?>
