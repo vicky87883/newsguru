@@ -59,7 +59,7 @@
                                             <a href=#><span class=mr-15>
                                                 </span>Economy</a>                                            
                                         </li>
-                                        <li><a href=#><span class=mr-15>
+                                        <li><a href=https://www.newsguru.live/health/latest-health-and-fitness-news.php><span class=mr-15>
                                                     <ion-icon name=film-outline></ion-icon>
                                                 </span>Health</a></li>
 										<li><a href=#><span class=mr-15>
