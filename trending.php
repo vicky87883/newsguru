@@ -301,8 +301,6 @@ $con->set_charset("utf8mb4");
 <script src=assets/js/vendor/popper.min.js></script>
 <script src=assets/js/vendor/bootstrap.min.js></script>
 <script src=assets/js/vendor/jquery.slicknav.js></script>
-		<script src="https://kit.fontawesome.com/353f0e393d.js" crossorigin="anonymous"></script>
-
 <script src=assets/js/vendor/owl.carousel.min.js></script>
 <script src=assets/js/vendor/slick.min.js></script>
 <script src=assets/js/vendor/wow.min.js></script>
