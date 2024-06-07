@@ -180,12 +180,11 @@ $result2 = mysqli_query($con,$query2);
 <div class="col-lg-8 col-md-12">
 <div class="latest-post mb-50">
 <div class=loop-list-style-1>
-	
-<article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">
-	<?php
+<?php
                         while($row = mysqli_fetch_assoc($result))
                         {
                             ?>
+<article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">
 <div class="d-md-flex d-block">
 <div class="post-thumb post-thumb-big d-flex mr-15 border-radius-15 img-hover-scale">
 <a class=color-white href="<?php echo ($row['link']); ?>">
