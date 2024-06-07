@@ -6,6 +6,7 @@ $query4 = "SELECT * FROM `sports`   ORDER BY `id` DESC;";
 $result2 = mysqli_query($con,$query2);
 $result3 = mysqli_query($con,$query3);
 $result4 = mysqli_query($con,$query4);
+$con->set_charset("utf8mb4");
 ?><!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
