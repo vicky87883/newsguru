@@ -222,12 +222,12 @@ $result2 = mysqli_query($con,$query2);
     if(isset($_GET['page-nr']) && $_GET['page-nr'] > 1)
     {
         ?>
-<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"> <a class=prev href="?page-nr=<?php echo $_GET['page-nr'] - 1?>">Previous</a></li>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"> <a class=prev href="?page-nr=<?php echo $_GET['page-nr'] - 1?>">Prev</a></li>
 <?php
     }
     else{
         ?>
-<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"><a class=prev>Previous</a></li>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"><a class=prev>Prev</a></li>
 <?php
     }
     ?>
