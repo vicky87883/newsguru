@@ -11,7 +11,7 @@ $result2 = mysqli_query($con,$query2);
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Latest Education | Study | Research News Live | newsguru.live</title>
+<title>Latest Education | Study | Results | Vacancies | Research News | newsguru.live</title>
 <meta name=description content="Stay updated with the latest education, study, and research news live on newsguru.live. Get informed about the latest developments in the field of education and stay ahead in your academic journey.">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <link rel=manifest href=site.webmanifest>
