@@ -189,7 +189,7 @@ Tuesday, 18 June 2024</span>
 </div>
 <div class="bt-1 border-color-1 mb-30"></div>
 <figure class="single-thumnail mb-30">
-<img src=assets/imgs/news/nba.jpg alt=blog width=100%>
+<img src=assets/imgs/news/nba.JPG alt=blog width=100%>
 <div class="credit mt-15 font-small color-grey">
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
