@@ -10,7 +10,7 @@ $result = mysqli_query($con,$query);
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Latest Sport News Live | newsguru.live</title>
+<title>Latest Sports News Live | Cricket| Football| Basketball | newsguru.live</title>
 <meta name=description content="Get the most recent updates on Cricket, Football, Tennis, WWE, and World Cup 2023. Stay informed with the latest sports news from around the world.">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
