@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';  // Change if your database is on a different server
-$dbname = 'simple_api_db';
-$username = 'vikram123';   // Replace with your database username
-$password = 'Vikram@123';       // Replace with your database password
+$host = 'localhost';
+$dbname = 'coder';
+$username = 'vikram';
+$password = 'Parjapat@123';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);

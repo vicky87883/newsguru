@@ -1,43 +1,35 @@
 <?php
-// Database connection parameters
-$host = 'localhost';
-$dbname = 'coder';
-$username = 'vikram';
-$password = 'Parjapat@123';
+header("Content-Type: application/rss+xml; charset=UTF-8");
+require 'config.php';
 
 try {
-    // Create a new PDO instance and connect to the database
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    // Fetch posts from the database
+    $stmt = $pdo->query("SELECT * FROM posts ORDER BY pubDate DESC");
+    $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    // Query to fetch the latest articles
-    $stmt = $pdo->query('SELECT title, link, publication_date, description FROM articles ORDER BY publication_date DESC LIMIT 10');
-
-    // Start the RSS feed output
-    header('Content-Type: application/rss+xml; charset=utf-8');
-    echo '<?xml version="1.0" encoding="UTF-8"?>';
+    // Generate the RSS feed
+    echo '<?xml version="1.0" encoding="UTF-8" ?>';
     echo '<rss version="2.0">';
     echo '<channel>';
-    echo '<title>Newsguru Live Updates</title>';
-    echo '<link>https://newsguru.live</link>';
-    echo '<description>Latest updates and news from Newsguru Live.</description>';
+    echo '<title>My RSS Feed</title>';
+    echo '<image>My RSS Feed</image>';
+    echo '<link>http://example.com</link>';
+    echo '<description>This is an example RSS feed</description>';
     echo '<language>en-us</language>';
 
-    // Fetch and display each article
-    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    foreach ($posts as $post) {
         echo '<item>';
-        echo '<title>' . htmlspecialchars($row['title']) . '</title>';
-        echo '<link>' . htmlspecialchars($row['link']) . '</link>';
-        echo '<pubDate>' . date(DATE_RSS, strtotime($row['publication_date'])) . '</pubDate>';
-        echo '<description>' . htmlspecialchars($row['description']) . '</description>';
+        echo '<title>' . htmlspecialchars($post['title']) . '</title>';
+        echo '<image>' . htmlspecialchars($post['image']) . '</image>';
+        echo '<description>' . htmlspecialchars($post['description']) . '</description>';
+        echo '<link>' . htmlspecialchars($post['link']) . '</link>';
+        echo '<pubDate>' . date(DATE_RSS, strtotime($post['pubDate'])) . '</pubDate>';
         echo '</item>';
     }
 
-    // End the RSS feed
     echo '</channel>';
     echo '</rss>';
-
-} catch (PDOException $e) {
-    echo 'Database error: ' . $e->getMessage();
+} catch (Exception $e) {
+    echo "Failed to retrieve posts: " . $e->getMessage();
 }
 ?>
