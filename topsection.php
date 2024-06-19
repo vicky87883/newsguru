@@ -27,19 +27,54 @@
 						}
                             ?>
 
-	<!-- displayads1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6958761602872755"
-     data-ad-slot="1409631386"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	
+	</div>
+</div>
+</div>
+<div class="pagination-area mb-30">
+<nav aria-label="Page navigation example">
+<ul class="pagination justify-content-start">
+<?php
+    if(isset($_GET['page-nr']) && $_GET['page-nr'] > 1)
+    {
+        ?>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"> <a class=prev href="?page-nr=<?php echo $_GET['page-nr'] - 1?>">prev</a></li>
+<?php
+    }
+    else{
+        ?>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a class=prev>prev</a></li>
+<?php
+    }
+    ?>
+<?php
+        for( $counter= 1; $counter <= $pages; $counter++ )
+        {
+        ?>
+<li class="pageNumber active" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a href="?page-nr=<?php echo $counter ?>"><?php echo $counter ?></a></li>
+<?php
 
-<?php include('bottomnews.php') ?>	
-</div>
-</div>
+        }
+        ?>
+<?php
+    if(!isset($_GET['page-nr']))
+    {
+        ?>
+	<li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a href="?page-nr=2" class=next>Next</a></li>
+<?php
+    }else{
+        if($_GET['page-nr']>=$pages)
+        {
+            ?>
+<li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a class=next>Next</a></li>
+<?php
+        }else{
+            ?>
+<li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a class=next href="?page-nr=<?php echo $_GET['page-nr'] + 1 ?>">Next</a></li>
+<?php
+        }
+    }
+    ?>
+
+</ul>
+</nav>
 </div>
