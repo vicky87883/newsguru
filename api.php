@@ -56,25 +56,33 @@ function handlePostRequest($pdo) {
         $link = $_POST['link'];
         $image = $_FILES['image'];
 
-        // Validate image
+        // Define the target directory for uploaded files
         $targetDir = "uploads/";
         if (!is_dir($targetDir)) {
             mkdir($targetDir, 0777, true);
         }
 
+        // Generate a unique file name to avoid overwriting existing files
         $targetFile = $targetDir . basename($image["name"]);
         $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
 
-        $validFileTypes = ['jpg', 'jpeg', 'png', 'gif'];
+        // Debugging: Log the file type
+        error_log("Uploaded file type: " . $fileType);
+
+        // Valid file types
+        $validFileTypes = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'pdf'];
+
+        // Check file type
         if (in_array($fileType, $validFileTypes)) {
             if (move_uploaded_file($image["tmp_name"], $targetFile)) {
+                // File uploaded successfully, save the post data with file path in the database
                 try {
                     $stmt = $pdo->prepare("INSERT INTO posts (title, description, link, image, pubDate) VALUES (:title, :description, :link, :image, NOW())");
                     $stmt->execute([
                         'title' => $title,
                         'description' => $description,
                         'link' => $link,
-                        'image' => $targetFile
+                        'image' => $targetFile // Store the file path
                     ]);
                     $newPostId = $pdo->lastInsertId();
                     echo json_encode(["message" => "Post added successfully", "post_id" => $newPostId]);
@@ -84,7 +92,7 @@ function handlePostRequest($pdo) {
                 }
             } else {
                 http_response_code(500);
-                echo json_encode(["message" => "Failed to upload image"]);
+                echo json_encode(["message" => "Failed to upload file"]);
             }
         } else {
             http_response_code(400);
