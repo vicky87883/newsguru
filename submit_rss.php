@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit RSS Feed Item</title>
     <style>
-        /* Add your styles here */
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
@@ -55,8 +54,8 @@
         <label for="link">Link:</label>
         <input type="url" id="link" name="link" required>
 
-        <label for="image">Image:</label>
-        <input type="file" id="image" name="image" accept="image/*" required>
+        <label for="image">File (Image or PDF):</label>
+        <input type="file" id="image" name="image" accept=".jpg,.jpeg,.png,.gif,.webp,.pdf,.JPG,.JPEG,.PNG,.GIF,.WEBP" required>
 
         <button type="submit">Submit</button>
     </form>
