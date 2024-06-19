@@ -69,7 +69,7 @@
 
             const formData = new FormData(this);
 
-            fetch('http://localhost:8000/api.php', {
+            fetch('https://www.newsguru.live/api.php', {
                 method: 'POST',
                 body: formData
             })
