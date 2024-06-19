@@ -53,8 +53,8 @@ function handleGetRequest($pdo) {
 function handlePostRequest($input, $pdo) {
     if (isset($input['title']) && isset($input['image']) && isset($input['description']) && isset($input['link'])) {
         try {
-            $stmt = $pdo->prepare("INSERT INTO posts (title, description, link, pubDate) VALUES (:title, :description, :link, NOW())");
-            $stmt->execute(['title' => $input['title'], 'description' => $input['description'], 'link' => $input['link']]);
+            $stmt = $pdo->prepare("INSERT INTO posts (title,image, description, link, pubDate) VALUES (:title,:image, :description, :link, NOW())");
+            $stmt->execute(['title' => $input['title'],'image' => $input['image'], 'description' => $input['description'], 'link' => $input['link']]);
             $newPostId = $pdo->lastInsertId();
             echo json_encode(["message" => "Post added successfully", "post_id" => $newPostId]);
         } catch (Exception $e) {
