@@ -50,36 +50,31 @@ function handleGetRequest($pdo) {
 
 // Function to handle POST requests
 function handlePostRequest($pdo) {
-    $title = $_POST['title'] ?? '';
-    $description = $_POST['description'] ?? '';
-    $link = $_POST['link'] ?? '';
-    $image = $_FILES['image'] ?? null;
+    if (isset($_POST['title'], $_POST['description'], $_POST['link'], $_FILES['image'])) {
+        $title = $_POST['title'];
+        $description = $_POST['description'];
+        $link = $_POST['link'];
+        $image = $_FILES['image'];
 
-    if ($title && $description && $link && $image) {
-        // Define the target directory for uploaded images
+        // Validate image
         $targetDir = "uploads/";
-        // Create the directory if it doesn't exist
         if (!is_dir($targetDir)) {
             mkdir($targetDir, 0777, true);
         }
 
-        // Generate a unique file name to avoid overwriting existing files
         $targetFile = $targetDir . basename($image["name"]);
         $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
 
-        // Check file type
         $validFileTypes = ['jpg', 'jpeg', 'png', 'gif'];
         if (in_array($fileType, $validFileTypes)) {
-            // Move the uploaded file to the target directory
             if (move_uploaded_file($image["tmp_name"], $targetFile)) {
-                // File uploaded successfully, save the post data with image path in the database
                 try {
                     $stmt = $pdo->prepare("INSERT INTO posts (title, description, link, image, pubDate) VALUES (:title, :description, :link, :image, NOW())");
                     $stmt->execute([
                         'title' => $title,
                         'description' => $description,
                         'link' => $link,
-                        'image' => $targetFile // Store the file path
+                        'image' => $targetFile
                     ]);
                     $newPostId = $pdo->lastInsertId();
                     echo json_encode(["message" => "Post added successfully", "post_id" => $newPostId]);
@@ -100,4 +95,3 @@ function handlePostRequest($pdo) {
         echo json_encode(["message" => "Invalid input"]);
     }
 }
-?>
