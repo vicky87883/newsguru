@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit RSS Feed Item</title>
     <style>
+        /* Add your styles here */
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
@@ -44,17 +45,18 @@
 </head>
 <body>
     <h1>Submit a New RSS Feed Item</h1>
-    <form id="rssForm">
+    <form id="rssForm" enctype="multipart/form-data">
         <label for="title">Title:</label>
         <input type="text" id="title" name="title" required>
-        <label for="image">Image:</label>
-        <input type="file" id="image" name="image" required>
 
         <label for="description">Description:</label>
         <textarea id="description" name="description" rows="4" required></textarea>
 
         <label for="link">Link:</label>
         <input type="url" id="link" name="link" required>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
 
         <button type="submit">Submit</button>
     </form>
@@ -65,24 +67,11 @@
         document.getElementById('rssForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            // Get form data
-            const title = document.getElementById('title').value;
-            const image = document.getElementById('image').value;
-            const description = document.getElementById('description').value;
-            const link = document.getElementById('link').value;
+            const formData = new FormData(this);
 
-            // Send data to the API
-            fetch('https://www.travelguru.world/api.php', {
+            fetch('http://localhost:8000/api.php', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    title: title,
-                    image:image,
-                    description: description,
-                    link: link
-                })
+                body: formData
             })
             .then(response => response.json())
             .then(data => {

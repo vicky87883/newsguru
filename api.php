@@ -23,8 +23,7 @@ try {
             break;
 
         case 'POST':
-            $input = json_decode(file_get_contents('php://input'), true);
-            handlePostRequest($input, $pdo);
+            handlePostRequest($pdo);
             break;
 
         default:
@@ -50,16 +49,51 @@ function handleGetRequest($pdo) {
 }
 
 // Function to handle POST requests
-function handlePostRequest($input, $pdo) {
-    if (isset($input['title']) && isset($input['image']) && isset($input['description']) && isset($input['link'])) {
-        try {
-            $stmt = $pdo->prepare("INSERT INTO posts (title,image, description, link, pubDate) VALUES (:title,:image, :description, :link, NOW())");
-            $stmt->execute(['title' => $input['title'],'image' => $input['image'], 'description' => $input['description'], 'link' => $input['link']]);
-            $newPostId = $pdo->lastInsertId();
-            echo json_encode(["message" => "Post added successfully", "post_id" => $newPostId]);
-        } catch (Exception $e) {
-            http_response_code(500);
-            echo json_encode(["message" => "Failed to add post", "error" => $e->getMessage()]);
+function handlePostRequest($pdo) {
+    $title = $_POST['title'] ?? '';
+    $description = $_POST['description'] ?? '';
+    $link = $_POST['link'] ?? '';
+    $image = $_FILES['image'] ?? null;
+
+    if ($title && $description && $link && $image) {
+        // Define the target directory for uploaded images
+        $targetDir = "uploads/";
+        // Create the directory if it doesn't exist
+        if (!is_dir($targetDir)) {
+            mkdir($targetDir, 0777, true);
+        }
+
+        // Generate a unique file name to avoid overwriting existing files
+        $targetFile = $targetDir . basename($image["name"]);
+        $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
+
+        // Check file type
+        $validFileTypes = ['jpg', 'jpeg', 'png', 'gif'];
+        if (in_array($fileType, $validFileTypes)) {
+            // Move the uploaded file to the target directory
+            if (move_uploaded_file($image["tmp_name"], $targetFile)) {
+                // File uploaded successfully, save the post data with image path in the database
+                try {
+                    $stmt = $pdo->prepare("INSERT INTO posts (title, description, link, image, pubDate) VALUES (:title, :description, :link, :image, NOW())");
+                    $stmt->execute([
+                        'title' => $title,
+                        'description' => $description,
+                        'link' => $link,
+                        'image' => $targetFile // Store the file path
+                    ]);
+                    $newPostId = $pdo->lastInsertId();
+                    echo json_encode(["message" => "Post added successfully", "post_id" => $newPostId]);
+                } catch (Exception $e) {
+                    http_response_code(500);
+                    echo json_encode(["message" => "Failed to add post", "error" => $e->getMessage()]);
+                }
+            } else {
+                http_response_code(500);
+                echo json_encode(["message" => "Failed to upload image"]);
+            }
+        } else {
+            http_response_code(400);
+            echo json_encode(["message" => "Invalid file type"]);
         }
     } else {
         http_response_code(400);
