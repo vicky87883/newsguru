@@ -16,10 +16,21 @@ if ($type === 'dontmiss') {
 }
 
 $result = mysqli_query($con, $query);
-$data = [];
 
+if (!$result) {
+    echo json_encode(['error' => 'Database query failed']);
+    exit();
+}
+
+$data = [];
 while ($row = mysqli_fetch_assoc($result)) {
-    $data[] = $row;
+    $data[] = [
+        'id' => $row['id'],
+        'title' => $row['title'],
+        'image_url' => $row['image_url'],
+        'description' => $row['description'],
+        // Add more fields as needed
+    ];
 }
 
 echo json_encode($data);
