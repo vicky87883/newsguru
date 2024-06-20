@@ -53,7 +53,7 @@ $result2 = mysqli_query($con,$query2);
 </div>
 <div class=container>
 <div class=row>
-<?php include('../sidebar.php') ?>
+<?php include('sidebar.php') ?>
 <div class="col-lg-10 col-md-9 order-1 order-md-2">
 <div class="row mb-50">
 	
