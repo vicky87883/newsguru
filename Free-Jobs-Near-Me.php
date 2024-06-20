@@ -69,7 +69,7 @@ $result2 = mysqli_query($con,$query2);
 <div class="d-md-flex d-block">
 <div class="post-thumb post-thumb-big d-flex mr-15 border-radius-15 img-hover-scale">
 <a class=color-white href="<?php echo ($row['link']); ?>">
-<img class=border-radius-15 src="<?php echo ($row['image']); ?>" alt>
+<img class=border-radius-15 src="<?php echo ($row['image']); ?>" width="200px" height="200px" alt>
 </a>
 </div>
 <div class="post-content media-body">
