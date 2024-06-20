@@ -61,7 +61,7 @@ $result2 = mysqli_query($con,$query2);
 <div class="latest-post mb-50">
 <div class=loop-list-style-1>
 	<?php
-                        while($row = mysqli_fetch_assoc($result))
+                        while($row = mysqli_fetch_assoc($result2))
                         {
                             ?>
 <article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">
