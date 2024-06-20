@@ -139,41 +139,5 @@ $result5 = mysqli_query($con,$query5);
 <script src=assets/js/main.js></script>
 <script>function updateDateTime(){var m=new Date();var n=m.getDate();var h=m.toLocaleString("en-us",{weekday:"long"});var i=m.getHours();var l=m.getMinutes();var j=m.getSeconds();var k=m.toLocaleString("en-us",{month:"long"});i=(i<10?"0":"")+i;l=(l<10?"0":"")+l;j=(j<10?"0":"")+j;document.getElementById("date").innerHTML=n;document.getElementById("day").innerHTML=h;document.getElementById("time").innerHTML=i+":"+l+":"+j;document.getElementById("month").innerHTML=k}updateDateTime();setInterval(updateDateTime,1000);</script>
 <script>function incrementCount(){var b=document.getElementById("count-value");var a=parseInt(b.innerText);a++;b.innerText=a};</script>
-<!-- <script>
-        // Initialize or get the counters from localStorage
-        let impressions = parseInt(localStorage.getItem('impressions')) || 0;
-        let clicks = parseInt(localStorage.getItem('clicks')) || 0;
-        let views = parseInt(localStorage.getItem('views')) || 0;
-
-        // Increment and store impressions and views on page load
-        impressions++;
-        views++;
-
-        localStorage.setItem('impressions', impressions);
-        localStorage.setItem('views', views);
-
-        // Function to update the stats display
-        function updateStats() {
-            document.getElementById('stats').innerHTML = `
-                Impressions: ${impressions}<br>
-                Clicks: ${clicks}<br>
-                Views: ${views}
-            `;
-        }
-
-        // Function to track clicks
-        function trackClick() {
-            clicks++;
-            localStorage.setItem('clicks', clicks);
-            updateStats();
-        }
-
-        // Attach click event listeners
-        document.getElementById('trackButton').addEventListener('click', trackClick);
-        document.getElementById('trackLink').addEventListener('click', trackClick);
-
-        // Update stats display on load
-        updateStats();
-    </script> -->
 </body>
 </html>
