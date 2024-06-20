@@ -57,8 +57,6 @@
         <input type="text" id="text" name="text" required>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-        <label for="time">Time:</label>
-        <input type="text" id="time" name="time">
         <label for="readtime">ReadTime:</label>
         <input type="text" id="readtime" name="readtime" required>
         <label for="link">Link:</label>

@@ -53,13 +53,12 @@ function handleGetRequest($pdo) {
 
 // Function to handle POST requests
 function handlePostRequest($pdo) {
-    if (isset($_FILES['image']) && isset($_POST['tag']) && isset($_POST['heading']) && isset($_POST['text']) && isset($_POST['name']) && isset($_POST['time']) && isset($_POST['readtime']) && isset($_POST['link'])) {
+    if (isset($_FILES['image']) && isset($_POST['tag']) && isset($_POST['heading']) && isset($_POST['text']) && isset($_POST['name']) &&  isset($_POST['readtime']) && isset($_POST['link'])) {
         $image = $_FILES['image'];
         $tag = $_POST['tag'];
         $heading = $_POST['heading'];
         $text = $_POST['text'];
         $name = $_POST['name'];
-        $time = $_POST['time'];
         $readtime = $_POST['readtime'];
         $link = $_POST['link'];
 
@@ -84,14 +83,13 @@ function handlePostRequest($pdo) {
             if (move_uploaded_file($image["tmp_name"], $targetFile)) {
                 // File uploaded successfully, save the post data with file path in the database
                 try {
-                    $stmt = $pdo->prepare("INSERT INTO frontload (image, tag, heading, text, name, time, readtime, link) VALUES (:image, :tag, :heading, :text, :name, :time, :readtime, :link)");
+                    $stmt = $pdo->prepare("INSERT INTO frontload (image, tag, heading, text, name, time, readtime, link) VALUES (:image, :tag, :heading, :text, :name, NOW(), :readtime, :link)");
                     $stmt->execute([
                         'image' => $targetFile, // Save the file path, not just the file name
                         'tag' => $tag,
                         'heading' => $heading,
                         'text' => $text,
                         'name' => $name,
-                        'time' => $time,
                         'readtime' => $readtime,
                         'link' => $link
                     ]);
