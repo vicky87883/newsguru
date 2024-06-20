@@ -1,6 +1,6 @@
 <?php
 require_once('dbcon.php');
-$query2 = "SELECT * FROM `health`   ORDER BY `id` DESC;";
+$query2 = "SELECT * FROM `jobportal`   ORDER BY `id` DESC;";
 $result2 = mysqli_query($con,$query2);
 ?>
 <?php include "script.php" ?>
