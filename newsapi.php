@@ -2,30 +2,33 @@
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
-header("Content-Type: application/json");
+header("Content-Type: application/json; charset=UTF-8");
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$method = $_SERVER['REQUEST_METHOD'];
-
-if ($method === 'OPTIONS') {
+// Handle OPTIONS request (CORS preflight)
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     http_response_code(200);
     exit();
 }
 
+// Include database configuration
 require 'config.php';
 
+// Initialize response array
+$response = array();
+
 try {
+    // Determine the request method and call the corresponding function
+    $method = $_SERVER['REQUEST_METHOD'];
     switch ($method) {
         case 'GET':
             handleGetRequest($pdo);
             break;
-
         case 'POST':
             handlePostRequest($pdo);
             break;
-
         default:
             http_response_code(405);
             echo json_encode(["message" => "Method Not Allowed"]);
@@ -50,7 +53,7 @@ function handleGetRequest($pdo) {
 
 // Function to handle POST requests
 function handlePostRequest($pdo) {
-    if (isset( $_FILES['image'],$_POST['tag'],$_POST['heading'],$_POST['text'], $_POST['name'], $_POST['time'], $_POST['readtime'], $_POST['link'])) {
+    if (isset($_FILES['image']) && isset($_POST['tag']) && isset($_POST['heading']) && isset($_POST['text']) && isset($_POST['name']) && isset($_POST['time']) && isset($_POST['readtime']) && isset($_POST['link'])) {
         $image = $_FILES['image'];
         $tag = $_POST['tag'];
         $heading = $_POST['heading'];
@@ -59,6 +62,7 @@ function handlePostRequest($pdo) {
         $time = $_POST['time'];
         $readtime = $_POST['readtime'];
         $link = $_POST['link'];
+
         // Define the target directory for uploaded files
         $targetDir = "uploads/";
         if (!is_dir($targetDir)) {
@@ -80,9 +84,9 @@ function handlePostRequest($pdo) {
             if (move_uploaded_file($image["tmp_name"], $targetFile)) {
                 // File uploaded successfully, save the post data with file path in the database
                 try {
-                    $stmt = $pdo->prepare("INSERT INTO frontload (image,tag,heading,text,name,time,readtime,link) VALUES (:image, :tag, :heading,:text,:name,NOW(),:readtime,:link)");
+                    $stmt = $pdo->prepare("INSERT INTO frontload (image, tag, heading, text, name, time, readtime, link) VALUES (:image, :tag, :heading, :text, :name, :time, :readtime, :link)");
                     $stmt->execute([
-                        'image' => $image,
+                        'image' => $targetFile, // Save the file path, not just the file name
                         'tag' => $tag,
                         'heading' => $heading,
                         'text' => $text,
