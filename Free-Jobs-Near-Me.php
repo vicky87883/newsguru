@@ -9,7 +9,7 @@ $result2 = mysqli_query($con,$query2);
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Latest Health and Fitness Tips| Yoga | Workout | newsguru.live</title>
+<title>Free Jobs Near Me| Latest Jobs | Hiring | newsguru.live</title>
 <meta name=description content="Get the most recent updates on Health, Fitness, Diet-plan, Food news from around the world.">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <link rel=manifest href=site.webmanifest>
