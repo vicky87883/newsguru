@@ -113,7 +113,7 @@
                             <div class=col-12>
                                 <div class=footer-copy-right>
                                     <p class="font-small text-muted">© 2020, Newsguru | All rights reserved | <a
-                                            href=terms-and-conditions.php target=_blank>Terms-and-Conditions</a>| <a href=privacy-policy.php target=_blank>Privacy Policy</a></p>
+                                            href=terms-and-conditions.php target=_blank>Terms-and-Conditions</a> | <a href="privacy-policy.php" target=_blank>Privacy Policy</a> | <i class="fa-solid fa-rss"></i> <a href="https://www.newsguru.live/rss_feed.php" target=_blank>RSS Feed</a></p>
                                 </div>
                             </div>
                         </div>
