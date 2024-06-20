@@ -7,7 +7,7 @@ $result3 = mysqli_query($con,$query3);
 $result4 = mysqli_query($con,$query4);
 $result5 = mysqli_query($con,$query5);
 ?>
-<?php include "script.php" ?>
+<?php include "script2.php" ?>
 <!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
