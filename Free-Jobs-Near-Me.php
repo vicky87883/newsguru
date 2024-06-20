@@ -3,7 +3,6 @@ require_once('dbcon.php');
 $query2 = "SELECT * FROM `jobportal`   ORDER BY `id` DESC;";
 $result2 = mysqli_query($con,$query2);
 ?>
-<?php include "script.php" ?>
 <!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
