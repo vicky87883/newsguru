@@ -43,7 +43,7 @@ $result2 = mysqli_query($con,$query2);
 <div class="archive-header text-center mb-50">
 <div class=container>
 <h2>
-<span class=text-success>Search result for "Health and Fitness News"</span>
+<span class=text-success>Search result for "Latest Jobs"</span>
 </h2>
 <div class=breadcrumb>
 <span class=no-arrow>we found latest articles for you</span>
@@ -69,7 +69,7 @@ $result2 = mysqli_query($con,$query2);
 <div class="d-md-flex d-block">
 <div class="post-thumb post-thumb-big d-flex mr-15 border-radius-15 img-hover-scale">
 <a class=color-white href="<?php echo ($row['link']); ?>">
-<img class=border-radius-15 src="<?php echo ($row['image']); ?>" width="200px" height="200px" alt>
+<img class=border-radius-15 src="<?php echo ($row['image']); ?>" width="100px" height="100px" alt>
 </a>
 </div>
 <div class="post-content media-body">
