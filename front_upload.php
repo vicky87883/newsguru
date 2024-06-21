@@ -66,7 +66,7 @@
 <body>
     <div class="container">
         <h2>Upload Image</h2>
-        <form action="https://www.newsguru.live/frontpost_api.phpe" method="post" enctype="multipart/form-data">
+        <form action="https://www.newsguru.live/frontpost_api.php" method="post" enctype="multipart/form-data">
             <label for="heading">Heading:</label>
             <input type="text" name="heading" id="heading" required>
 
