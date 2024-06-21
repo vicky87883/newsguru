@@ -32,50 +32,48 @@
 </div>
 </div>
 <div class="pagination-area mb-30">
-<nav aria-label="Page navigation example">
-<ul class="pagination justify-content-start">
-<?php
-    if(isset($_GET['page-nr']) && $_GET['page-nr'] > 1)
-    {
-        ?>
-<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"> <a class=prev href="?page-nr=<?php echo $_GET['page-nr'] - 1?>">prev</a></li>
-<?php
-    }
-    else{
-        ?>
-<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a class=prev>prev</a></li>
-<?php
-    }
-    ?>
-<?php
-        for( $counter= 1; $counter <= $pages; $counter++ )
-        {
-        ?>
-<li class="pageNumber active" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a href="?page-nr=<?php echo $counter ?>"><?php echo $counter ?></a></li>
-<?php
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination justify-content-start">
+                                            <?php
+                                            $pages = 5; // Example total pages, should be dynamic based on your pagination logic
+                                            $current_page = isset($_GET['page-nr']) ? (int)$_GET['page-nr'] : 1;
 
-        }
-        ?>
-<?php
-    if(!isset($_GET['page-nr']))
-    {
-        ?>
-	<li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a href="?page-nr=2" class=next>Next</a></li>
-<?php
-    }else{
-        if($_GET['page-nr']>=$pages)
-        {
-            ?>
-<li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a class=next>Next</a></li>
-<?php
-        }else{
-            ?>
-<li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;"><a class=next href="?page-nr=<?php echo $_GET['page-nr'] + 1 ?>">Next</a></li>
-<?php
-        }
-    }
-    ?>
+                                            if ($current_page > 1) {
+                                                ?>
+                                                <li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;">
+                                                    <a class="prev" href="?page-nr=<?php echo $current_page - 1; ?>">Prev</a>
+                                                </li>
+                                                <?php
+                                            } else {
+                                                ?>
+                                                <li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;">
+                                                    <a class="prev">Prev</a>
+                                                </li>
+                                                <?php
+                                            }
 
-</ul>
-</nav>
-</div>
+                                            for ($counter = 1; $counter <= $pages; $counter++) {
+                                                ?>
+                                                <li class="pageNumber active" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;">
+                                                    <a href="?page-nr=<?php echo $counter; ?>"><?php echo $counter; ?></a>
+                                                </li>
+                                                <?php
+                                            }
+
+                                            if ($current_page < $pages) {
+                                                ?>
+                                                <li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;">
+                                                    <a class="next" href="?page-nr=<?php echo $current_page + 1; ?>">Next</a>
+                                                </li>
+                                                <?php
+                                            } else {
+                                                ?>
+                                                <li class="page-item" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;">
+                                                    <a class="next">Next</a>
+                                                </li>
+                                                <?php
+                                            }
+                                            ?>
+                                        </ul>
+                                    </nav>
+                                </div>
