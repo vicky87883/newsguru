@@ -214,27 +214,99 @@ Friday, 21 June 2024</span>
 <div class=single-excerpt>
 	<p><mark>The administration of Justin Trudeau, whose party counts on support from pro-Khalistani MP Jagmeet Singh's NDP, has claimed that Indian spies were involved in Nijjar's death.</mark>
     </p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>On Tuesday, the House of Commons in Canada had a "moment of silence" in remembrance of Khalistani terrorist Hardeep Singh Nijjar, who was slain in a gangwar in Surrey, British Columbia, on the same day a year ago. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The outrageous action by Ottawa is not new, as the government of Justin Trudeau, which is currently in power, has long harbored violent Khalistani radicals who burn Prime Minister Narendra Modi's effigy and even remove a tableau depicting the assassination of Indira Gandhi. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>In September of last year, Justin Trudeau, whose administration depends on backing from the New Democratic Party of MP Jagmeet Singh, a pro-Khalistani, made accusations about the involvement of Indian spies in the murder of Hardeep Singh Nijjar. But Trudeau hasn't offered any evidence to back up his accusations.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Canadian intelligence painted Nijjar, who threatened his own cousin to take over a Sikh gurdwara in Surrey, as a virtuous and devout leader. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>But who is this terrorist, Hardeep Singh Nijjar, whose death was lamented by Trudeau and Sikhs for Justice founder Gurpatwant Singh Pannun, who was on the Indian government's terrorist list?</p>
 <p>Nijjar is a Punjabi national who immigrated to Canada in 1996. Prior to joining the Khalistan Tiger Force, Nijjar worked as an operative for Babbar Khalsa International (BKI). 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 A dossier claims that Nijjar visited Pakistan in 2013 and 2014 for meetings with representatives of Islamabad's spy agency Inter Services Intelligence (ISI) and self-described KTF commander Tara. 
 </p>
 <p>In addition, Nijjar is charged with setting up an armaments training facility in Mission Hills, British Columbia, Canada, where he taught young people like Mandeep Singh Dhaliwal how to shoot handguns, sniper rifles, and AK-47s. In order to target VIPs and leaders of the Shiv Sena, he deployed Dhaliwal to Punjab in 2016. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The Indian Penal Code's Sections 124A (sedition), 120B (criminal conspiracy), 153A (promoting enmity between different groups on grounds of religion, race, place of birth, or residence), and 153B (imputations, assertions prejudicial to national-integration) were the subjects of a formal complaint (FIR) filed by the NIA in 2020 against Nijjar, Paramjit Singh Pamma, a UK-based Sikh organization, and Gurpatwant Singh Pannu, the organization's founder. The Unlawful Activities (Prevention) Act, or UAPA, is a strict anti-terror law, and the three of them were also charged under different of its parts.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>According to the intelligence report, Nijjar and his disciple Arsh Dala were responsible for the murder of Dera Sacha Sauda follower Manohar Lal in Bathinda in 2020, the death of Hindu priest Pragya Gyan Muni in Phillaur in 2021, the attempted kidnapping and murder of Shakti Singh in Faridkot, among other incidents. In 2020, the MHA classified Nijjar as a terrorist under the UAPA. In addition, the NIA has announced a ₹10 lakh reward for Nijjar's capture.</p>
 
 </div>
