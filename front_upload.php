@@ -54,7 +54,7 @@
 </head>
 <body>
     <h1>Post a Job</h1>
-    <form action="jobapi.php" method="post" enctype="multipart/form-data">
+    <form action="frontpost_api.php" method="post" enctype="multipart/form-data">
         <label for="image">Image:</label><br>
         <input type="file" id="image" name="image"><br><br>
         <label for="heading">Heading:</label><br>
