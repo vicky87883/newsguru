@@ -102,7 +102,7 @@ $result5 = mysqli_query($con,$query5);
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<?php include('rightside.php') ?>
+<div id="records">Loading records...</div>
 </div>
 </div>
 </div>
@@ -137,11 +137,21 @@ $result5 = mysqli_query($con,$query5);
 <script>function updateDateTime(){var m=new Date();var n=m.getDate();var h=m.toLocaleString("en-us",{weekday:"long"});var i=m.getHours();var l=m.getMinutes();var j=m.getSeconds();var k=m.toLocaleString("en-us",{month:"long"});i=(i<10?"0":"")+i;l=(l<10?"0":"")+l;j=(j<10?"0":"")+j;document.getElementById("date").innerHTML=n;document.getElementById("day").innerHTML=h;document.getElementById("time").innerHTML=i+":"+l+":"+j;document.getElementById("month").innerHTML=k}updateDateTime();setInterval(updateDateTime,1000);</script>
 <script>function incrementCount(){var b=document.getElementById("count-value");var a=parseInt(b.innerText);a++;b.innerText=a};</script>
 <script>
-        // JavaScript to display the PHP section after 3 seconds
-        setTimeout(() => {
-            document.querySelector('.loading').style.display = 'none'; // Hide loading text
-            document.getElementById('phpSection').style.display = 'block'; // Show the PHP section
-        }, 3000); // 3000 milliseconds = 3 seconds
+        function fetchRecords() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'rightside.php', true);
+            xhr.onload = function() {
+                if (this.status == 200) {
+                    document.getElementById('records').innerHTML = this.responseText;
+                } else {
+                    document.getElementById('records').innerHTML = 'Error fetching records';
+                }
+            };
+            xhr.send();
+        }
+
+        // Load records after 3 seconds
+        setTimeout(fetchRecords, 3000);
     </script>
 </body>
 </html>
