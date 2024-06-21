@@ -7,7 +7,7 @@ if($mysqli->connect_errno !=0)
 }
 $start = 0;
 // Setting the number of rows to display in a page
-$rows_per_page = 5;
+$rows_per_page = 10;
 $records = $mysqli->query("SELECT * FROM `topsection`   ORDER BY `id` DESC");
 $nr_of_rows = $records->num_rows;
 // calculating of nr of pages
