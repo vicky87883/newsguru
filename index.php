@@ -83,9 +83,7 @@ $result5 = mysqli_query($con,$query5);
 <main class=position-relative>
 <div class=container>
 <div class=row>
-     <div id="phpSection" class="php-section">
 <?php include('sidebar.php') ?>
-</div>
 <div class="col-lg-10 col-md-9 order-1 order-md-2">
 <div class=row>
 <div class="col-lg-8 col-md-12">

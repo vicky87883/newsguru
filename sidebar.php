@@ -1,4 +1,4 @@
-<div class="col-lg-2 col-md-3 primary-sidebar sticky-sidebar sidebar-left order-2 order-md-1">
+<div class="col-lg-2 col-md-3 primary-sidebar sticky-sidebar sidebar-left order-2 order-md-1" id="phpSection" class="php-section">
 <div class="sidebar-widget widget-weather border-radius-10 bg-white mb-30 mt-55">
 <div class=d-flex>
 <div class=font-medium>
