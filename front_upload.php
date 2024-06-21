@@ -1,86 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Form</title>
+    <title>Job Portal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #f0f0f0;
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: #fff;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 400px;
-            box-sizing: border-box;
         }
-        h2 {
-            text-align: center;
+        h1 {
             color: #333;
         }
         form {
-            display: flex;
-            flex-direction: column;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         label {
-            margin-bottom: 5px;
-            color: #555;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
         }
-        input[type="text"], input[type="file"] {
+        input[type="text"],
+        textarea,
+        input[type="file"] {
+            width: calc(100% - 20px);
             padding: 10px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            width: 100%;
-            box-sizing: border-box;
+            font-size: 16px;
+        }
+        textarea {
+            height: 120px;
         }
         input[type="submit"] {
-            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
             border: none;
             border-radius: 4px;
-            background-color: #28a745;
-            color: #fff;
-            font-size: 16px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            font-size: 16px;
         }
         input[type="submit"]:hover {
-            background-color: #218838;
-        }
-        .message {
-            margin-top: 15px;
-            text-align: center;
-            color: #555;
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Upload Image</h2>
-        <form action="https://www.newsguru.live/frontpost_api.php" method="post" enctype="multipart/form-data">
-            <label for="heading">Heading:</label>
-            <input type="text" name="heading" id="heading" required>
-
-            <label for="link">Link:</label>
-            <input type="text" name="link" id="link" required>
-
-            <label for="image">Upload Image:</label>
-            <input type="file" name="image" id="image" required>
-
-            <input type="submit" value="Upload">
-        </form>
-        <div class="message">
-            <!-- This will display messages after form submission, if needed -->
-        </div>
-    </div>
+    <h1>Post a Job</h1>
+    <form action="jobapi.php" method="post" enctype="multipart/form-data">
+        <label for="image">Image:</label><br>
+        <input type="file" id="image" name="image"><br><br>
+        <label for="heading">Heading:</label><br>
+        <input type="text" id="heading" name="heading"><br><br>
+        <label for="link">Link:</label><br>
+        <input type="text" id="link" name="link"><br><br>
+        <input type="submit" value="Post Job">
+    </form>
 </body>
 </html>
