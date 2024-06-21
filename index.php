@@ -102,9 +102,7 @@ $result5 = mysqli_query($con,$query5);
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<div id="rightside">
-    Loading rightside content...
-</div>
+<?php include('rightside.php') ?>
 </div>
 </div>
 </div>
@@ -144,23 +142,6 @@ $result5 = mysqli_query($con,$query5);
             document.querySelector('.loading').style.display = 'none'; // Hide loading text
             document.getElementById('phpSection').style.display = 'block'; // Show the PHP section
         }, 3000); // 3000 milliseconds = 3 seconds
-    </script>
-    <script>
-        function loadRightSide() {
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', 'rightside.php', true);
-            xhr.onload = function() {
-                if (this.status == 200) {
-                    document.getElementById('rightside').innerHTML = this.responseText;
-                } else {
-                    document.getElementById('rightside').innerHTML = 'Error loading content';
-                }
-            };
-            xhr.send();
-        }
-
-        // Load rightside content after 3 seconds
-        setTimeout(loadRightSide, 3000);
     </script>
 </body>
 </html>
