@@ -207,25 +207,86 @@ $result4 = mysqli_query($con,$query4);
 <div class=single-excerpt>
 <p>The number of people killed in the hooch catastrophe in the Kallakurichi area of Tamil Nadu has risen rapidly and currently stands at forty. More than a hundred patients are receiving care in different hospitals, and many of those who are fighting for their lives are complaining of visual issues.
 </p>
+<!-- displayads1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="1409631386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Chief Minister M.K. Stalin said on Thursday morning that the 34 families who had lost a loved one will receive compensation of Rs 10 lakh apiece.
 </p>
+<!-- displayads1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="1409631386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The Chief Minister added in a statement released here that the government has also formed a one-man panel headed by retired High Court Judge B. Gokuldas to investigate the matter and suggest actions to stop similar incidents from happening in the future. He went on to say that instructions have been issued to pay Rs 50,000 to hospital patients receiving treatment from the Chief Minister's Relief Fund and Rs 10 lakh to the families of the deceased.</p>
 <p>
 In this regard, he said, four people have been arrested and others who supplied the methanol needed to make the illicit booze would also face consequences.
 </p>
+<!-- displayads1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="1409631386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The CM stated that the Crime Branch-CID (CBCID) has been requested to look into the methanol's source.
 </p>
+
 <p>He claims that the District Collector has been moved and that the offending police officers have been disciplined. Udhayanidhi Stalin, the Minister of Youth Welfare and Sports Development and father of Stalin, visited the impacted individuals in the hospital and then gave the bereaved families their Rs. 10 lakh compensation.</p>
+<!-- displayads1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="1409631386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>In the meantime, Stalin's resignation was asked by AIADMK General Secretary and former Chief Minister K Palaniswami, who acknowledged that Stalin was to blame for multiple deaths caused by the illicit liquor. He said that the police were doing nothing to stop the sale of illegal alcohol in the heart of the Kallakurichi neighborhood.
 </p>
+<!-- displayads1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="1409631386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Palaniswami stated the party MLA from Kallakurichi, M. Senthilkumar, had earlier filed a calling attention motion in the Assembly over the selling of illicit booze and had protested to the police about it. Palaniswami, however, accused the Stalin-led DMK administration of doing nothing.
 </p>
 <div><strong>TN BJP President Visits Affected Families, Party Announces Ex gratia</strong></div>
 <p>K. Annamalai, the president of the Tamil Nadu BJP, visited and comforted the impacted families. He added that the party would provide the families with relief in the amount of Rs 1 lakh.
 </p>
+<!-- displayads1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="1409631386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>While expressing sympathy for the victims' deaths and wishing them a quick recovery, Governor R.N. Ravi held the state government accountable for its mistakes. Occasionally, heartbreaking reports of fatalities stemming from the use of illegal alcohol are received from all throughout our state. This is indicative of ongoing failures to stop the manufacture and sale of illegal alcohol. There is cause for grave alarm over this.
 </p>
 <p>
