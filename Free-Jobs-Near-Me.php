@@ -18,8 +18,6 @@ $result2 = mysqli_query($con,$query2);
 <link rel=stylesheet href=../assets/css/color.css>
 <link rel=stylesheet href=../assets/css/responsive.css>
 	<script src="https://kit.fontawesome.com/353f0e393d.js" crossorigin="anonymous"></script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755"
-     crossorigin="anonymous"></script>
 </head>
 <body>
 <div id=preloader-active>
