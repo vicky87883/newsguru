@@ -1,6 +1,6 @@
 <?php
 require_once('dbcon.php');
-$query3 = "SELECT * FROM `dontmiss`   ORDER BY `id` DESC;";
+$query3 = "SELECT * FROM `frontload`   ORDER BY `id` DESC;";
 $query5 = "SELECT * FROM `topsection`   ORDER BY `id` DESC;";
 $result3 = mysqli_query($con,$query3);
 $result5 = mysqli_query($con,$query5);
