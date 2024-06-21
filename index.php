@@ -15,7 +15,6 @@ $result5 = mysqli_query($con,$query5);
 <meta name=description content="Get your daily dose of news from NewsGuru, where you can access breaking news, in-depth analysis, and trending stories all in one place.Stay informed with the latest news and updates from NewsGuru.">
 <meta name=viewport content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel=manifest href=site.webmanifest>
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
 <link rel=canonical href=https://www.newsguru.live/ />
 <link rel=stylesheet href=assets/css/style.css>

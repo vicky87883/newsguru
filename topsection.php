@@ -3,7 +3,7 @@
 <div class=row>
     
 	<?php
-                        while($row = mysqli_fetch_assoc($result5))
+                        while($row = mysqli_fetch_assoc($result))
                         {
                             ?>
 	<div class="slider-single col-md-6 mb-30">
