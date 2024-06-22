@@ -97,7 +97,7 @@ Saturday, 22 June 2024
 </div>
 <div class="bt-1 border-color-1 mb-30"></div>
 <figure class="single-thumnail mb-30">
-<img src=assets/imgs/news/dep.webp alt=blog width=100%>
+<img src=assets/imgs/news/lym.jpg alt=blog width=100%>
 <div class="credit mt-15 font-small color-grey">
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
@@ -115,7 +115,7 @@ The Centers for Disease Control and Prevention reported about 35,000 confirmed a
 <p>
 The most recent year for which the CDC has released data is 2019, and these ten states have the highest incidence rates of Lyme disease per 100,000 people.
 </p>
-<h1>The Top 10 States Where Lyme Is Most Common</h1>
+<h4>The Top 10 States Where Lyme Is Most Common</h4>
     <table>
         <thead>
             <tr>
