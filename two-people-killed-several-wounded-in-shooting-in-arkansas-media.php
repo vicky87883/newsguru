@@ -219,25 +219,70 @@ Saturday, 22 June 2024</span>
 <div class=single-excerpt>
 <p>Three citizens were killed and ten others, including two police officers, were injured when a shooter opened fire at an Arkansas supermarket on Friday, according to the state police.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 In a shootout with authorities, the suspect was also hurt, Arkansas State authorities Director Mike Hagar informed reporters.
 </p>
 <p>The Mad Butcher grocery store, located in Fordyce, a 3,200-person town located roughly 70 miles (112 km) south of Little Rock, is where the incident took place.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Sadly, we can report that 11 innocent bystanders were shot; three of them have already died. The gunfight resulted in the injuries of two law enforcement officers. Hagar stated, "The suspect was also shot and taken into custody. He refused to answer queries or provide an explanation of the shooting's circumstances.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 He said that it was anticipated that both the suspect and the injured police officers would live.
 </p>
 <p>
 According to him, civilian casualties varied from extremely critical to non-life-threatening.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>On social networking site X, Governor Sarah Huckabee Sanders stated that she had received a briefing about the incident.
 </p>
 <p>
 "I appreciate the swift and brave actions taken by law enforcement and first responders to preserve lives. "My thoughts and prayers are with the victims and everyone affected by this terrible event," the woman remarked.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 (Editing by Diane Craft, Cynthia Osterman, and Rod Nickel; reporting by Brendan O'Brien in Chicago and Daniel Trotta in Carlsbad, California)
 </p>
