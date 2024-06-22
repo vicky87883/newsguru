@@ -33,6 +33,42 @@ $result4 = mysqli_query($con,$query4);
 
   gtag('config', 'G-V6HH2RKGTW');
 </script>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .state-info {
+            display: flex;
+            align-items: center;
+        }
+        .state-info img {
+            margin-right: 10px;
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .state-info div {
+            flex: 1;
+        }
+    </style>
 </head>
 <body>
 <div id=preloader-active>
