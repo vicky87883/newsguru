@@ -212,8 +212,26 @@ Sunday, 23 June 2024</span>
 <div class=single-excerpt>
 	<p>In the Super 8 match of the ongoing ICC Men's T20 World Cup 2024, India defeated Bangladesh by 50 runs on Saturday, June 22. India used Hardik Pandya's 50 off 27 balls to score 196 runs in 20 overs at the expense of five wickets in the Group 1 encounter at the Sir Vivian Richards Stadium in North Sound, Antigua. In response, they held the Najmul Hossain Shanto-led team to 146 for 8. India's 50-run victory against Bangladesh has all but guaranteed them a spot in the T20 World Cup 2024 semifinals.
     </p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>Hardik hit four fours and three sixes during his time at the crease in the India vs. Bangladesh game. He also claimed one wicket in his allotted three overs. The 30-year-old Pandya took home the Player of the Match trophy for his outstanding performance all around.
         </p>
+        <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         <p>
 Following India's decisive victory over Bangladesh in Antigua, BCCI secretary Jay Shah praised Pandya for his outstanding performance with the bat and congratulated Team India on X (previously Twitter).
 </p>
