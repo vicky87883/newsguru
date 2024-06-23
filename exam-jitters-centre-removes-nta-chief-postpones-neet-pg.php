@@ -206,7 +206,7 @@ Exam anxiety: Center cancels NEET-PG and dismisses NTA chief
 </div>
 <div class="bt-1 border-color-1 mb-30"></div>
 <figure class="single-thumnail mb-30">
-<img src=assets/imgs/news/ntachief.webp alt=blog width=100%>
+<img src=assets/imgs/news/ntachief.JPG alt=blog width=100%>
 <div class="credit mt-15 font-small color-grey">
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
