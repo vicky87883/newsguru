@@ -214,24 +214,78 @@ Exam anxiety: Center cancels NEET-PG and dismisses NTA chief
 <div class=single-excerpt>
 <p>NEW DELHI: Amid criticism over purported anomalies in competitive tests NEET and NET, the government dismissed National Testing Agency (NTA) director general Subodh Singh on Saturday, just hours after appointing a high-level committee led by a former Isro chief to guarantee the fair conduct of examinations. The government's decision to postpone Sunday's NEET-PG entrance exam as a "precautionary measure" added to the NTA's already dire credibility issue.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 This is the third such shock that thousands of candidates nationwide are experiencing in the space of four days: on June 19, UGC-NET was canceled owing to a paper leak, and on June 21, CSIR-NET, which was scheduled for June 25–27, was rescheduled.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>With fewer than 24 hours remaining, more over two lakh candidates have registered to take the postponed NEET-PG exam.
     </p>
     <p>
 Also, the government gave the CBI control over its probes into purported anomalies in the NEET-UG, which was held on May 5. This is the second national exam that NTA has administered and given to CBI. The UGC-NET probe was also given to the CBI two days earlier.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div><strong>ITPO chief Kharola given additional charge of NTA</strong></div>
 <p>Before Singh was removed and removed from office without being given a new assignment, Education Minister Dharmendra Pradhan admitted that mistakes had been made. "As I mentioned earlier, there has been an institutional breakdown. I've accepted accountability. The leadership of NTA is being questioned on several things. We will investigate the underlying cause of accidents when they occur.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The MD and chair of the India Trade Promotion Organization (ITPO), Pradeep Singh Kharola, was brought in to finish the Pragati Maidan project when it was delayed. He has been given additional responsibility for NTA until a regular incumbent is appointed.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Ministry of Education A seven-member high-level committee led by K Radhakrishnan, the former head of Isro and the chair of the IIT-Kanpur Board of Governors, was announced on Saturday. The committee's recommendations will focus on changes to the exam system, enhanced data security measures, and the organization and operation of NTA. The committee also includes B J Rao, vice-chancellor of Central University of Hyderabad; Pankaj Bansal, co-founder of PeopleStrong and board member of Karmayogi Bharat; Aditya Mittal, dean of student affairs at IIT-Delhi; Dr. Randeep Guleria, former director of AIIMS Delhi; and Ramamurthy K, professor emeritus in the department of civil engineering at IIT-Madras. The committee's member secretary will be joint secretary Govind Jaiswal.
 </p>
 <p>Within two months, the committee is supposed to deliver its report to the minister.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The high-level committee was formed in response to anomalies and purported paper leaks in the NEET-UG, as initially reported by the TOI on June 18, 2024. The committee's responsibilities include examining NTA's standard operating procedures (SOPs) and protocols, analyzing the exam process from beginning to end, and making recommendations for ways to boost system effectiveness and guard against violations. Additionally, it will assess and improve NTA's current data security procedures and protocols, including those pertaining to paper-setting and other assessment procedures.
 </p>
