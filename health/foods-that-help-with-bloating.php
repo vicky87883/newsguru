@@ -208,6 +208,15 @@ Sunday, 23 June 2024</span>
 <div class=single-excerpt>
 	<p>Certain foods and drinks can lessen gastrointestinal (GI) discomfort and minimize bloating. Whole grains, fruits, and a variety of veggies can all aid in reducing bloating.
 	</p>
+	<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 	<p>Bloating is often brought on by constipation, indigestion, and gas. By concentrating on resolving these problems, bloating can be reduced.
 </p>
 <p>
@@ -216,11 +225,29 @@ Eating adequate plant foods high in fiber can help alleviate constipation. Fruit
 <p>
 Consuming foods like kimchi and kefir, which are rich in probiotic bacteria, can improve gut health. This may lessen and even stop bloating.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Consuming nutritious foods is important, but drinking enough water can also help avoid constipation and water retention.
 </p>
 <div><strong>15 foods and drinks that help with bloating</strong></div>
 <p>Below are fruits, vegetables, whole grains, and beverages that can reduce bloating.</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p><b>1. Citrus fruits</b>
 <p>
 Oranges are a wonderful source of water and fiber, which can aid in promoting regular bowel movements and preventing water retention. Additionally, they contain a lot of vitamin C, which could improve the bacterial community's health in the gut.
@@ -234,6 +261,15 @@ A brief 2011 investigationFurthermore, according to Trusted Source, eating banan
 
 The findings suggest that regular banana consumption may encourage the development of a helpful strain of gut bacteria, according to the authors.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p><b>3. Apples</b>
 Pineapples are high in fiber (1.4 g)Trusted Source per serving), but they also contain enzymes called bromelain. In traditional medicine, this enzyme is frequently used to treat digestive issues, although its effectiveness has not been well studied.
 
@@ -250,6 +286,15 @@ A 2013 investigationPapayas are occasionally used as a homemade treatment for di
 6. Cherry tomatoes</b>
 Prebiotics are an indigestible dietary ingredient found in tomatoes that aid in the development of good gut flora. Tomatoes include prebiotics that are good for persons with Crohn's disease, malabsorption, and a few other illnesses that cause bloating.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p><b>7. Grass</b>
 Like other legumes, lentils have a high fiber content (Trusted Source). Additionally, they are rich in resistant starches, a type of carbohydrate that aids in gastrointestinal health by preventing digestion.
 </p>
@@ -267,6 +312,15 @@ Vitamin A is abundant in carrots, and this vitamin is crucial for preserving the
 10. Celery</b>
 A 2017 investigationCelery is rich in apigenin, a flavonoid that naturally exists in plants, according to Trusted Source. According to study, celery can enhance the diversity and proliferation of gut flora, which may help with digestion.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p><b>11. Lettuce</b>
 A vegetable rich in nutrients and high in fiber is spinach (Trusted Source). InvestigateAdditionally, according to Trusted Source, it might boost the number of Lactobacillus, a beneficial bacterial strain found in the stomach.
 </p>
@@ -281,6 +335,15 @@ Although little research has explored their value, some test-tube studies have s
 <p><b>14. Tea with ginger</b>
 A popular over-the-counter treatment for bloating, constipation, nausea, and other GI issues is gingertrusted source. Many individuals like drinking ginger tea, and while additional research is required to confirm its efficacy, it has no known negative effects.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p><b>
 15. Tea with peppermint leaves</b>
 GI issues can be treated at home with peppermint tea. Although more studies are required to confirm its efficacy, it might lessen irritable bowel syndrome symptoms.
