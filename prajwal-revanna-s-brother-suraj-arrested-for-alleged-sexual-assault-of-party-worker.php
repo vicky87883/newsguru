@@ -13,11 +13,11 @@ $result4 = mysqli_query($con,$query4);
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>PM-modi-amit-shah-attend-bjp-meet-1st-candidates-list-likely-by-weekend | Latest News India - Newsguru.live</title>
-<meta name=news_keywords content="Pm-modi, amitshah, bjp, candidates, bjp news,bjp flag,bjp rajasthan" itemprop="keywords"/>
-<meta name=description content=pm-modi-amit-shah-attend-bjp-meet-1st-candidates-list-likely-by-weekend itemprop="description"/>
+<title>Suraj, the brother of Prajwal Revanna, was detained on suspicion of sexually assaulting a party worker. | Latest News India - Newsguru.live</title>
+<meta name=news_keywords content="Suraj, the brother of Prajwal Revanna, was detained on suspicion of sexually assaulting a party worker." itemprop="keywords"/>
+<meta name=description content="Suraj, the brother of Prajwal Revanna, was detained on suspicion of sexually assaulting a party worker." itemprop="description"/>
 <meta name=viewport content="width=device-width, initial-scale=1">
-<link rel=canonical href=https://www.newsguru.live/pm-modi-amit-shah-attend-bjp-meet-1st-candidates-list-likely-by-weekend.php />
+<link rel=canonical href=https://www.newsguru.live/prajwal-revanna-s-brother-suraj-arrested-for-alleged-sexual-assault-of-party-worker.php />
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
 <link rel=stylesheet href=assets/css/style.css>
 <link rel=stylesheet href=assets/css/widgets.css>
@@ -168,7 +168,14 @@ $result4 = mysqli_query($con,$query4);
 <a href=#>Style</a>
 </div>
 </div>
-
+<div class="sidebar-widget widget-ads mb-30">
+<div class="widget-header tags-close mb-20">
+<h5 class="widget-title mt-5">Your Ads Here</h5>
+</div>
+<a href=assets/imgs/news-1.jpg class=play-video data-animate=zoomIn data-duration=1.5s data-delay=0.1s>
+<img class=border-radius-10 src=assets/imgs/ads-1.jpg alt>
+</a>
+</div>
 </div>
 </aside>
 <?php include('header.php') ?>
@@ -177,13 +184,8 @@ $result4 = mysqli_query($con,$query4);
 <div class="entry-header entry-header-1 mb-30 mt-50">
 <div class="entry-meta meta-0 font-small mb-30"><a href=#><span class="post-cat bg-success color-white">Global News</span></a></div>
 <h1 class="post-title mb-30">
-Pm modi AmitShah attend bjp meet 1st candidates list likely by weekend
+Suraj, the brother of Prajwal Revanna, was detained on suspicion of sexually assaulting a party worker.
 </h1>
-<div class="entry-meta meta-1 font-x-small color-grey text-uppercase">
-<span class=post-by>By <a href=#>Adam Liptak </a> & <a href=#>Michael D. Shear</a></span>
-<span class=post-on>2024-02-05T15:43:31Z</span>
-<span class=time-reading>12 mins read</span>
-</div>
 </div>
 <div class="row mb-50">
 <div class="col-lg-8 col-md-12">
@@ -199,38 +201,15 @@ Pm modi AmitShah attend bjp meet 1st candidates list likely by weekend
 </div>
 <div class="bt-1 border-color-1 mb-30"></div>
 <figure class="single-thumnail mb-30">
-<img src=assets/imgs/news/modi4.webp alt=blog width=100%>
+<img src=assets/imgs/news/surajraveena.JPG alt=blog width=100%>
 <div class="credit mt-15 font-small color-grey">
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
 </figure>
 <div class=single-excerpt>
-<p class=font-large>Pm modi AmitShah attend bjp meet 1st candidates list likely by weekend</p>
-	<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6958761602872755"
-     data-ad-slot="3917672390"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<p>NEW DELHI: The BJP's central election committee held its first meeting on Thursday at party headquarters, attended by PM Narendra Modi and other senior leaders, following multiple rounds of brainstorming. There was conjecture that a significant number of sitting MPs, perhaps as many as one-third, might be rested and that several well-known candidates from the younger generation might be fielded.</p>
-<p>Amit Shah, the home minister, and J P Nadda, the party president, paid Modi a visit prior to the CEC meeting. It is thought that during their conversation, they talked about the guidelines for the candidate selection process.
-According to sources, Shah and Nadda discussed around 250 seats during their brainstorming sessions with state leaders, including 50 in Uttar Pradesh, from which the party hopes to win a landslide and increase its total of 62 seats gained in 2019.
-First list is probably on Friday or Saturday, according to party insiders.</p>
-	<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6958761602872755"
-     data-ad-slot="3917672390"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<p>When benching some of the incumbents, age and "nonperformance" are thought to be important considerations. However, party sources stated that the bulk of current OBC MPs would be re-elected since the BJP has become the community's clear favorite and because the high brass is reportedly happy with the performance of OBC MPs.
+<p>Suraj Revanna, the older brother of Prajwal Revanna, the party's accused rapist, was taken into custody by Karnataka police one day after he was reported for reportedly beating a 27-year-old employee.
 </p>
-	<ins class="adsbygoogle"
+<ins class="adsbygoogle"
      style="display:block; text-align:center;"
      data-ad-layout="in-article"
      data-ad-format="fluid"
@@ -239,7 +218,44 @@ First list is probably on Friday or Saturday, according to party insiders.</p>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<p>85 of the 303 Lok Sabha MPs for the BJP are OBC, or almost 30% of the total, which shows how well-liked the party is among OBC people. According to sources, BJP leaders are also being "generous" in their seat-sharing arrangements with NDA allies, including smaller caste-based parties in states like Uttar Pradesh, because they see these parties as essential to securing 370 seats for the party and 400 for the alliance, in line with Modi's call for the alliance to win 400 seats.</p>
+<p>
+Suraj Revanna's close aide had managed to get an extortion case brought against the purported victim. Shivakumar, the assistant, claimed that the man initially sought Rs 5 crore but ultimately agreed to accept Rs 2 crore.
+</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>In accordance with IPC Sections 377 (carnal intercourse against the order of nature), 342 (wrongful detention), 506 (intentional insult to induce breach of peace), and 34 (common intention), the Holenarasipura Rural Police filed a sexual assault case on Saturday. Shivakumar and Suraj Revanna have both been listed as defendants in this case by the police.</p>
+<p>
+The victim allegedly paid Suraj Revanna a visit at a farmhouse in the Holenarasipura taluk of the Hassan district on June 16 at approximately 6:15 p.m., according to the FIR obtained by The Indian Express.
+</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>The complainant said that the MLC had threatened to harm his family, stripped him, and sexually attacked him. Suraj Revanna allegedly promised the complainant a job and political advancement. "I told Shivakumar about the incident and vowed to pursue justice," Shivakumar later made me an offer of Rs 2 crore if I would keep the facts secret. On Wednesday, though, I traveled to Bengaluru out of fear for my life. "I am prepared to furnish proof to support these accusations," he stated in his grievance.
+</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>The sons of JD(S) MLA H D Revanna and Bhavani Revanna, who is also suspected of kidnapping one of Prajwal's alleged victims of sexual assault, are Suraj and Prajwal. Their uncle is Union Minister H D Kumaraswamy, and their grandfather is former prime minister H D Deve Gowda. Former Hassan JD(S) MP Prajwal Revanna has been detained in three cases involving alleged sexual assault.
+</p>
 </div>
 <?php include('sociallink.php') ?>
 	<?php include('relatedpost.php') ?>
