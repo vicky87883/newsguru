@@ -214,36 +214,99 @@ Monday, 24 June 2024</span>
 <div class=single-excerpt>
 <p>Concern over the fact that former President Donald Trump has exceeded President Joe Biden in fundraising is growing among Democrats.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Biden had a significant financial lead over Trump for the majority of the 2024 campaign, which supporters of Biden hoped would tip the election in their favor. These expectations were unfounded, though, since Trump has not only narrowed the funding difference but also eclipsed Biden.
 </p>
 <p>
 Trump's campaign committee raised twice as much money in May as Biden's did, according to Federal Election Commission filings: $75.4 million versus $37.7 million. With $116.6 million to Biden's $91.6 million, Trump now has a greater campaign fund.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Speaking with Politico, Democratic strategist Hank Sheinkopf expressed surprise at the turnaround.
 </p>
 <p>
 Democrats ought to be concerned about the fact that Trump is receiving money at such a rapid pace and that it is even within reach, he stated. "You would assume a man with a criminal record would be nowhere, but in terms of wealth, he's everywhere. And Democrats really have an issue with that.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Sheinkopf continued, "The challenger shouldn't even be close on the money side, especially a guy who's been convicted of felonies." It is the Democrats' responsibility to inquire as to how this is feasible. That is the matter that ought to concern them.
 </p>
 <p>A Biden supporter told the site, "There was the strategy of raising all this money on the front end so we could have this huge edge." "The goal was to emerge with a significant financial edge, and as you can see, we've leveled out since it's June now. I can only describe it as "despondency" among those who favor Biden."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Campaign staffers for Biden dismissed some contributors' worries, saying they are closing the deficit with their more efficient use of donations than Trump's.
 </p>
 <p>
 Quentin Fulks, Biden's deputy campaign manager, told Politico in an interview that "our campaign, from the moment we've started, is more focused on what we're doing with our resources, rather than trying to play a game of who's raising what." "We are investing right there, in the field [of operations]."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Not all donors to Biden are giving up either. Democratic Pennsylvania donor Alan Kessler contended that early money matters, and Biden raised enough money to probably win the race.
 </p>
 <p>"That initial funding was significant because it enabled Biden to establish all of these offices, which have been operating efficiently, and Trump is unable to catch up on that," he stated. "February, March, April, and May, when the Biden campaign was putting boots on the ground, are months that Trump cannot regain."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The Biden campaign was contacted by The Washington Examiner for comments.
 
 The Trump campaign, meanwhile, saw the increase in donations as confirmation of their perception that support for the former president is growing.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Trump campaign spokesman Brian Hughes told Politico that "there is more and more evidence that the momentum of President Trump coming out of a historic primary election season is growing as we move to November," citing examples such as fundraising, polling, attendance at public events, and enthusiasm among American voters in general. "This is reflected in the recent spike in fundraising and elimination of the campaign cash advantage in May."
 </p>
 <p>
