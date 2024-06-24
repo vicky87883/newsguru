@@ -207,24 +207,69 @@ Monday, 24 June 2024</span>
 <div class=single-excerpt>
 <p>Saudi authorities said on Sunday, June 23, that over 1,300 pilgrims died during this year's Hajj as intense heatwaves have ravaged Saudi Arabia's Islamic holy sites. Given the dangerously high temperatures, this is one of the deadliest Hajj seasons in recent memory.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 According to Saudi Health Minister Fahd bin Abdurrahman Al-Jalajel, 83% of the 1,301 deaths were caused by unauthorized pilgrims who encountered the most difficult circumstances. Without formal licenses, these people had to walk for long distances in the sweltering heat to go to Mecca, and they were not provided with adequate shelter from the harsh weather.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Ninety-five pilgrims remained in hospitals, according to Al-Jalajel, with some requiring airlifts to Riyadh for critical care. The lack of appropriate identity documents caused a delay in the identification process for a large number of deceased individuals. There was no comprehensive breakdown given, however the deceased were buried in Mecca.
 </p>
 <p>
 Thirty-one of the approximately 660 Egyptians who died were recognized as authorized pilgrims by Egyptian officials. The Al-Muaisem neighborhood of Mecca, which is renowned for its emergency complex, is where the majority of the deaths happened. Egypt retaliated by revoking the licenses of sixteen travel agencies that had enabled unapproved pilgrims to enter Saudi Arabia using non-pilgrimage visas.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Media sources state that these agencies are being investigated for their part in breaking Saudi laws, which call for specific visas for pilgrimages. It has been alleged that several organizations offered optimistic pilgrims tourist visas to Saudi Arabia, leaving them trapped in the extreme heat without proper assistance or shelter.
 </p>
 <p>
 Numerous countries were affected by the tragedy; among the dead were dozens of people from Jordan, Tunisia, Morocco, Algeria, and Malaysia, in addition to 165 pilgrims from Indonesia and 98 from India. One major contributing factor to the pilgrims collapsing and fainting during the trek was the high heat.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Because of its immense size and the difficulties in organizing such a vast gathering, the Hajj has experienced a great deal of fatalities over the years. Notable historical events include the stampede in Mina in 2015, which claimed the lives of nearly 2,400 pilgrims, and the stampede in 1990, which claimed 1,426 lives. The intense heat of this year presented even more serious concerns, with daily highs ranging from 46°C (115°F) to 49°C (120°F).
 </p>
 <p>
 The Saudi government has spent billions enhancing security and controlling the enormous influx of pilgrims. The sheer number of attendees—more than 1.83 million Muslims this year—continues to pose serious obstacles despite these efforts. Approximately 222,000 of the more than 1.6 million pilgrims who came from 22 different countries were Saudi citizens or residents.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Climate change is expected to exacerbate these challenges. The Islamic lunar calendar means that the Hajj date shifts annually, and by 2029, it will take place in April, moving towards cooler months thereafter.</p>
 </div>
 <?php include('sociallink.php') ?>
