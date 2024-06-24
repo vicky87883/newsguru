@@ -297,7 +297,6 @@ According to Liu of the City University of Hong Kong, "China doesn't think that 
 "Neither of the two nations is capable of betraying China. Even with their partnership, they are still dependent on China.
 </p>
 </div>
-</div>
 	<?php include('sociallink.php') ?>
 	<?php include('relatedpost.php') ?>
 </div>
