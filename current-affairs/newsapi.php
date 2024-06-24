@@ -42,7 +42,7 @@ try {
 // Function to handle GET requests
 function handleGetRequest($pdo) {
     try {
-        $stmt = $pdo->query("SELECT * FROM currentaffairs ORDER BY pubDate DESC");
+        $stmt = $pdo->query("SELECT * FROM currentaffairs ORDER BY id DESC");
         $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
         echo json_encode($posts);
     } catch (Exception $e) {
@@ -55,7 +55,6 @@ function handleGetRequest($pdo) {
 function handlePostRequest($pdo) {
     if (isset($_FILES['image']) && isset($_POST['heading']) && isset($_POST['text']) && isset($_POST['name']) &&  isset($_POST['readtime']) && isset($_POST['link'])) {
         $image = $_FILES['image'];
-
         $heading = $_POST['heading'];
         $text = $_POST['text'];
         $name = $_POST['name'];
