@@ -212,15 +212,42 @@ Monday, 24 June 2024</span>
 	<p><b>Hong Kong</b>
 The most significant ally of the two autocrats was observing from the sidelines in Beijing, hundreds of miles away, as Russian President Vladimir Putin and his North Korean host Kim Jong Un drove through the crowded streets of Pyongyang atop a luxurious Mercedes-Benz last week.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The similar open-top ride was promised to Xi Jinping five years ago when he became the first Chinese leader to visit Pyongyang in fourteen years. The two presidents pledged at the moment to fortify their relationship and increase collaboration, but their words were insignificant in light of Kim and Putin's "breakthrough" new alliance.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>North Korea and Russia signed a comprehensive contract encompassing political, commerce, investment, and security cooperation. In the case of an assault, they agreed to utilize all available means to provide quick military assistance to each other.
 
 According to Putin, relations between Russia and North Korea have reached a "new level." In contrast, Kim referred to the new "alliance" as a "watershed moment" in the two countries' relationship.
 </p>
 <p>The United States and its Asian allies were taken aback by the historic new defense agreement reached by the two nuclear-armed countries. Regarding Putin's promise to keep discussing possible military technology collaboration with Pyongyang, Japan expressed "severe concerns." In response, South Korea declared it would now think about supplying Ukraine with weapons and called an emergency national security meeting.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 China, North Korea's principal economic and political backer, has, in contrast, largely refrained from responding.
 </p>
@@ -230,6 +257,15 @@ China's Foreign Ministry spokeswoman described the deal as a bilateral issue bet
 
 Analysts speculate that China is, however, probably keeping a cautious eye on things behind the scenes.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div><strong>China ‘aims to control the situation’</strong>
 <p>As he deals with a number of domestic issues, most notably the slowing economy, Xi needs peace and stability in Northeast Asia, and the growing connections between two drifting autocrats run the potential of causing him further uncertainty.
 </p>
@@ -238,6 +274,15 @@ Beijing is concerned that Moscow's support for Pyongyang, particularly with rega
 </p>
 <p>Beijing concerns that a total collapse of North Korea would allow the US to establish direct authority over the country, therefore Liu stated, "China aims to control the situation and prevent escalation, but it also does not want North Korea to completely collapse either."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Russia, which has previously supported China's position on the matter to a great extent, now runs the risk of upsetting the delicate balance by pressing North Korea to aid in its grueling conflict in Ukraine.
 </p>
@@ -246,11 +291,29 @@ Russia, which has previously supported China's position on the matter to a great
 <p>
 Even though Beijing has avoided endorsing Kim's nuclear and missile programs and has refrained from giving direct military backing to Putin, the US has accused Beijing of selling dual-use items to Russia that fund the warring nation's military industrial complex.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Liu stated, "It will be harder for China to control the situation on the Korean Peninsula if Putin gives more support to North Korea on nuclear issues, including some technical assistance."
 </p>
 <p>Kim and Putin inked a mutual defense pact that echoes a 1961 Cold War treaty between North Korea and the Soviet Union. After the fall of the Soviet Union, the agreement was replaced with one that provided even lower security guarantees.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 However, despite several extensions, North Korea and China's 1961 mutual defense treaty is still in effect.
 </p>
@@ -259,6 +322,15 @@ The only formal military alliance treaty China has signed with another nation is
 </p>
 <p>In a similar vein, it's still unclear what the new defense pact will allow Russia and North Korea to do for one another.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The signing of the new pact coincides with heightened tensions on the Korean Peninsula as Kim has abandoned a long-standing strategy of pursuing peaceful reunification with South Korea in favor of more aggressive rhetoric. The two Koreas remained officially at war after the Korean War ended in 1953 because a formal peace treaty was never signed between them.
 </p>
@@ -271,6 +343,15 @@ However, the pact's political message is very apparent. Motivated by a mutual an
 <p>
 A top US military general recently compared China, Russia, North Korea, and Iran to a new “axis of evil,” and Western commentators have cautioned against this loose but growing coordination of interests.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Beijing would be careful to maintain a distance while Moscow and Pyongyang strengthen their cooperation, Liu said, adding that "China certainly doesn't want to be seen as part of a new Axis."
 </p>
@@ -285,6 +366,15 @@ According to Edward Howell, a politics lecturer at the University of Oxford in t
 <p>
 China does not believe it can control the speed or scope of the increasing level of cooperation between North Korea and Russia, according to Yun Sun, head of the Stimson Center's China program, a think tank located in Washington.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>However, she added, "they are aware of the indispensable role China plays for both North Korea and Russia."
 </p>
 <p>
