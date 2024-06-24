@@ -105,21 +105,57 @@ Monday, 24 June 2024</span>
 	<p><mark>Japan has recorded more cases of streptococcal toxic shock syndrome already this year than in any other year.</mark></p>
     <p>The number of potentially deadly infections in Japan is shattering records, which is drawing attention to long-standing, unsolved concerns about the type of bacteria causing the illnesses.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The same strain of strep bacteria that causes strep throat and scarlet fever also causes streptococcal toxic shock syndrome (STSS), an uncommon condition. Like STSS, Group A strep can infrequently spread to deep tissue or the circulation. 
 </p>
 <p>30% or more of STSS infections result in death. Usually beginning with fever, chills, aches in the muscles, nausea, or vomiting, the condition can become life-threatening in as little as 24 to 48 hours if treatment is not received. Necrotizing fasciitis, another bacterial infection known as "flesh-eating" because it kills the soft tissue beneath the skin, can also occur concurrently with it.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Japan's National Institute of Infectious Diseases released a study earlier this week stating that the country has at least 1,019 instances of STSS so far this year. It has reached a record high of 941, surpassing the previous year's record total.
 </p>
 <p>The extraordinarily high levels of Group A strep bacteria have been observed in both the United States and Japan during the past several years, leading to an increase in illnesses that can be lethal or life-threatening. These unprecedented numbers are drawing attention once again to the puzzling recent behavior of these bacteria. Experts in diseases don't yet fully understand why that is occurring.   
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The number of dangerous Group A strep infections in the United States, including STSS, peaked in 2023, according to preliminary statistics from the Centers for Disease Control and Prevention. This was a 20-year high. As of June 8, the CDC had reported 395 cases of STSS this year, surpassing the 390 instances from the previous year with several months remaining. However, the FDA did observe that, as is typical for this time of year, there has been a decline in Group A strep activity in recent months. 
 </p>
 <p>
 In late 2022, there was also a significant outbreak of Group A strep infections in the United Kingdom, which also reported a higher than usual number of cases from September to February.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Experts in disease have partly ascribed the rise to the general post-pandemic resurgence of common bacterial and viral diseases, such as strep throat. When people avoided face-to-face interactions, there were less opportunities for these infections to spread. People might once again be more vulnerable now. 
 </p>
 <p>
@@ -127,6 +163,15 @@ Expert in infectious illnesses at Vanderbilt University Medical Center Dr. Willi
 </p>
 <p>But other viral diseases that spiked when lockdowns loosened and socializing resumed appear to have stabilized, specialists noted, while strep cases are still above average. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 "Many infections have returned to standard, typical levels, but strep has surpassed them." We're not really sure why that's occurring, according to Schaffner.
 </p>
@@ -135,6 +180,15 @@ Expert in infectious illnesses at Vanderbilt University Medical Center Dr. Willi
 <p>
 Thus, specialists believe that the pandemic is not the only possible explanation. Has the bacteria changed to become more harmful? Exist any undiscovered connections between certain viral illnesses and Group A strep? Are some age groups becoming ill now that they didn't in the past? The answers are still unknown.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Who is at risk for STSS? Those with diabetes and older folks are often more susceptible, and sores from shingles or chickenpox can increase a person's chance of getting it. This is due to the fact that Group A strep can enter the body through open wounds and subsequently induce toxic shock syndrome. Additionally, experts believe that certain viruses may impair the immune system or harm the airways, making people more vulnerable to secondary bacterial infections. 
 </p>
 <p>
@@ -145,6 +199,15 @@ However, disease specialists frequently aren't able to ascertain the exact cause
 <p>
 Dr. Amesh Adalja, an infectious disease physician and senior scholar at the Johns Hopkins Center for Health Security, said that although a population's susceptibility to a particular bacterium may be influenced by a country's baseline immunity to it or even by specific genetic traits, Japan's situation should serve as a reminder to physicians worldwide to keep an eye out for severe strep infections. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>He declared, "It's important for other countries to just be on alert about what happens in Japan." 
 
 This kind of knowledge is essential because STSS patients need to be treated as soon as possible after symptoms start to show up. Treatment options include surgery to remove contaminated tissue or the use of antibiotics. 
