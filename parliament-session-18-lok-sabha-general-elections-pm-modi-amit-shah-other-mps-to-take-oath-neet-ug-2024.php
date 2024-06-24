@@ -215,22 +215,76 @@ Monday, 24 June 2024</span>
 <div class=single-excerpt>
 <p>The freshly elected members of the 18th Lok Sabha, including Prime Minister Narendra Modi, are scheduled to take an oath of office today, marking the start of the first session. Following the recently held Lok Sabha elections, in which the BJP won 240 seats and the NDA won 293 seats, this is the first session of the Parliament.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The opposition is anticipated to confront the BJP-led NDA government during the first session on the Speaker election, talks about leaks of classified material and other anomalies in NEET-UG and UGC-NET, and a dispute over the pro-tem Speaker's appointment.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Bhartruhari Mahtab, a seven-term member of parliament, will take the oath of office as the pro-tem speaker of the Lok Sabha from President Droupadi Murmu. Mahtab will then call on PM Modi to take the oath of office as a member of the House and to supervise its business. In addition, the President designated Sudip Bandyopadhyay, Thalikkottai Rajuthevar Baalu, Radha Mohan Singh, Faggan Singh Kulaste, and Suresh Kodikunnil to help him administer the oath to the recently elected members.
 </p>
 <p>Additionally, today at 10 a.m., the newly elected Congress party MPs will convene in the CPP office in Parliament. Congressmen Priyanka Gandhi and Rahul Gandhi took aim at the BJP over the anomalies in the NEET-UG 2024 exam and declared their support for the students. It is also anticipated that a dispute over the pro-tem Speaker's selection may surface in the Parliament. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The Opposition has taken issue with the BJP's decision to choose Bhartruhari Mahtab over Congress MP K Suresh, claiming that the administration disregarded Suresh and that the BJP did not adhere to parliamentary tradition. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 "We are advocating that the pro-tem Speaker be an eighth-term Member of Parliament...They made a mistake, and as a result, the BJP government's choice is being criticized nationwide," K Suresh stated.
 </p>
 <p>In response, Minister of Parliamentary Affairs Kiren Rijiju stated that while Mahtab had served as speaker of the Lok Sabha for seven consecutive times, K Suresh had lost elections in 1998 and 2004, meaning that he was serving his fourth consecutive term as speaker of the Lok Sabha. K Suresh had previously won lower house elections in 1989, 1991, 1996, and 1999. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>On Monday in Delhi, there will also be a Parliamentary meeting of the Samajwadi Party, presided over by Akhilesh Yadav. Following today's meeting, President Droupadi Murmu will address both Houses on June 27 and the Lok Sabha speaker will be elected on June 26. 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The oath-taking of newly elected MPs will take place during the first session of the 18th Lok Sabha, which runs from June 24 to July 3. The Rajya Sabha's 264th session is scheduled to begin on June 27 and conclude on July 3. The 17th Lok Sabha convened its penultimate session, which coincided with the budget session, from January 31 to February 10, 2024. 
 </p>
