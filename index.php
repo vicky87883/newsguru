@@ -49,7 +49,7 @@ $result5 = mysqli_query($con,$query5);
 <div class=sidebar-inner>
 <div class="siderbar-widget mb-50 mt-30">
 <form action=# method=get class="search-form position-relative">
-<input type=text class=search_field placeholder=Search value name=s >
+<input type=text class=search_field placeholder=Search value name=s>
 <span class=search-icon><i class="ti-search mr-5"></i></span>
 </form>
 </div>
@@ -80,7 +80,7 @@ $result5 = mysqli_query($con,$query5);
 </div>
 </aside>
 <?php include('header.php') ?>
-<main class="position-relative search-bar">
+<main class=position-relative>
 <div class=container>
 <div class=row>
 <?php include('sidebar.php') ?>
@@ -136,62 +136,5 @@ $result5 = mysqli_query($con,$query5);
 <script src=assets/js/main.js></script>
 <script>function updateDateTime(){var m=new Date();var n=m.getDate();var h=m.toLocaleString("en-us",{weekday:"long"});var i=m.getHours();var l=m.getMinutes();var j=m.getSeconds();var k=m.toLocaleString("en-us",{month:"long"});i=(i<10?"0":"")+i;l=(l<10?"0":"")+l;j=(j<10?"0":"")+j;document.getElementById("date").innerHTML=n;document.getElementById("day").innerHTML=h;document.getElementById("time").innerHTML=i+":"+l+":"+j;document.getElementById("month").innerHTML=k}updateDateTime();setInterval(updateDateTime,1000);</script>
 <script>function incrementCount(){var b=document.getElementById("count-value");var a=parseInt(b.innerText);a++;b.innerText=a};</script>
-function searchAndHighlight() {
-    // Clear any existing highlights
-    removeHighlights();
-
-    // Get the search input value
-    const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
-    if (!searchInput) return;
-
-    // Get the content area
-    const content = document.getElementById('content');
-
-    // Function to highlight text
-    function highlightText(node, searchText) {
-        let text = node.nodeValue;
-        const parent = node.parentNode;
-        
-        const idx = text.toLowerCase().indexOf(searchText);
-        if (idx === -1) return;
-
-        const before = text.substring(0, idx);
-        const match = text.substring(idx, idx + searchText.length);
-        const after = text.substring(idx + searchText.length);
-
-        const highlighted = document.createElement('span');
-        highlighted.className = 'highlight';
-        highlighted.textContent = match;
-
-        parent.insertBefore(document.createTextNode(before), node);
-        parent.insertBefore(highlighted, node);
-        parent.insertBefore(document.createTextNode(after), node);
-
-        parent.removeChild(node);
-    }
-
-    // Function to recursively search and highlight
-    function recursiveHighlight(node, searchText) {
-        if (node.nodeType === 3) { // Text node
-            highlightText(node, searchText);
-        } else if (node.nodeType === 1 && node.childNodes) { // Element node
-            node.childNodes.forEach(child => recursiveHighlight(child, searchText));
-        }
-    }
-
-    // Start highlighting
-    recursiveHighlight(content, searchInput);
-}
-
-// Function to remove existing highlights
-function removeHighlights() {
-    const highlightedElements = document.querySelectorAll('.highlight');
-    highlightedElements.forEach(span => {
-        const parent = span.parentNode;
-        parent.replaceChild(document.createTextNode(span.textContent), span);
-        parent.normalize(); // Merge adjacent text nodes
-    });
-}
-
 </body>
 </html>

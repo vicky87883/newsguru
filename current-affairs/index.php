@@ -1,12 +1,24 @@
+
 <?php
-require_once('dbcon.php');
-$query2 = "SELECT * FROM `terrorism`   ORDER BY `id` DESC;";
-$query = "SELECT * FROM `frontload`   ORDER BY `id` DESC;";
-$query3 = "SELECT * FROM `currentaffairs`   ORDER BY `id` DESC;";
-$result = mysqli_query($con,$query);
-$result2 = mysqli_query($con,$query2);
+// Database connection details
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "coder";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch the articles from the database
+$sql = "SELECT id, heading, text FROM article";
+$result = $conn->query($sql);
+
 ?>
-<?php include "script.php" ?>
 <!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
@@ -183,38 +195,26 @@ $result2 = mysqli_query($con,$query2);
 <div class=loop-list-style-1>
 	
 <article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">
-	<?php
-                        while($row = mysqli_fetch_assoc($result))
-                        {
-                            ?>
+<h1>Article List</h1>
+        <?php if ($result->num_rows > 0): ?>
+            <ul>
+                <?php while ($row = $result->fetch_assoc()): ?>
+                    <li class="article-item">
 <div class="d-md-flex d-block">
 <div class="post-thumb post-thumb-big d-flex mr-15 border-radius-15 img-hover-scale">
-<a class=color-white href="<?php echo ($row['link']); ?>">
-<img class=border-radius-15 src="<?php echo ($row['image']); ?>" alt>
-</a>
-</div>
-<div class="post-content media-body">
-<div class="entry-meta mb-15 mt-10">
-<a class="entry-meta meta-2" href=#><span class="post-in text-danger font-x-small"><?php echo ($row['tag']); ?></span></a>
-</div>
-<h5 class="post-title mb-15 text-limit-2-row">
-<span class=post-format-icon>
-	<i class="fa-solid fa-bomb"></i>
-</span>
-<a href="<?php echo ($row['link']); ?>"><?php echo ($row['heading']); ?></a></h5>
-<p class="post-exerpt font-medium text-muted mb-30 d-none d-lg-block"><?php echo ($row['text']); ?></p>
-<div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
-<span class=post-by>By <a href=#>Newsguru Editors</a></span>
-<span class=post-on><?php echo ($row['time']); ?></span>
-<span class=time-reading>12 mins read</span>
-</div>
-</div>
-</div>
+                        <a class=color-white href="article.php?id=<?php echo $row['id']; ?>">
+                            <h2><?php echo htmlspecialchars($row['heading']); ?></h2>
+                        </a>
+                        </div>
+                        <p class="post-exerpt font-medium text-muted mb-30 d-none d-lg-block"><?php echo htmlspecialchars(mb_strimwidth($row['text'], 0, 150, '...')); ?></p>
+                        </div>
+                    </li>
+                <?php endwhile; ?>
+            </ul>
+        <?php else: ?>
+            <p>No articles found.</p>
+        <?php endif; ?>
 </article>
-	<?php
-                        }
-
-                        ?>
 </div>
 </div>
 <div class="pagination-area mb-30">
