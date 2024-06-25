@@ -2,8 +2,8 @@
 <?php
 // Database connection details
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "vikram";
+$password = "Parjapat@123";
 $dbname = "coder";
 
 // Create connection
@@ -19,6 +19,7 @@ $sql = "SELECT id, heading, text FROM article";
 $result = $conn->query($sql);
 
 ?>
+<?php include('script.php') ?>
 <!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
@@ -195,7 +196,6 @@ $result = $conn->query($sql);
 <div class=loop-list-style-1>
 	
 <article class="p-10 background-white border-radius-10 mb-30 wow fadeIn animated">
-<h1>Article List</h1>
         <?php if ($result->num_rows > 0): ?>
             <ul>
                 <?php while ($row = $result->fetch_assoc()): ?>
@@ -203,10 +203,15 @@ $result = $conn->query($sql);
 <div class="d-md-flex d-block">
 <div class="post-thumb post-thumb-big d-flex mr-15 border-radius-15 img-hover-scale">
                         <a class=color-white href="article.php?id=<?php echo $row['id']; ?>">
-                            <h2><?php echo htmlspecialchars($row['heading']); ?></h2>
+                            <h5 class="post-title mb-15 text-limit-2-row">
+                            
+                        <span class=post-format-icon>
+	<i class="fa-solid fa-notes-medical"></i>
+                </span>    
+                            <?php echo ($row['heading']); ?></h5>
                         </a>
                         </div>
-                        <p class="post-exerpt font-medium text-muted mb-30 d-none d-lg-block"><?php echo htmlspecialchars(mb_strimwidth($row['text'], 0, 150, '...')); ?></p>
+                        <p class="post-exerpt font-medium text-muted mb-30 d-none d-lg-block"><?php echo (mb_strimwidth($row['text'], 0, 150, '...')); ?></p>
                         </div>
                     </li>
                 <?php endwhile; ?>
