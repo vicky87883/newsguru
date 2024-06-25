@@ -258,7 +258,7 @@ With his boot, he gathered water from a waterfall.
 <p>
 "I just made sure I drank a gallon of water every day, but then after, getting close to the end of it, my body needed food and some kind of sustenance," he explained.
 </p>
-<div><strong>"I did enough hiking for probably the whole rest of the year," he said.</strong></div>
+<div style="color:red;"><strong>"I did enough hiking for probably the whole rest of the year," he said.</strong></div>
 <p>He admitted to KGO-TV that he got disoriented because he didn't recognize some of the burned-out landmarks.
 </p>
 <p>
