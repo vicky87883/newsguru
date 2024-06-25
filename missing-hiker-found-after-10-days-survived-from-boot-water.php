@@ -230,15 +230,34 @@ Tuesday, 25 June 2024</span>
 <div class="summary">
         <p>A hiker who had been lost for ten days in the mountains of Northern California was discovered safe; he had survived by gathering water in his shoe.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 On June 11, 34-year-old Lukas McClish departed from Boulder Creek, a remote town, on a planned three-hour hike.
 </p>
 <p>
 According to the Santa Cruz County Sheriff's Office, he was reported missing on June 16.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 On Thursday, someone was heard calling for assistance. Using drones, searchers were able to find Mr. McClish in the Big Basin Redwoods State Park, which is more than 11 kilometers away from Boulder Creek.
 </p>
+
 <p>Writing on X, firefighters noted that Mr McClish's location was initially "hard to establish".</p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">CAL FIRE CZU firefighters assisted <a href="https://twitter.com/SantaCruzSO1?ref_src=twsrc%5Etfw">@SantaCruzSO1</a> <a href="https://twitter.com/BoulderCreekFD?ref_src=twsrc%5Etfw">@BoulderCreekFD</a> with a rescue in Big Basin State Parks last night. There were multiple reports of witnesses hearing someone yelling for help, but the location of that person was hard to establish. READ MORE ⬇️ <a href="https://t.co/tQxHvVPVJO">pic.twitter.com/tQxHvVPVJO</a></p>&mdash; CAL FIRE CZU (@CALFIRECZU) <a href="https://twitter.com/CALFIRECZU/status/1804211716429140441?ref_src=twsrc%5Etfw">June 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <p>A filthy reconnected with family members, Mr. McClish gave them hugs. 
@@ -249,6 +268,15 @@ He claimed he was allowed to sip water during the ordeal and that he was not hur
 <p>
 The hiker claimed in an interview with a local news source that he only brought "a pair of pants, my pair of hiking shoes, and a hat" with him when he left.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 "I carried a set of folding scissors that resembled Leatherman tools along with a torch. That was the extent of his statement.
 </p>
@@ -258,6 +286,15 @@ With his boot, he gathered water from a waterfall.
 <p>
 "I just made sure I drank a gallon of water every day, but then after, getting close to the end of it, my body needed food and some kind of sustenance," he explained.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div style="color:red;"><strong>"I did enough hiking for probably the whole rest of the year," he said.</strong></div>
 <p>He admitted to KGO-TV that he got disoriented because he didn't recognize some of the burned-out landmarks.
 </p>
