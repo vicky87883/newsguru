@@ -218,11 +218,29 @@ Saturday, 22 June 2024</span>
 <div class=single-excerpt>
 <p>When the government stated that former President Donald Trump should be placed under gag order after he claimed that President Joe Biden was "locked & loaded" to kill him during an FBI raid of Trump's Mar-a-Lago club, a federal judge in Florida expressed skepticism on Monday.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 "Joe Biden was prepared to take me out and endanger my family," Trump stated in an email used for campaign fundraising. In his request for the gag order in the federal criminal case in Florida, where Trump is accused of purposefully holding onto material related to national defense, special counsel Jack Smith mentioned only a few utterances, including that one.
 </p>
 <p>Trump referred to the search warrant's language, which said that force could not be used unless there was a good reason to believe the target presented a "imminent danger of death or serious physical injury." That is "routine practice to restrict the use of force," according to Smith's legal team, and the raid was planned for a time when Trump and his family would not be there.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 In a different fundraising email, Trump added, "They're just itching to do the unthinkable" and stated that it had been "revealed that Biden’s DOJ was authorized to use DEADLY FORCE for their DESPICABLE raid in Mar-a-Lago."
 </p>
@@ -230,11 +248,29 @@ In a different fundraising email, Trump added, "They're just itching to do the u
 </p>
 <p>Get ready for the polls by using our voter guide to compare the positions of the presidential candidates on important issues.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Emil Bove, the attorney for Trump, implied on Monday that Smith's request for a gag order against Trump was motivated by politics in advance of his debate with Biden on Thursday. Bove expressed his dissatisfaction with Smith's excessive independence from Biden's Justice Department during a separate hearing in the case on Friday. Smith was appointed special counsel by Attorney General Merrick Garland and was granted more latitude in the case involving secret documents.
 </p>
 <p>During the hearing, Harbach described Trump's remarks regarding the raid as "flagrantly false" and claimed that the president frequently exhorted his supporters to act on his complaints.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div><strong>What would the proposed gag order do?</strong></div>
 <p>Smith was designated as special counsel by Garland to oversee two distinct investigations against Trump: one pertaining to the classified materials, and the other to Trump's attempts to rig the 2020 election. Compared to ordinary federal prosecutors, special counsels have greater independence from the leadership of the Justice Department.
 </p>
@@ -243,6 +279,15 @@ Emil Bove, the attorney for Trump, implied on Monday that Smith's request for a 
 Cannon is being asked by the government to issue an injunction barring Trump from making any public remarks "that pose a significant, imminent, and foreseeable danger to the law enforcement agents participating in the investigation and prosecution of this case."
 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The government contended in a document filed before to the hearing that "these deceptive and inflammatory claims expose the law enforcement professionals who are involved in this case to unjustified and unacceptable risks."
 </p>
@@ -252,12 +297,30 @@ Trump has maintained that the proposed gag order would infringe upon his right t
 </p>
 <p>In at least three other cases—including his federal criminal prosecution involving election meddling and his criminal hush money case in New York—Trump has already been subject to gag orders. After Trump's trial conviction, the judge in his New York case is currently deliberating over a move by the businessman to remove the gag order. In that instance, Trump's sentence is set for July 11.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div><strong>Trump challenges Jack Smith's funding</strong></div>
 <p>During the Monday session, Trump's attorney Emil Bove contested the financing for Jack Smith's case prosecution as well. Bove noted that legislative cash allocated in the 1970s for independent investigations in politically sensitive areas should not be used by the Justice Department.
 </p>
 <p>
 At the hearing, Bove informed Cannon that "more oversight from Congress is required for the extraordinary things that are going on in these prosecutions."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div><strong>Three days of hearings</strong></div>
 <p>The case's arguments will be heard over the course of three consecutive business days, starting on Monday.</p>
 <p>Cannon gave credence to Trump's contention on Friday that the case ought to be dropped as special counsel Jack Smith lacked the necessary authority to file it. According to Trump's legal team, the attorney general cannot name a special counsel for an inquiry without the Senate's consent.
