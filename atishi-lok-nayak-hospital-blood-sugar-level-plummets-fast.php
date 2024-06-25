@@ -212,11 +212,29 @@ Tuesday, 25 June 2024</span>
 <div class=single-excerpt>
 	<p><mark>Since June 21, Atishi has been engaged in a "paani satyagraha" in which she demands that Haryana release Delhi's fair share of water.
     </mark></p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>After her blood sugar level dipped to 36 mg/dL early on Tuesday, Delhi Water Minister Atishi—who has been on an indefinite fast since June 21 in protest of the Haryana government's allegedly restricted water supply—was taken to Lok Nayak Hospital.
 </p>
 <p>
 Her blood sugar level dropped to 43 mg/dL at midnight and then to 36 mg/dL, according to a post on X by the Aam Aadmi Party (AAP). The physicians recommended that she be admitted to the hospital right away.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>"Atishi's blood sugar level fell to 36 mg/dL, so she has been admitted to the LNJP hospital," wrote Saurabh Bhardwaj on X on Tuesday. He claimed that as soon as the portable glucometer revealed the blood sugar level to be 36 mg/dL, the AAP followed the doctor's advice.
 </p>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🚨 Water Minister Atishi&#39;s health deteriorates 🚨<br><br>Her blood sugar level dropped to 43 at midnight and to 36 at 3 AM, after which LNJP Hospital doctors advised immediate hospitalization. She has not eaten anything for the last five days and is on an indefinite hunger strike… <a href="https://t.co/nl5iTfnwnT">pic.twitter.com/nl5iTfnwnT</a></p>&mdash; AAP (@AamAadmiParty) <a href="https://twitter.com/AamAadmiParty/status/1805377217649950847?ref_src=twsrc%5Etfw">June 24, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -226,10 +244,28 @@ Her blood sugar level dropped to 43 mg/dL at midnight and then to 36 mg/dL, acco
 <p>
 Atishi's blood sugar level fell sharply from 99 mg/dL on the first day of the "paani satyagraha" on June 21 to 71 mg/dL on the fourth day. The ketone level being shown as positive previously caused alarm for the medical assessment team.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The "expected values for normal fasting blood glucose concentration are between 70 mg/dL (3.9 mmol/L) and 100 mg/dL (5.6 mmol/L)," according to the World Health Organization (WHO).
 </p>
 <p>Atishi claimed in a video message on X on Monday that she had an examination on Sunday and that the results showed a considerable increase in her ketone level and a decrease in her weight, blood pressure, and blood sugar.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 According to medical advice, such a spike in ketone levels is risky and may have detrimental long-term effects on the body. It might be unhealthy. My decision to fast is unwavering, and I will not stop until 28 lakh Delhiites have access to water, regardless of how ill I am or how much pain my body is in," she continued.
 </p>
