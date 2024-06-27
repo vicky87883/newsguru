@@ -11,7 +11,7 @@ $password = "Parjapat@123"; // Update with your hosting server's database passwo
 $dbname = "coder"; // Update with your hosting server's database name
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = @new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
