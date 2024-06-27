@@ -13,7 +13,6 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
 // Fetch the articles from the database
 $sql = "SELECT id, heading, text FROM article";
 $result = $conn->query($sql);
