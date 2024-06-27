@@ -210,19 +210,56 @@ Thursday, 27 June 2024</span>
 <div class=single-excerpt>
 <p>Two applicants have submitted an intervention plea objecting to the rescheduling of the 2024 exam in connection with the NEET-UG 2024 dispute. Ms. Kritika Garg and Ms. Priyanjali Garg, the applicants/interveners, have contended that students who have studied for years shouldn't have to endure the hassle of retaking the test. They said that this would be detrimental to the families of the majority of pupils in addition to being "unfair" to them.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The application has made it clear that the NEET-UG is one of the most difficult exams and shouldn't be given again just because some people have made certain accusations. The candidates, who were Meerut residents, said that their hard work and merit alone were the only reasons they received 705 and 690 marks, respectively.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 It is noteworthy that the current application was submitted in the Writ Petition, which calls for the recall of the NEET-UG 2024 results and the holding of a new test. Because of the alleged paper leak and other irregularities, the same has been requested.
 </p>
+
 <p>A vacation bench made up of Justices Sandeep Mehta and Vikram Nath had sent notice in this Writ Petition on June 13.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 However, based on their diligent work, the application indicated that the claims of malpractice might only apply to a small percentage of students compared to the total number of students who sat the exam.
 </p>
 <p>
 "It would be incredibly unfair and painful for other students who have not engaged in any such activities to scrap the entire process for thousands of students over the misbehavior of a handful."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>It further stated that the issue with the grace mark has been resolved because a test was given to all 1563 students, thus that concern has been closed. Furthermore, the applicants claimed that the problem has been transformed into a "political issue" by opposition political groups.
 </p>
 <p>
@@ -230,6 +267,15 @@ The application made it clear that the coaching centers wanted to retake the exa
 </p>
 <p>"That there are no accusations that any student who has received a good grade has done so through dishonest or unfair means; punishing students who have achieved high grades through merit and hard work will lead to a great deal of trauma and stress, and the re-examination should not have been permitted."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The application also stated, "That simply because the Cut Off has increased in the NEET UG examination, the same cannot be ground to challenge the entire examination."
 </p>
