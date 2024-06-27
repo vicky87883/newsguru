@@ -1,23 +1,73 @@
 <?php
-require_once('dbcon.php');
-$query = "SELECT * FROM `frontload`   ORDER BY `id` DESC;";
-$query2 = "SELECT * FROM `mostpopular`   ORDER BY `id` DESC;";
-$query3 = "SELECT * FROM `dontmiss`   ORDER BY `id` DESC;";
-$query4 = "SELECT * FROM `toptrending`   ORDER BY `id` DESC;";
-$result = mysqli_query($con,$query);
-$result2 = mysqli_query($con,$query2);
-$result3 = mysqli_query($con,$query3);
-$result4 = mysqli_query($con,$query4);
-?><!DOCTYPE html>
+// Enable detailed error reporting
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Database connection details
+$servername = "localhost"; // Update with your hosting server's database hostname if different
+$username = "vikram"; // Update with your hosting server's database username
+$password = "Parjapat@123"; // Update with your hosting server's database password
+$dbname = "coder"; // Update with your hosting server's database name
+
+// Create connection
+$conn = @new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+// Set the character set to utf8
+$conn->set_charset("utf8");
+// Get the article ID from the URL
+$articleId = isset($_GET['id']) ? intval($_GET['id']) : 0;
+
+// Fetch the article from the database
+$sql = "SELECT heading, content FROM article WHERE id = ?";
+$stmt = $conn->prepare($sql);
+
+if ($stmt) {
+    $stmt->bind_param('i', $articleId);
+    
+    if ($stmt->execute()) {
+        // Bind result variables
+        $stmt->bind_result($heading, $content);
+        
+        // Fetch the data
+        if ($stmt->fetch()) {
+            // Store the data in an associative array
+            $article = [
+                'heading' => $heading,
+                'content' => $content
+            ];
+        } else {
+            $article = null;
+        }
+    } else {
+        die("Query execution failed: " . $stmt->error);
+    }
+
+    $stmt->close();
+} else {
+    die("Query preparation failed: " . $conn->error);
+}
+
+// Check if the article was found
+if (!$article) {
+    die("Article not found or database query failed.");
+}
+
+?>
+<!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Train berth falls on Kerala man, who dies; Railways maintains 'no problem in seat'</title>
-<meta name=news_keywords content="Train berth falls on Kerala man, who dies; Railways maintains 'no problem in seat'" itemprop="keywords"/>
-<meta name=description content="Train berth falls on Kerala man, who dies; Railways maintains 'no problem in seat'" itemprop="description"/>
+<title><?php echo htmlspecialchars($article['heading']); ?></title>
+<meta name=news_keywords content="<?php echo htmlspecialchars($article['heading']); ?>" itemprop="keywords"/>
+<meta name=description content="<?php echo htmlspecialchars($article['heading']); ?>" itemprop="description"/>
 <meta name=viewport content="width=device-width, initial-scale=1">
-<link rel=canonical href="https://www.newsguru.live/local-news/kerala-man-dies-upper-berth-falls-on-him-nizamuddin-sf-express-indian-railways.php" />
+<link rel=canonical href="https://www.newsguru.live/local-news/<?php echo htmlspecialchars($article['heading']); ?>" />
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
 <link rel=stylesheet href=assets/css/style.css>
 <link rel=stylesheet href=assets/css/widgets.css>
@@ -172,7 +222,7 @@ $result4 = mysqli_query($con,$query4);
 </div>
 </aside>
 <?php include('header.php') ?>
-<main class=position-relative>
+<main class="position-relative article-content">
 <div class=container>
 <div class="entry-header entry-header-1 mb-30 mt-50">
 <div class="entry-meta meta-0 font-small mb-30"><a href=#><span class="post-cat bg-success color-white">Global News</span></a></div>
