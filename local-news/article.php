@@ -34,6 +34,10 @@ if ($stmt) {
         
         // Fetch the data
         if ($stmt->fetch()) {
+            // Debugging: Output the fetched data
+            echo "<pre>Debug - Fetched Heading: " . htmlspecialchars($heading) . "</pre>";
+            echo "<pre>Debug - Fetched Content: " . htmlspecialchars($content) . "</pre>";
+
             // Store the data in an associative array
             $article = [
                 'heading' => $heading,
@@ -70,7 +74,7 @@ if (!$article) {
     <div class="article-content">
         <?php if ($article): ?>
             <h1><?php echo htmlspecialchars($article['heading']); ?></h1>
-            <p><?php echo htmlspecialchars($article['content']); ?></p>
+            <p><?php echo nl2br(htmlspecialchars($article['content'])); ?></p>
         <?php else: ?>
             <p>Article not found.</p>
         <?php endif; ?>
