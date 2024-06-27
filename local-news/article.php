@@ -34,10 +34,6 @@ if ($stmt) {
         
         // Fetch the data
         if ($stmt->fetch()) {
-            // Debugging: Output the fetched data
-            echo "<pre>Debug - Fetched Heading: " . htmlspecialchars($heading) . "</pre>";
-            echo "<pre>Debug - Fetched Content: " . htmlspecialchars($content) . "</pre>";
-
             // Store the data in an associative array
             $article = [
                 'heading' => $heading,
