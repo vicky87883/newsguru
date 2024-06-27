@@ -1,5 +1,5 @@
 
-<?php
+<a?php
 // Database connection details
 $servername = "localhost";
 $username = "vikram";
@@ -269,18 +269,13 @@ $result = $conn->query($sql);
 </nav>
 </div>
 </div>
-<div class="col-lg-4 col-md-12 sidebar-right">
+<div class="col-lg-4 col-md-12 sidebar-right" style="border: 0.5px solid lightgrey;border-radius:10px; ">
 <div class="sidebar-widget p-20 border-radius-15 bg-white widget-text wow fadeIn animated">
 <div class="widget-header mb-30">
-<h5 class=widget-title>Search <span>tips</span></h5>
+<h5 class=widget-title>Explore <span>more news</span></h5>
 </div>
 <div>
-<h6>1. Use the tabs</h6>
-<p class="font-small text-muted">The first tip is to use the tabs in Google search. On the top of every search are a number of tabs. Usually you’ll see Web, Image, News, and More. Using these tabs, you can help define what kind of search you need to do.</p>
-<h6>2. Use quotes</h6>
-<p class="font-small text-muted">When searching for something specific, try using quotes to minimize the guesswork for Google search. When you put your search parameters in quotes, it tells the search engine to search for the whole phrase.</p>
-<h6>3. Use a hyphen to exclude words</h6>
-<p class="font-small text-muted">Sometimes you may find yourself searching for a word with an ambiguous meaning. An example is Mustang. When you Google search for Mustang, you may get results for both the car made by Ford or the horse. If you want to cut one out, use the hyphen to tell the engine to ignore content with one of the other. </p>
+<a href="https://newsguru.live/amid-row-with-india.php"class="font-small" style="color:blue;"><i class="fa-solid fa-link"></i> https://newsguru.live/amid-row-with-india</a>
 </div>
 </div>
 </div>

@@ -1,0 +1,18 @@
+# Enable the Rewrite Engine
+RewriteEngine On
+
+# Allow .php file requests without the .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Redirect requests without extension to the .php file
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([^\.]+)$ $1.php [L]
+</IfModule>
+
+# Serve index.php as the default directory index
+DirectoryIndex index.php
