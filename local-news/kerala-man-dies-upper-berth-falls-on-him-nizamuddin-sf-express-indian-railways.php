@@ -210,16 +210,43 @@ Thursday, 27 June 2024</span>
 	</mark></p>
 	<p>After a media story claiming that a man traveling from Kerala to New Delhi died when an occupied upper berth fell on him during his train travel, Indian Railways released an explanation on Wednesday.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The event happened last week as Ali Khan, a 62-year-old passenger, was traveling in the Ernakulam-Hazrat Nizamuddin Millennium Superfast Express (12645) sleeper berth.
 </p>
 <p>Khan was resting on the lower berth when the upper berth, which was occupied by another passenger, suddenly collapsed upon him. Khan was seriously injured by the collision between the passenger's weight and the collapsing berth.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Railway authorities quickly took him to a hospital in Hyderabad. However, while having surgery, he died from his injuries.
 </p>
 <p>
 A few days after the occurrence, India Railways released an explanation stating that the accident was not brought on by a closed berth. According to the railways, the accident occurred because the passenger had not correctly closed the upper berth using the chains, which was discovered when the berth in issue was inspected by investigators.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>"The individual in question was seated in the lower berth of seat number 57 on the S/6 coach. Because the upper berth's chain was not positioned correctly, the upper berth seat collapsed. A spokesman for the Railway Ministry issued an official explanation, saying, "The seat fell down due to improper chaining of the upper berth by passenger."
 </p>
 <p>
