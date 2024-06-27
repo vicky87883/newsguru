@@ -17,7 +17,8 @@ $conn = @new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
+// Set the character set to utf8
+$conn->set_charset("utf8");
 // Get the article ID from the URL
 $articleId = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
