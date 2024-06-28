@@ -34,6 +34,7 @@
 </div>
 </div>
 <div class="sidebar-widget widget_categories_2 border-radius-10 bg-white mb-30">
+	
 <ul class="font-small text-muted">
 <li class="cat-item cat-item-2 active"><a href=#><span class=mr-10>
 	<i class="fa-solid fa-globe"></i>
@@ -42,6 +43,15 @@
 	<i class="fa-solid fa-arrow-trend-up"></i>
 </span>Businesss</a></li>
 <li class="cat-item cat-item-4"><a href=#><span class=mr-10>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <i class="fa-solid fa-vr-cardboard"></i>
 </span>Entertainment</a></li>
 <li class="cat-item cat-item-5"><a href=https://www.newsguru.live/sport/latest-sport-news.php><span class=mr-10>
