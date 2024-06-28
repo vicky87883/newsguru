@@ -1,4 +1,10 @@
-
+<?php
+require_once('dbcon.php');
+$query2 = "SELECT * FROM `buisness`   ORDER BY `id` DESC;";
+$result = mysqli_query($con,$query);
+$result2 = mysqli_query($con,$query2);
+?>
+<?php include "script.php" ?> 
 <!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
