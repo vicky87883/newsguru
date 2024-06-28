@@ -31,6 +31,16 @@
 	</div>
 </div>
 </div>
+<!-- horizonarticle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="2838295918"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div class="pagination-area mb-30">
                                     <nav aria-label="Page navigation example">
                                         <ul class="pagination justify-content-start">
