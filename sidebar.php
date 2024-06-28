@@ -57,6 +57,16 @@
 <li class="cat-item cat-item-5"><a href=https://www.newsguru.live/sport/latest-sport-news.php><span class=mr-10>
 <i class="fa-solid fa-person-biking"></i>
 </span>Sport News</a></li>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-ii+g-11-49+bi"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="8282194284"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <li class="cat-item cat-item-6"><a href=https://www.newsguru.live/health/latest-health-and-fitness-news.php><span class=mr-10>
 <i class="fa-solid fa-heart-pulse"></i>
 </span>Health</a></li>
