@@ -27,6 +27,15 @@
 </div>
 <div class="post-content media-body">
 <h6 class="post-title mb-10 text-limit-2-row"><a href="<?php echo ($row['link']); ?>"><?php echo ($row['heading']); ?></a></h6>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6842988096"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
 </div>
 </li>
@@ -40,6 +49,16 @@
 <div class="widget-header widget-header-style-1 position-relative mb-15">
 <h5 class=widget-title>Newsletter</h5>
 </div>
+<!-- displayads4 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6842988096"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div class=newsletter>
 <p class=font-medium>Heaven fruitful doesn't over les idays appear creeping</p>
 <form target=_blank action=# method=get class="subscribe_form relative mail_part">
