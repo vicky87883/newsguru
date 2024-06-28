@@ -44,11 +44,11 @@
 </span>Businesss</a></li>
 <li class="cat-item cat-item-4"><a href=#><span class=mr-10>
 <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
+     style="display:block"
      data-ad-format="fluid"
+     data-ad-layout-key="-ii+g-11-49+bi"
      data-ad-client="ca-pub-6958761602872755"
-     data-ad-slot="3917672390"></ins>
+     data-ad-slot="8282194284"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
