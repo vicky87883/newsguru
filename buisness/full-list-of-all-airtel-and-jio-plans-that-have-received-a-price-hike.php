@@ -201,7 +201,7 @@ Saturday, 29 June 2024</span>
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
 </figure>
-< class=single-excerpt>
+<div class=single-excerpt>
 	<p><mark>The updated rates for Reliance Jio and Airtel's prepaid and postpaid plans have been released. According to information provided by both telecom firms, the new tariff plans will go into effect on July 3, 2024. The whole list of new Airtel and Jio plans is available here.
     </mark></p>
     <p>Reliance Jio and Airtel have announced updated tariffs for their prepaid and postpaid plans, marking a substantial shift in their pricing strategy. According to information provided by both telecom firms, the new tariff plans will go into effect on July 3, 2024. With the same service perks, the prices of the different plans have been noticeably increased in this edition. The whole list of new Airtel and Jio plans is available here.
