@@ -33,8 +33,13 @@ $result2 = mysqli_query($con,$query2);
 
   gtag('config', 'G-V6HH2RKGTW');
 </script>
+<style>
+    body p{
+        color:#000 !important;
+    }
+</style>
 </head>
-<body style="color:#000">
+<body>
 <div id=preloader-active>
 <div class="preloader d-flex align-items-center justify-content-center">
 <div class="preloader-inner position-relative">
