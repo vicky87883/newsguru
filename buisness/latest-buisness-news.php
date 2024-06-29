@@ -268,7 +268,7 @@ $result1 = mysqli_query($con,$query1);
 <div class="col-lg-4 col-md-12 sidebar-right">
 <div class="sidebar-widget p-20 border-radius-15 bg-white widget-text wow fadeIn animated">
 <div class="widget-header mb-30">
-<h5 class=widget-title>Search <span>tips</span></h5>
+<h5 class=widget-title>Search <span>More News</span></h5>
 </div>
 <div>
 <?php
