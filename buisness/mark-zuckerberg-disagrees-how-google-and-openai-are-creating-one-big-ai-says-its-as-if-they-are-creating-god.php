@@ -176,12 +176,12 @@ $result2 = mysqli_query($con,$query2);
 <div class="entry-header entry-header-1 mb-30 mt-50">
 <div class="entry-meta meta-0 font-small mb-30"><a href=#><span class="post-cat bg-success color-white">Global News</span></a></div>
 <h1 class="post-title mb-30">
-First batch of "Nagastra-1" suicide drones delivered to the Indian Army heralds a new era in warfare.
+Mark Zuckerberg claims that Google and OpenAI are building God, and he disagrees that they are constructing a single, massive AI.
 </h1>
 <div class="entry-meta meta-1 font-x-small color-grey text-uppercase">
 <span class=post-by>By Newsguru Editors</span>
-<span class=post-on>11:10 pm
-Saturday, 15 June 2024</span>
+<span class=post-on>10:02 pm
+Saturday, 29 June 2024</span>
 <span class=time-reading>10 mins read</span>
 </div>
 </div>
@@ -205,21 +205,63 @@ Saturday, 15 June 2024</span>
 </div>
 </figure>
 <div class=single-excerpt>
-	<p>With the delivery of its first batch of "suicide drones," built in-house and named "Nagastra-1," the Indian Army has demonstrated the increasing significance of drone technology in contemporary conflict. With these advanced drones, India's defensive capabilities have advanced significantly. They are intended for precise strikes on adversary sites.
+<p><mark>According to Mark Zuckerberg, CEO of Meta, discussion of creating the "one true AI" is a "pretty big turnoff" for IT companies. That's not going to be the case, he argues.
+</mark></p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>"I find the concept of creating this one real AI by tech sector individuals to be a major turnoff. It's almost as though they believe they are making God or something similar.In an interview with YouTuber Kane Sutter, Mark Zuckerberg talked about Ray Ban Meta, AI Studio, and Meta's AI approach, among other topics. "I don't think that's how this plays out," he added. In the interview, Mark Zuckerberg stated that he thinks there won't be "just one AI" in the future. He states, "I just don't think that's the way that things tend to go."
 </p>
+<p>It's not as though everyone uses only one app on their phones. People don't want to get all of their stuff from a single creator. People don't want to purchase everything from a single company," argues Zuckerberg. He predicts that in the future, humanity would employ various AIs for various tasks. He also used Meta as an example. He admitted that Meta has a main Meta AI chatbot, just like its largest rivals Google and OpenAI, who likewise appear to be striving toward "one big AI" at the moment. However, he claims that the corporation is developing a wide range of tiny AIs, each with a distinct function.
+</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>The interview follows Meta's announcement on Thursday regarding the US launch of its AI Studio software early access program. With the help of this new technology, creators and other users will be able to create AI avatars that can communicate with people using Instagram's messaging app. These AI avatars are explicitly labeled as "AI" to avoid any confusion, and they can participate in enjoyable conversations and respond to followers' questions.
+</p>
+<p>Mark Zuckerberg also talked about the development and future plans for holographic displays and Ray-Ban Meta smart spectacles throughout the discussion. He emphasized that, in contrast to expensive gadgets like the Meta Quest Pro, smart glasses without displays may nevertheless provide amazing experiences thanks to cameras, microphones, and artificial intelligence.
+</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
-Produced by Economic Explosives Limited (EEL), a Solar Industries subsidiary, the Nagastra-1 is a kind of "loitering munition." This implies that it has the ability to hover over a predetermined region in order to locate and lock onto targets in order to unleash a precise attack—even in midair.</p>
-<p>The drones have GPS-enabled navigation systems that allow for precise aiming within a 2-meter radius. They weigh about 9 kg. The Nagastra-1 can carry a 1 kg warhead for up to 30 minutes and cover up to 30 km with its updated version able to carry a 2.2 kg payload farther away.
+"Even before you have any kind of display on these glasses, I actually think you can create a great experience with cameras, microphones, speakers, and the ability to do multimodal AI," added Zuckerberg.
 </p>
+<p>He listed three categories of products: full holographic displays, heads-up displays, and smart glasses without displays. He also mentioned upcoming developments, such wristbands that can operate neural interfaces by interpreting brain signals. He did point out that these technologies will probably work in tandem with cellphones rather than completely replace them.
+</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
-Most importantly, these drones can be reused. In the event that a mission is canceled or a target is not found, the Nagastra-1 can land safely by returning to base via a parachute recovery system.
+People may still use their phones, for example, but they may opt to utilize smart glasses for brief tasks like messaging or snapping pictures. Like smartphones have complemented computers, Zuckerberg thinks that as these glasses get more useful, their use will grow.
 </p>
-<p>
-The purchase of the Nagastra-1 by the Indian Army fits with a global trend toward drone warfare. Drone attacks on Russian targets by Ukraine and maritime vessel attacks by the Houthi group in Yemen are two recent examples.
-</p>
-<p>India's recent agreement with the US to purchase armed MQ-9B SeaGuardian drones from General Atomics, which will be constructed in India, is additional evidence of the nation's reliance on drone technology and will improve its intelligence, surveillance, and reconnaissance (ISR) capabilities.</p>
+	<p>The CEO of Meta also doesn't think cellphones will entirely disappear from the world of technology in the future. He believes that even in ten years, we will still use our phones, albeit maybe less regularly and compulsively. In ten years, he predicted, "we'll probably still have phones, but we'll probably use them much more intentionally instead of just instinctively reaching for them and grabbing them for any technological task that we want to do."
+    </p>
 </div>
-<?php include('../sociallink.php') ?>
 <?php include('../relatedpost.php') ?>
 </div>
 	<?php include('dontmiss.php') ?>
