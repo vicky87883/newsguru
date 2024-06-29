@@ -63,18 +63,18 @@ $result5 = mysqli_query($con,$query5);
 <h5 class="widget-title mt-5">Tags Cloud</h5>
 </div>
 <div class=tagcloud>
-<a href=#>Beauty</a>
-<a href=#>Book</a>
-<a href=#>Design</a>
-<a href=#>Fashion</a>
-<a href=#>Lifestyle</a>
-<a href=#>Travel</a>
-<a href=#>Science</a>
-<a href=#>Health</a>
-<a href=#>Sports</a>
-<a href=#>Arts</a>
-<a href=#>Books</a>
-<a href=#>Style</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Beauty</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Book</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Design</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Fashion</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Lifestyle</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Travel</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Science</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Health</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Sports</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Arts</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Books</a>
+<a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Style</a>
 </div>
 </div>
 </div>

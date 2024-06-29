@@ -42,7 +42,7 @@
 <li class="cat-item cat-item-3"><a href=#><span class=mr-10>
 	<i class="fa-solid fa-arrow-trend-up"></i>
 </span>Businesss</a></li>
-<li class="cat-item cat-item-4"><a href=#><span class=mr-10>
+<li class="cat-item cat-item-4"><a href=https://www.newsguru.live/buisness/latest-buisness-news.php><span class=mr-10>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="fluid"
@@ -80,7 +80,7 @@
 <h5 class=widget-title><strong>Categories</strong></h5>
 </div>
 <ul class="font-small text-muted">
-<li class="cat-item cat-item-2"><a href=#>Global Economy</a></li>
+<li class="cat-item cat-item-2"><a href=https://www.newsguru.live/buisness/latest-buisness-news.php>Global Economy</a></li>
 <li class="cat-item cat-item-3"><a href=#>Environment</a></li>
 <li class="cat-item cat-item-4"><a href=#>Religion</a></li>
 <li class="cat-item cat-item-5"><a href=https://www.newsguru.live/education/Latest-Education-News.php>Education</a></li>
