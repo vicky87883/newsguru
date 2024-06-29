@@ -182,7 +182,6 @@ $result4 = mysqli_query($con,$query4);
 <div class="entry-meta meta-0 font-small mb-30"><a href=#><span class="post-cat bg-success color-white">Health News</span></a></div>
 <h1 class="post-title mb-30">
 तीसरे स्टेज में स्तन कैंसर से जूझ रही हिना खान को जानें जोखिम
-
 </h1>
 <div class="entry-meta meta-1 font-x-small color-grey text-uppercase">
 <span class=post-by>By Newsguru Editors</span>
@@ -246,9 +245,6 @@ Sunday, 29 June 2024</span>
 <p>पूरी तरह से इलाज के बाद 5 वर्ष तक जीवित रहने की संभावना लगभग 86% है, लेकिन कई कारक इसे प्रभावित करते हैं। दृष्टिकोण व्यक्तिगत रूप से प्रभावित हो सकता है, साथ ही कैंसर का प्रकार और ग्रेड, उपचार का प्रकार और प्रतिक्रिया, और कई अन्य व्यक्तिगत कारक। हालाँकि, इस स्थिति का सबसे बुरा पक्ष यह है कि इलाज के बाद भी बार-बार ब्रेस्ट कैंसर होने का खतरा रहता है।
 </p>
 </div>
-<?php include('../sociallink.php') ?>
-	<?php include('../relatedpost.php') ?>
-
 </div>
 <?php include('../rightside.php') ?></div>
 </div>
