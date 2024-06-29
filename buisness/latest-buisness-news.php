@@ -203,7 +203,7 @@ $result2 = mysqli_query($con,$query2);
 <div class="entry-meta meta-1 font-x-small color-grey float-left text-uppercase">
 <span class=post-by>By <a href=#>Newsguru Editors</a></span>
 <span class=post-on><?php echo ($row['time']); ?></span>
-<span class=time-reading>12 mins read</span>
+<span class=time-reading><?php echo ($row['readtime']); ?></span>
 </div>
 </div>
 </div>
