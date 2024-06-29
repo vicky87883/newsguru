@@ -47,13 +47,11 @@
     <form id="rssForm" enctype="multipart/form-data">
     <label for="image">File (Image or PDF):</label>
     <input type="file" id="image" name="image" accept=".jpg,.jpeg,.png,.gif,.webp,.pdf,.JPG,.JPEG,.PNG,.GIF,.WEBP" required>
-
         <label for="tag">Tag:</label>
         <input type="text" id="tag" name="tag" required>
-
         <label for="heading">Heading:</label>
         <input type="text" id="heading" name="heading" required>
-<label for="text">Description:</label>
+        <label for="text">Description:</label>
         <input type="text" id="text" name="text" required>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
@@ -61,19 +59,13 @@
         <input type="text" id="readtime" name="readtime" required>
         <label for="link">Link:</label>
         <input type="url" id="link" name="link" required>
-       
-
         <button type="submit">Submit</button>
     </form>
-
     <div class="response-message" id="responseMessage"></div>
-
     <script>
         document.getElementById('rssForm').addEventListener('submit', function(event) {
             event.preventDefault();
-
             const formData = new FormData(this);
-
             fetch('https://www.newsguru.live/buisness/newsapi.php', {
                 method: 'POST',
                 body: formData

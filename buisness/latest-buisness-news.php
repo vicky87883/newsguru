@@ -208,7 +208,10 @@ $result2 = mysqli_query($con,$query2);
 </div>
 </div>
 </article>
-	
+<?php
+                        }
+
+                        ?>
 </div>
 </div>
 <div class="pagination-area mb-30">
@@ -269,10 +272,7 @@ $result2 = mysqli_query($con,$query2);
 </div>
 </div>
 </div>
-<?php
-                        }
 
-                        ?>
 </div>
 </div>
 </div>

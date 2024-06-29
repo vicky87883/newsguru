@@ -165,14 +165,6 @@ $result2 = mysqli_query($con,$query2);
 <a href=#>Style</a>
 </div>
 </div>
-<div class="sidebar-widget widget-ads mb-30">
-<div class="widget-header tags-close mb-20">
-<h5 class="widget-title mt-5">Your Ads Here</h5>
-</div>
-<a href=../assets/imgs/news-1.jpg class=play-video data-animate=zoomIn data-duration=1.5s data-delay=0.1s>
-<img class=border-radius-10 src=assets/imgs/ads-1.jpg alt>
-</a>
-</div>
 </div>
 </aside>
 <?php include('header.php') ?>
@@ -187,11 +179,6 @@ Terrorist attack: Chinese company closes its Pakistani operations and fires hund
 <span class=post-by>By Newsguru Editors</span>
 <span class=post-on>03-28-2024 02:34:27</span>
 <span class=time-reading>12 mins read</span>
-<p class="font-x-small mt-10">
-<span class=hit-count><i class="ti-comment mr-5"></i>82 comments</span>
-<span class=hit-count><i class="ti-heart mr-5"></i>68 likes</span>
-<span class=hit-count><i class="ti-star mr-5"></i>8/10</span>
-</p>
 </div>
 </div>
 <div class="row mb-50">
