@@ -204,10 +204,28 @@ Saturday, 29 June 2024</span>
 <div class=single-excerpt>
 	<p><mark>The updated rates for Reliance Jio and Airtel's prepaid and postpaid plans have been released. According to information provided by both telecom firms, the new tariff plans will go into effect on July 3, 2024. The whole list of new Airtel and Jio plans is available here.
     </mark></p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>Reliance Jio and Airtel have announced updated tariffs for their prepaid and postpaid plans, marking a substantial shift in their pricing strategy. According to information provided by both telecom firms, the new tariff plans will go into effect on July 3, 2024. With the same service perks, the prices of the different plans have been noticeably increased in this edition. The whole list of new Airtel and Jio plans is available here.
     </p>
     <div><strong>New Reliance Jio prepaid and postpaid plans for 2024: List of new prices</strong></div>
     <div><strong>Jio 1-month prepaid plan prices increased</strong></div>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>The most basic package, which was previously priced at Rs 155 for one month, will now cost Rs 189 and provide 28 days of unlimited phone calls, 2 GB of data, and SMS perks. Popular package Rs 249 (up from Rs 209) offers unlimited calls and SMS for the same period of time, along with 1 GB of internet every day.
     </p>
     <p>In the meantime, 1.5 GB of data per day and comparable call and SMS advantages are now included in the Rs 299 package, which was previously available for Rs 239. Price increases have also affected the Rs 349 and Rs 399 plans, which now offer daily data allotment of 2 GB and 2.5 GB and cost Rs 349 and Rs 399, respectively. The Rs 449 package (formerly Rs 399) provides normal unlimited calls and SMS for 28 days coupled with a substantial 3 GB of data per day.
@@ -215,17 +233,44 @@ Saturday, 29 June 2024</span>
     <div><strong>New 2-month Jio prepaid plans</strong></div>
     <p>Plans for Jio's two months have also been modified. 1.5 GB of data per day is offered by the Rs 579 plan (up from Rs 479), and 2 GB of data per day is offered by the Rs 629 plan (formerly Rs 533). Both plans are valid for 56 days.
     </p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <div><strong>Long-term prepaid Jio plans with new prices</strong></div>
     <p>Significant updates have been made to the three-month plans for clients looking for longer-term choices. The 6 GB data plan for 84 days is included in the Rs 479 plan (up from Rs 395), while the 1.5 GB daily data plan is offered in the Rs 799 plan (up from Rs 666). Along with unlimited voice calls and SMS features, the Rs 859 and Rs 1199 plans—which were once available for Rs 719 and Rs 999, respectively—now include 2 GB and 3 GB of daily data for the same length.
 </p>
 <p>The adjustments have not excluded annual plans. Up from Rs 1559, the Rs 1899 package provides 24 GB of data spread over 336 days. In addition to unlimited calls and SMS, the premium Rs 3599 plan (formerly Rs 2999) now offers 2.5 GB of data each day for the entire year.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Data add-on packs have also experienced a price change in addition to these. Extra data is available for 1 GB with the Rs 19 plan (formerly Rs 15), 2 GB with the Rs 29 plan (up from Rs 25), and 6 GB with the Rs 69 plan (up from Rs 61).
 </p>
 <div><strong>New postpaid Jio plan prices</strong></div>
 <p>Postpaid plans have also been updated. The Rs 349 package, which previously cost Rs 299, now costs Rs 349 and provides 30 GB of data every billing cycle. Previously available for Rs 399, the Rs 449 package now offers 75 GB of data per billing cycle.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Notably, unlimited 5G data will be included in all plans offering 2GB or more of data per day, improving the overall value for heavy data customers. On the specified effective date, all current Jio touchpoints and channels will offer these new price structures and perks.
 </p>
@@ -233,11 +278,29 @@ Notably, unlimited 5G data will be included in all plans offering 2GB or more of
 2024 Airtel prepaid plans: Full list of new prices</strong></div>
 <p>Customers who choose monthly prepaid plans can now get 2GB of data, unlimited talking, and 100 SMS per day for 28 days with the Rs 199 plan—previously Rs 179. The same calling and SMS features are included in the Rs 299 package, which was previously priced at Rs 265 and offers 1GB of data per day for 28 days. From Rs 299 to Rs 349, the package now offers 1.5GB of data each day. For a 28-day period, the Rs 409 plan, which was previously priced at Rs 359, now offers 2.5GB of data per day, while the Rs 449 plan, which was previously priced at Rs 399, now delivers 3GB of data per day.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>For those seeking longer-term choices, 1.5GB of data per day for 56 days is included in the Rs 579 package (up from Rs 479). There is 2GB of data each day for the same length with the Rs 649 package, which was Rs 549. The Rs 509 plan, which was previously priced at Rs 455, now offers 6GB of total data for a three-month period. In contrast, the Rs 859 plan, which was previously priced at Rs 719, and the Rs 979 plan, which was previously priced at Rs 839, offer 1.5GB and 2GB of daily data, respectively, for 84 days.
 </p>
 <p>Adjustments have also been made to the annual prepaid options. After going up from Rs 1799 to Rs 1999, the package provides 24GB of data, 100 SMS per day, and unlimited calling for a full year. Previously available for Rs 2999, the Rs 3599 plan now offers 365 days of 2GB of internet per day along with unlimited calling and 100 SMS each day.
 </p>
 <div><strong>New Airtel Data Add-On plans</strong></div>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Airtel has updated its data add-on packs to accommodate increased data requirements. For just Rs 22, you can now get 1GB of extra data every day, up from Rs 19. 2GB of extra data is available for one day with the Rs 33 plan (formerly Rs 29), while 4GB of extra data is included with the Rs 77 plan (previously Rs 65) for the duration of the base plan.
 </p>
 <div><strong>New 2024 Airtel Postpaid plans</strong></div>
