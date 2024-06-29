@@ -209,6 +209,11 @@ $result2 = mysqli_query($con,$query2);
 </div>
 </div>
 </article>
+
+<?php
+                        }
+
+                        ?>
 </div>
 </div>
 <div class="pagination-area mb-30">
@@ -268,10 +273,6 @@ $result2 = mysqli_query($con,$query2);
     <a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><i class="fa-solid fa-link"></i><?php echo ($row['link']); ?></a>
 </div>
 
-<?php
-                        }
-
-                        ?>
 </div>
 </div>
 
