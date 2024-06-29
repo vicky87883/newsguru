@@ -210,13 +210,40 @@ Saturday, 29 June 2024</span>
 <div class=single-excerpt>
 <p><mark>"I want to be very clear that we are not in a hurry to return home," NASA's commercial crew program manager Steve Stich said.
 </mark></p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Both NASA and Boeing officials have come out against reports that NASA astronauts Sunita Williams and Butch Wilmore are stuck on the International Space Station (ISS) because of technical difficulties. They emphasize that the astronauts are safe and that their return just requires careful planning.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The Boeing Starliner spacecraft that carried the astronauts to the International Space Station (ISS) was suspected of having helium leaks, which sparked worries earlier this month. However, NASA representatives reassured the public that everything is under control at a late-Friday press briefing.
 </p>
 <p>
 "I want to be very clear that we are not in a hurry to return home," NASA's commercial crew program manager Steve Stich said.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 "The station is a nice, safe place to stop and take our time to work through the vehicle and make sure we're ready to come home," he said, underscoring the ISS's safety.
 </p>
@@ -224,6 +251,15 @@ Saturday, 29 June 2024</span>
 </p>
 <p>A recent discovery of a water leak in a service and cooling umbilical unit has resulted in an extension of the mission's timeframe. Due to this mishap, which stopped a spacewalk prematurely on June 24, NASA has revised its timeline, aiming for the next spacewalk by the end of July. Ground crews will have plenty of time to repair the leak and guarantee astronaut safety thanks to this postponement.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="6651075151"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The astronauts' stay on the ISS has been greatly prolonged, despite the fact that their original eight-day mission was set. NASA does, however, guarantee that the spacecraft has enough supplies to sustain the occupants throughout this period.
 </p>
