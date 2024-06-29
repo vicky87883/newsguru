@@ -74,7 +74,7 @@
 
             const formData = new FormData(this);
 
-            fetch('https://www.newsguru.live/newsapi.php', {
+            fetch('https://www.newsguru.live/buisness/newsapi.php', {
                 method: 'POST',
                 body: formData
             })
