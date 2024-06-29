@@ -272,7 +272,7 @@ $result1 = mysqli_query($con,$query1);
 </div>
 <div>
 <?php
-                        while($row = mysqli_fetch_assoc($result))
+                        while($row = mysqli_fetch_assoc($result1))
                         {
                             ?>
     <a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><i class="fa-solid fa-link"></i><?php echo ($row['hlink']); ?></a>
