@@ -42,7 +42,7 @@ try {
 // Function to handle GET requests
 function handleGetRequest($pdo) {
     try {
-        $stmt = $pdo->query("SELECT * FROM buisness ORDER BY pubDate DESC");
+        $stmt = $pdo->query("SELECT * FROM buisness ORDER BY id DESC");
         $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
         echo json_encode($posts);
     } catch (Exception $e) {
