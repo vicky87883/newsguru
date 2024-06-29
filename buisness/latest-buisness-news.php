@@ -1,8 +1,9 @@
 <?php
 require_once('dbcon.php');
 $query2 = "SELECT * FROM `buisness`   ORDER BY `id` DESC;";
-$query2 = "SELECT * FROM `buisness`   ORDER BY `id` DESC;";
+$query1 = "SELECT * FROM `linker`   ORDER BY `id` DESC;";
 $result2 = mysqli_query($con,$query2);
+$result1 = mysqli_query($con,$query1);
 ?>
 <?php include "script.php" ?> 
 <!DOCTYPE html>
@@ -270,7 +271,14 @@ $result2 = mysqli_query($con,$query2);
 <h5 class=widget-title>Search <span>tips</span></h5>
 </div>
 <div>
-    <a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><i class="fa-solid fa-link"></i><?php echo ($row['link']); ?></a>
+<?php
+                        while($row = mysqli_fetch_assoc($result))
+                        {
+                            ?>
+    <a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><i class="fa-solid fa-link"></i><?php echo ($row['hlink']); ?></a>
+    <?php
+                        }
+                            ?>
 </div>
 
 </div>
