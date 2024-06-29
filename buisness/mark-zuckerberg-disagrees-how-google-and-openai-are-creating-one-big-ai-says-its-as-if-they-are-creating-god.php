@@ -34,9 +34,7 @@ $result2 = mysqli_query($con,$query2);
   gtag('config', 'G-V6HH2RKGTW');
 </script>
 <style>
-    body p{
-        color:#000 !important;
-    }
+    
 </style>
 </head>
 <body>
@@ -209,7 +207,7 @@ Saturday, 29 June 2024</span>
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
 </figure>
-<div class=single-excerpt>
+<div class=single-excerpt style="color:black !important;">
 <p><mark>According to Mark Zuckerberg, CEO of Meta, discussion of creating the "one true AI" is a "pretty big turnoff" for IT companies. That's not going to be the case, he argues.
 </mark></p>
 <ins class="adsbygoogle"
