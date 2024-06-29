@@ -265,7 +265,7 @@ $result2 = mysqli_query($con,$query2);
 <h5 class=widget-title>Search <span>tips</span></h5>
 </div>
 <div>
-<a class="font-small text-muted" href="<?php echo ($row['link']); ?>"><?php echo ($row['link']); ?></a>
+<i class="fa-solid fa-link"></i><a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><?php echo ($row['link']); ?></a>
 </div>
 </div>
 </div>
