@@ -1,10 +1,13 @@
 <?php
 require_once('dbcon.php');
-$query2 = "SELECT * FROM `frontload`   ORDER BY `id` DESC;";
+$query2 = "SELECT * FROM `health`   ORDER BY `id` DESC;";
+$query3 = "SELECT * FROM `health`   ORDER BY `id` DESC;";
+$query4 = "SELECT * FROM `health`   ORDER BY `id` DESC;";
 $result2 = mysqli_query($con,$query2);
 $result3 = mysqli_query($con,$query3);
 $result4 = mysqli_query($con,$query4);
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html class=no-js lang=en>
 <head>
 <meta charset=utf-8>
