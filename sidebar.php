@@ -39,10 +39,10 @@
 <li class="cat-item cat-item-2 active"><a href=#><span class=mr-10>
 	<i class="fa-solid fa-globe"></i>
 </span>International</a></li>
-<li class="cat-item cat-item-3"><a href=#><span class=mr-10>
+<li class="cat-item cat-item-3"><a href=https://www.newsguru.live/buisness/latest-buisness-news.php><span class=mr-10>
 	<i class="fa-solid fa-arrow-trend-up"></i>
 </span>Businesss</a></li>
-<li class="cat-item cat-item-4"><a href=https://www.newsguru.live/buisness/latest-buisness-news.php><span class=mr-10>
+<li class="cat-item cat-item-4"><a href=><span class=mr-10>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="fluid"
