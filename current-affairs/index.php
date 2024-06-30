@@ -18,7 +18,7 @@ $sql = "SELECT id, heading, text FROM article";
 $result = $conn->query($sql);
 
 $sql2 = "SELECT hlink, link, FROM linker";
-$result = $conn->query($sql2);
+$result2 = $conn->query($sql2);
 ?>
 <?php include('script.php') ?>
 <!DOCTYPE html>
@@ -278,7 +278,7 @@ $result = $conn->query($sql2);
 </div>
 <div>
 <?php
-                        while($row = mysqli_fetch_assoc($result1))
+                        while($row = mysqli_fetch_assoc($result2))
                         {
                             ?>
     <a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><i class="fa-solid fa-link"></i><?php echo ($row['hlink']); ?></a>
