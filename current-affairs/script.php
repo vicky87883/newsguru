@@ -6,10 +6,7 @@ if($mysqli->connect_errno !=0)
     exit();
 }
 // Set the character set to utf8mb4
-if (!$mysqli->set_charset("utf8mb4")) {
-    echo "Error loading character set utf8mb4: " . $mysqli->error;
-    exit();
-}
+$mysqli->set_charset("utf8mb4");
 $start = 0;
 // Setting the number of rows to display in a page
 $rows_per_page = 9;
