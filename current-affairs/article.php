@@ -76,4 +76,3 @@ $resultSidebar = $stmtSidebar->get_result();
 // Close connection
 $conn->close();
 ?>
-st
