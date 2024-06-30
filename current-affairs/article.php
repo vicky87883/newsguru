@@ -40,7 +40,7 @@ $resultSidebar = $stmtSidebar->get_result();
     <title><?php echo htmlspecialchars($article['heading']); ?></title>
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <style>
- /* Basic Reset */
+        /* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -48,14 +48,14 @@ $resultSidebar = $stmtSidebar->get_result();
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Softer, modern font */
+    background-color: #f0f4f8; /* Light background color */
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Adjusted to align items at the top */
+    align-items: flex-start;
     padding: 20px;
-    min-height: 100vh; /* Ensure the body covers the full viewport height */
+    min-height: 100vh;
 }
 
 /* Container */
@@ -66,33 +66,33 @@ body {
     margin: auto;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
     overflow: hidden;
-    min-height: calc(100vh - 40px); /* Ensure the container expands to full viewport height minus padding */
+    min-height: calc(100vh - 40px);
 }
 
 /* Sidebar */
 .sidebar {
     width: 250px;
-    background: #3b5998; /* Changed to a distinct color, like Facebook blue */
-    color: #fff;
+    background: #e1e9f1; /* Light blue-grey color */
+    color: #555; /* Darker text color for contrast */
     padding: 20px;
     overflow-y: auto;
     position: sticky;
     top: 0;
-    flex-shrink: 0; /* Prevent the sidebar from shrinking */
-    height: 100vh; /* Extend sidebar to cover the full viewport height */
+    flex-shrink: 0;
+    height: 100vh;
 }
 
 .sidebar h2 {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 20px;
-    color: #ffcc00; /* Change header color for better contrast */
+    color: #007acc; /* Light blue for header text */
 }
 
 .sidebar ul {
     list-style: none;
-    padding: 0; /* Remove padding to align list items properly */
+    padding: 0;
 }
 
 .sidebar ul li {
@@ -100,18 +100,18 @@ body {
 }
 
 .sidebar ul li a {
-    color: #ffcc00; /* Changed to a color that contrasts with the sidebar background */
+    color: #007acc; /* Light blue for links */
     text-decoration: none;
     font-size: 18px;
     display: block;
-    padding: 8px;
-    border-radius: 4px;
-    transition: background 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
 }
 
 .sidebar ul li a:hover {
-    background: #ffcc00; /* Highlight background on hover */
-    color: #3b5998; /* Change text color on hover for better visibility */
+    background: #d1e4f1; /* Light hover background color */
+    color: #005f99; /* Slightly darker blue on hover */
 }
 
 /* Main Content */
@@ -122,7 +122,7 @@ body {
 }
 
 .article-content h1 {
-    font-size: 32px;
+    font-size: 28px; /* Slightly smaller font size for a softer look */
     margin-bottom: 20px;
     color: #333;
 }
@@ -130,6 +130,7 @@ body {
 .article-content p {
     font-size: 18px;
     line-height: 1.6;
+    color: #555; /* Softer text color */
 }
 
 /* Responsive Design */
@@ -148,7 +149,6 @@ body {
         padding: 10px;
     }
 }
-
 
     </style>
 </head>
@@ -178,3 +178,4 @@ body {
 // Close connection
 $conn->close();
 ?>
+s
