@@ -12,7 +12,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     http_response_code(200);
     exit();
 }
-
+// Set the character set to utf8mb4
+if (!$mysqli->set_charset("utf8mb4")) {
+    echo "Error loading character set utf8mb4: " . $mysqli->error;
+    exit();
+}
 // Include database configuration
 require 'config.php';
 
