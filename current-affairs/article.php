@@ -39,8 +39,7 @@ $resultSidebar = $stmtSidebar->get_result();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($article['heading']); ?></title>
     <!-- <link rel="stylesheet" href="styles.css"> -->
-    <style>
-        /* Basic Reset */
+    <style>/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -91,8 +90,8 @@ body {
 }
 
 .sidebar ul {
-    list-style: none;
-    padding: 0;
+    list-style: disc; /* Use bullet points for the list */
+    padding-left: 20px; /* Indent list items */
 }
 
 .sidebar ul li {
@@ -124,13 +123,28 @@ body {
 .article-content h1 {
     font-size: 28px; /* Slightly smaller font size for a softer look */
     margin-bottom: 20px;
-    color: #333;
+    color: #007acc; /* Light blue for main heading */
+}
+
+.article-content h2, .article-content h3, .article-content h4, .article-content h5, .article-content h6 {
+    color: #005f99; /* Use a consistent color for sub-headings */
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .article-content p {
     font-size: 18px;
     line-height: 1.6;
     color: #555; /* Softer text color */
+}
+
+.article-content ul {
+    list-style: disc; /* Use bullet points in main content as well */
+    margin-left: 20px; /* Indent list items */
+}
+
+.article-content ul li {
+    margin-bottom: 10px; /* Space between list items */
 }
 
 /* Responsive Design */
@@ -149,8 +163,7 @@ body {
         padding: 10px;
     }
 }
-
-    </style>
+</style>
 </head>
 <body>
     <div class="container">
@@ -178,4 +191,4 @@ body {
 // Close connection
 $conn->close();
 ?>
-s
+st
