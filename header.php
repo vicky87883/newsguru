@@ -68,11 +68,11 @@
                                                 </span>Contact</a></li>
                                     </ul>
                                     <div class="d-inline ml-50 tools-icon">
-                                        <a class="red-tooltip text-danger" href="https://www.newsguru.live/trending.php" data-toggle=tooltip data-placement=top
+                                        <a class="red-tooltip text-danger" href="https://www.newsguru.live/latest-trending-news" data-toggle=tooltip data-placement=top
                                             title data-original-title="Hot Topics">
                                             <img src="assets/imgs/smicon1.JPG" alt=icon/>
                                         </a>
-                                        <a class="red-tooltip text-primary" href="https://www.newsguru.live/trending.php" data-toggle=tooltip
+                                        <a class="red-tooltip text-primary" href="https://www.newsguru.live/latest-trending-news" data-toggle=tooltip
                                             data-placement=top title data-original-title=Trending>
                                                                                       <img src="assets/imgs/smicon2.JPG" alt=icon/>
                                         </a>
