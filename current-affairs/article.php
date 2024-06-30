@@ -40,7 +40,7 @@ $resultSidebar = $stmtSidebar->get_result();
     <title><?php echo htmlspecialchars($article['heading']); ?></title>
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <style>
-        /* Basic Reset */
+ /* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -53,8 +53,9 @@ body {
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start; /* Adjusted to align items at the top */
     padding: 20px;
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
 }
 
 /* Container */
@@ -67,27 +68,31 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    min-height: calc(100vh - 40px); /* Ensure the container expands to full viewport height minus padding */
 }
 
 /* Sidebar */
 .sidebar {
     width: 250px;
-    background: #333;
+    background: #3b5998; /* Changed to a distinct color, like Facebook blue */
     color: #fff;
     padding: 20px;
     overflow-y: auto;
-    height: 100vh;
     position: sticky;
     top: 0;
+    flex-shrink: 0; /* Prevent the sidebar from shrinking */
+    height: 100vh; /* Extend sidebar to cover the full viewport height */
 }
 
 .sidebar h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #ffcc00; /* Change header color for better contrast */
 }
 
 .sidebar ul {
     list-style: none;
+    padding: 0; /* Remove padding to align list items properly */
 }
 
 .sidebar ul li {
@@ -95,13 +100,18 @@ body {
 }
 
 .sidebar ul li a {
-    color: #fff;
+    color: #ffcc00; /* Changed to a color that contrasts with the sidebar background */
     text-decoration: none;
     font-size: 18px;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s; /* Smooth transition for hover effects */
 }
 
 .sidebar ul li a:hover {
-    text-decoration: underline;
+    background: #ffcc00; /* Highlight background on hover */
+    color: #3b5998; /* Change text color on hover for better visibility */
 }
 
 /* Main Content */
@@ -138,6 +148,7 @@ body {
         padding: 10px;
     }
 }
+
 
     </style>
 </head>
