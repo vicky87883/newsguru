@@ -13,6 +13,9 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
+// Set the character set to utf8mb4
+$mysqli->set_charset("utf8mb4");
 // Fetch the articles from the database
 $sql = "SELECT id, heading, text FROM article";
 $result = $conn->query($sql);
