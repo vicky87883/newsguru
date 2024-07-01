@@ -16,9 +16,6 @@ if ($conn->connect_error) {
 // Fetch the articles from the database
 $sql = "SELECT id, heading, text FROM article";
 $result = $conn->query($sql);
-
-$sql2 = "SELECT hlink, link, FROM linker";
-$result2 = $conn->query($sql2);
 ?>
 <?php include('script.php') ?>
 <!DOCTYPE html>
