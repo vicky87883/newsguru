@@ -70,9 +70,9 @@
 <li class="cat-item cat-item-6"><a href=https://www.newsguru.live/health/latest-health-and-fitness-news.php><span class=mr-10>
 <i class="fa-solid fa-heart-pulse"></i>
 </span>Health</a></li>
-<li class="cat-item cat-item-2"><a href=#><span class=mr-10>
+<li class="cat-item cat-item-2"><a href="https://www.newsguru.live/current-affairs/"><span class=mr-10>
 <i class="fa-solid fa-book"></i>
-</span>Magazine</a></li>
+</span>Current-affairs</a></li>
 </ul>
 </div>
 <div class="sidebar-widget widget_categories border-radius-10 bg-white mb-30">
