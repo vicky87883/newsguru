@@ -16,8 +16,6 @@ if ($conn->connect_error) {
 // Fetch the articles from the database
 $sql = "SELECT id, heading, text FROM article";
 $result = $conn->query($sql);
-$sql2 = "SELECT link,hlink, text FROM linker";
-$result10 = $conn->query($sql2);
 ?>
 <?php include('script.php') ?>
 <!DOCTYPE html>
@@ -276,16 +274,7 @@ $result10 = $conn->query($sql2);
 <h5 class=widget-title>Search <span>More News</span></h5>
 </div>
 <div>
-<?php
-                        while($row = mysqli_fetch_assoc($result10))
-                        {
-                            ?>
-    <a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><i class="fa-solid fa-link"></i><?php echo ($row['hlink']); ?></a>
-    <br>
-    <br>
-    <?php
-                        }
-                            ?>
+
 </div>
 
 </div>
