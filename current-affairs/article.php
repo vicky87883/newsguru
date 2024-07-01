@@ -39,6 +39,8 @@ $resultSidebar = $stmtSidebar->get_result();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($article['heading']); ?></title>
     <link rel="stylesheet" href="styles.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755"
+     crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
