@@ -54,7 +54,7 @@
                                             
                                         </li>
                                         <li class=mega-menu-item>
-                                            <a href=#><span class=mr-15>
+                                            <a href=https://www.newsguru.live/buisness/latest-buisness-news.php><span class=mr-15>
                                                 </span>Economy</a>                                            
                                         </li>
                                         <li><a href=https://www.newsguru.live/health/latest-health-and-fitness-news.php><span class=mr-15>
