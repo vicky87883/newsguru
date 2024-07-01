@@ -227,12 +227,12 @@ $result = $conn->query($sql);
     if(isset($_GET['page-nr']) && $_GET['page-nr'] > 1)
     {
         ?>
-<li> <a class=prev href="?page-nr=<?php echo $_GET['page-nr'] - 1?>">Previous</a></li>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"> <a class=prev href="?page-nr=<?php echo $_GET['page-nr'] - 1?>">Prev</a></li>
 <?php
     }
     else{
         ?>
-<li><a class=prev>Previous</a></li>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"><a class=prev>Prev</a></li>
 <?php
     }
     ?>
@@ -240,7 +240,7 @@ $result = $conn->query($sql);
         for( $counter= 1; $counter <= $pages; $counter++ )
         {
         ?>
-<li class="page-item active"><a href="?page-nr=<?php echo $counter ?>"><?php echo $counter ?></a></li>
+<li class="page-item active" style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"><a href="?page-nr=<?php echo $counter ?>"><?php echo $counter ?></a></li>
 <?php
 
         }
@@ -249,17 +249,17 @@ $result = $conn->query($sql);
     if(!isset($_GET['page-nr']))
     {
         ?>
-	<li><a href="?page-nr=2" class=next>Next</a></li>
+	<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"><a href="?page-nr=2" class=next>Next</a></li>
 <?php
     }else{
         if($_GET['page-nr']>=$pages)
         {
             ?>
-<li><a class=next>Next</a></li>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"><a class=next>Next</a></li>
 <?php
         }else{
             ?>
-<li><a class=next href="?page-nr=<?php echo $_GET['page-nr'] + 1 ?>">Next</a></li>
+<li style="background:#e24257;color:#fff !important;padding:5px;border-radius:5px;margin:5px;"><a class=next href="?page-nr=<?php echo $_GET['page-nr'] + 1 ?>">Next</a></li>
 <?php
         }
     }
