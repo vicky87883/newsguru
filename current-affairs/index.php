@@ -181,17 +181,16 @@ $result1 = $conn->query($sql1);
                                     <h5 class="widget-title">Search <span>More News</span></h5>
                                 </div>
                                 <div>
-                                <?php if ($result2->num_rows > 0): ?>
-                    <?php while ($row = $result2->fetch_assoc()): ?>
-                        <div class="col-lg-4 col-md-6 mb-30">
-                            <div class="news-item">
-                                <a class="font-small text-muted" href="<?php echo ($row['link']); ?>"><i class="fa-solid fa-link"></i> <?php echo ($row['hlink']); ?></a>
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
-                <?php else: ?>
-                    <p>No news found.</p>
-                <?php endif; ?>
+                                <?php
+                        while($row = mysqli_fetch_assoc($result2))
+                        {
+                            ?>
+    <a class="font-small text-muted" href="<?php echo ($row['link']); ?>" style="color:blue !important;"><i class="fa-solid fa-link"></i><?php echo ($row['hlink']); ?></a>
+    <br>
+    <br>
+    <?php
+                        }
+                            ?>
                                 </div>
                             </div>
                         </div>
