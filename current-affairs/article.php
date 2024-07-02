@@ -58,7 +58,7 @@ $resultSidebar = $stmtSidebar->get_result();
             <?php if ($article): ?>
                 <h1><?php echo htmlspecialchars($article['heading']); ?></h1>
                 <?php if (!empty($article['image'])): // Check if image exists ?>
-                    <img src="<?php echo htmlspecialchars($article['image']); ?>" alt="Article Image" width="100%" height="100%">
+                    <img src="<?php echo htmlspecialchars($article['image']); ?>" alt="Article Image" width="100px" height="100px">
                 <?php endif; ?>
                 <p><?php echo nl2br(htmlspecialchars($article['content'])); ?></p>
             <?php else: ?>
