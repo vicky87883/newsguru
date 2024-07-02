@@ -1,4 +1,8 @@
 <?php
+// Enable error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 header("Content-Type: application/json");
 
 // Database connection details
@@ -12,8 +16,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die(json_encode(["error" => "Connection failed: " . $conn->connect_error]));
+    echo json_encode(["error" => "Connection failed: " . $conn->connect_error]);
+    exit;
 }
+
+// Initialize response array
+$response = [];
 
 // Determine the request method
 $method = $_SERVER['REQUEST_METHOD'];
@@ -30,7 +38,7 @@ switch ($method) {
             $result = $stmt->get_result();
             $article = $result->fetch_assoc();
 
-            echo json_encode($article ? $article : ["error" => "Article not found"]);
+            $response = $article ? $article : ["error" => "Article not found"];
         } else {
             $sql = "SELECT id, heading, content, image FROM article";
             $result = $conn->query($sql);
@@ -40,7 +48,7 @@ switch ($method) {
                 $articles[] = $row;
             }
 
-            echo json_encode($articles);
+            $response = $articles;
         }
         break;
 
@@ -48,6 +56,10 @@ switch ($method) {
         // Handle POST request
         $heading = $_POST['heading'] ?? '';
         $content = $_POST['content'] ?? '';
+
+        // Log inputs for debugging
+        error_log("Heading: " . $heading);
+        error_log("Content: " . $content);
 
         if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
             $imageTmpPath = $_FILES['image']['tmp_name'];
@@ -61,22 +73,25 @@ switch ($method) {
                 $stmt->bind_param('sss', $heading, $content, $imagePath);
 
                 if ($stmt->execute()) {
-                    echo json_encode(["success" => true, "id" => $stmt->insert_id]);
+                    $response = ["success" => true, "id" => $stmt->insert_id];
                 } else {
-                    echo json_encode(["error" => "Database insert failed: " . $conn->error]);
+                    $response = ["error" => "Database insert failed: " . $conn->error];
                 }
             } else {
-                echo json_encode(["error" => "Failed to upload image"]);
+                $response = ["error" => "Failed to upload image"];
             }
         } else {
-            echo json_encode(["error" => "No image uploaded or upload error"]);
+            $response = ["error" => "No image uploaded or upload error"];
         }
         break;
 
     default:
-        echo json_encode(["error" => "Invalid request method"]);
+        $response = ["error" => "Invalid request method"];
         break;
 }
+
+// Output JSON response
+echo json_encode($response);
 
 $conn->close();
 ?>
