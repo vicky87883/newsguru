@@ -84,7 +84,7 @@ function handlePostRequest($pdo) {
             if (move_uploaded_file($image["tmp_name"], $targetFile)) {
                 // File uploaded successfully, save the post data with file path in the database
                 try {
-                    $stmt = $pdo->prepare("INSERT INTO currentaffairs (image, heading, text, content) VALUES (:image,:heading, :text, :content, NOW())");
+                    $stmt = $pdo->prepare("INSERT INTO currentaffairs (image, heading, text, content) VALUES (:image,:heading, :text, :content)");
                     $stmt->execute([
                         'image' => $targetFile, // Save the file path, not just the file name
                         'heading' => $heading,
