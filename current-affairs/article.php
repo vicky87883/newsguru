@@ -56,7 +56,7 @@ $resultSidebar = $stmtSidebar->get_result();
         <main class="article-content">
             <?php if ($article): ?>
                 <h1><?php echo htmlspecialchars($article['heading']); ?></h1>
-                <p><?php echo nl2br(htmlspecialchars($article['content'])); ?></p>
+                <p><?php echo nl2br(htmlspecialchars($article['content'])); ?><br></p>
             <?php else: ?>
                 <p>Article not found.</p>
             <?php endif; ?>
