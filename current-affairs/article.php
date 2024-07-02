@@ -60,7 +60,7 @@ $resultSidebar = $stmtSidebar->get_result();
                 <?php if (!empty($article['image'])): // Check if image exists ?>
                     <img src="<?php echo htmlspecialchars($article['image']); ?>" alt="Article Image" width="100px" height="100px">
                 <?php endif; ?>
-                <p><?php echo nl2br(htmlspecialchars($article['content'])); ?></p>
+                <p><?php echo (nl2br($article['content'])); ?></p>
             <?php else: ?>
                 <p>Article not found.</p>
             <?php endif; ?>
