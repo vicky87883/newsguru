@@ -25,24 +25,30 @@
     </div>
 
     <script>
-        document.getElementById('articleForm').addEventListener('submit', function(event) {
-            event.preventDefault();
+    document.getElementById('articleForm').addEventListener('submit', function(event) {
+        event.preventDefault();
 
-            var formData = new FormData(this);
+        var formData = new FormData(this);
 
-            fetch('api.php', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('response').innerHTML = 
-                    data.success ? `Article created with ID: ${data.id}` : `Error: ${data.error}`;
-            })
-            .catch(error => {
-                document.getElementById('response').innerHTML = `Error: ${error.message}`;
-            });
+        fetch('api.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            console.log('Response:', response);
+            return response.json(); // This line might throw an error if the response is not valid JSON
+        })
+        .then(data => {
+            console.log('Data:', data);
+            document.getElementById('response').innerHTML = 
+                data.success ? `Article created with ID: ${data.id}` : `Error: ${data.error}`;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('response').innerHTML = `Error: ${error.message}`;
         });
-    </script>
+    });
+</script>
+
 </body>
 </html>
