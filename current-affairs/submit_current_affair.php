@@ -49,16 +49,10 @@
     <input type="file" id="image" name="image" accept=".jpg,.jpeg,.png,.gif,.webp,.pdf,.JPG,.JPEG,.PNG,.GIF,.WEBP" required>
         <label for="heading">Heading:</label>
         <input type="text" id="heading" name="heading" required>
-<label for="text">Description:</label>
+<label for="text">text:</label>
         <input type="text" id="text" name="text" required>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="readtime">ReadTime:</label>
-        <input type="text" id="readtime" name="readtime" required>
-        <label for="link">Link:</label>
-        <input type="url" id="link" name="link" required>
-       
-
+        <label for="name">Description:</label>
+        <textarea type="text" id="name" name="name" row="2" col="10" required></textarea>
         <button type="submit">Submit</button>
     </form>
 

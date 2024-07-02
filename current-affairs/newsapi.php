@@ -57,13 +57,11 @@ function handleGetRequest($pdo) {
 
 // Function to handle POST requests
 function handlePostRequest($pdo) {
-    if (isset($_FILES['image']) && isset($_POST['heading']) && isset($_POST['text']) && isset($_POST['name']) &&  isset($_POST['readtime']) && isset($_POST['link'])) {
+    if (isset($_FILES['image']) && isset($_POST['heading']) && isset($_POST['text']) && isset($_POST['content'])) {
         $image = $_FILES['image'];
         $heading = $_POST['heading'];
         $text = $_POST['text'];
-        $name = $_POST['name'];
-        $readtime = $_POST['readtime'];
-        $link = $_POST['link'];
+        $content = $_POST['content'];
 
         // Define the target directory for uploaded files
         $targetDir = "uploads/";
@@ -86,14 +84,12 @@ function handlePostRequest($pdo) {
             if (move_uploaded_file($image["tmp_name"], $targetFile)) {
                 // File uploaded successfully, save the post data with file path in the database
                 try {
-                    $stmt = $pdo->prepare("INSERT INTO currentaffairs (image, heading, text, name, time, readtime, link) VALUES (:image,:heading, :text, :name, NOW(), :readtime, :link)");
+                    $stmt = $pdo->prepare("INSERT INTO currentaffairs (image, heading, text, content) VALUES (:image,:heading, :text, :content, NOW())");
                     $stmt->execute([
                         'image' => $targetFile, // Save the file path, not just the file name
                         'heading' => $heading,
                         'text' => $text,
-                        'name' => $name,
-                        'readtime' => $readtime,
-                        'link' => $link
+                        'content' => $content
                     ]);
                     $newPostId = $pdo->lastInsertId();
                     echo json_encode(["message" => "Post added successfully", "post_id" => $newPostId]);
