@@ -56,7 +56,7 @@ $resultSidebar = $stmtSidebar->get_result();
         <main class="article-content">
             <?php if ($article): ?>
                 <h1><?php echo htmlspecialchars($article['heading']); ?></h1>
-                <img src="" alt="" width="100%" height="100%">
+                <img src="<?php echo ($article['image']); ?>" alt="" width="100%" height="100%">
                 <p><?php echo nl2br(htmlspecialchars($article['content'])); ?></p>
             <?php else: ?>
                 <p>Article not found.</p>
