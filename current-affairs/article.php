@@ -42,6 +42,14 @@ $resultSidebar = $stmtSidebar->get_result();
     <link rel="stylesheet" href="styles.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755"
      crossorigin="anonymous"></script>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V6HH2RKGTW');
+</script>
 </head>
 <body>
     <div class="container">
