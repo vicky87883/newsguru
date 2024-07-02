@@ -57,10 +57,10 @@ $resultSidebar = $stmtSidebar->get_result();
         <main class="article-content">
             <?php if ($article): ?>
                 <h1><?php echo htmlspecialchars($article['heading']); ?></h1>
-                <p><?php echo (($article['published_at'])); ?></p>
                 <?php if (!empty($article['image'])): // Check if image exists ?>
                     <img src="<?php echo htmlspecialchars($article['image']); ?>" alt="Article Image" width="100px" height="100px">
                 <?php endif; ?>
+                <p><?php echo (nl2br($article['published_at'])); ?></p>
                 <p><?php echo (nl2br($article['content'])); ?></p>
             <?php else: ?>
                 <p>Article not found.</p>
