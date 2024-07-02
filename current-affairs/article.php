@@ -1,4 +1,4 @@
-    <?php
+<?php
 // Database connection details
 $servername = "localhost";
 $username = "vikram";
@@ -13,11 +13,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 $conn->set_charset("utf8");
+
 // Get the article ID from the URL
 $articleId = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
 // Fetch the article from the database
-$sql = "SELECT heading, content FROM article WHERE id = ?";
+$sql = "SELECT heading, content, image FROM article WHERE id = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param('i', $articleId);
 $stmt->execute();
@@ -56,7 +57,9 @@ $resultSidebar = $stmtSidebar->get_result();
         <main class="article-content">
             <?php if ($article): ?>
                 <h1><?php echo htmlspecialchars($article['heading']); ?></h1>
-                <img src="<?php echo ($article['image']); ?>" alt="" width="100%" height="100%">
+                <?php if (!empty($article['image'])): // Check if image exists ?>
+                    <img src="<?php echo htmlspecialchars($article['image']); ?>" alt="Article Image" width="100%" height="100%">
+                <?php endif; ?>
                 <p><?php echo nl2br(htmlspecialchars($article['content'])); ?></p>
             <?php else: ?>
                 <p>Article not found.</p>
@@ -73,7 +76,6 @@ $resultSidebar = $stmtSidebar->get_result();
     </script>
 </body>
 </html>
-
 
 <?php
 // Close connection
