@@ -231,75 +231,68 @@
         <a id="downloadLink" href="#" download="compressed_pdf.pdf">Download Compressed PDF</a>
     </div>
     
-    <script>
-        document.getElementById('pdfInput').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const loader = document.getElementById('loader');
-                const downloadLink = document.getElementById('downloadLink');
-                const progressContainer = document.getElementById('progressContainer');
-                const progressBar = document.getElementById('progressBar');
-                const fileInfo = document.getElementById('fileInfo');
-                
-                // Show the loader and progress bar
-                loader.style.display = 'block';
-                progressContainer.style.display = 'block';
-                fileInfo.style.display = 'none';
-                downloadLink.style.display = 'none';
-                
-                // Create FormData object to send the file to server-side PHP script
-                const formData = new FormData();
-                formData.append('pdf', file);
-                
-                // AJAX request to upload and compress PDF
-                const xhr = new XMLHttpRequest();
-                xhr.open('POST', 'compress_pdf.php', true);
-                
-                xhr.upload.onprogress = function(event) {
-                    if (event.lengthComputable) {
-                        const percentComplete = (event.loaded / event.total) * 100;
-                        progressBar.style.width = percentComplete + '%';
-                    }
-                };
-                
-                xhr.onload = function() {
-                    if (xhr.status === 200) {
-                        // Hide the loader
-                        loader.style.display = 'none';
+   <script>document.getElementById('pdfInput').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+        const loader = document.getElementById('loader');
+        const downloadLink = document.getElementById('downloadLink');
+        const progressContainer = document.getElementById('progressContainer');
+        const progressBar = document.getElementById('progressBar');
+        const fileInfo = document.getElementById('fileInfo');
 
-                        // Show file info
-                        fileInfo.textContent = `File Information: ${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)`;
-                        fileInfo.style.display = 'block';
+        // Show the loader and progress bar
+        loader.style.display = 'block';
+        progressContainer.style.display = 'block';
+        fileInfo.style.display = 'none';
+        downloadLink.style.display = 'none';
 
-                        // Parse response
-                        const response = JSON.parse(xhr.responseText);
-                        const downloadUrl = response.url;
+        // Create FormData object to send the file to server-side PHP script
+        const formData = new FormData();
+        formData.append('pdf', file);
 
-                        // Set download link
-                        downloadLink.href = downloadUrl;
-                        downloadLink.style.display = 'inline-block';
+        // AJAX request to upload and compress PDF
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'compress_pdf.php', true);
 
-                        // Update progress bar (100% - upload complete)
-                        progressBar.style.width = '100%';
-                    } else {
-                        alert('Error compressing the PDF. Please try again.');
-                    }
-                };
-                
-                xhr.send(formData);
+        xhr.upload.onprogress = function(event) {
+            if (event.lengthComputable) {
+                const percentComplete = (event.loaded / event.total) * 100;
+                progressBar.style.width = percentComplete + '%';
             }
-        });
+        };
 
-        // Hamburger menu toggle
-        const hamburger = document.getElementById('hamburger');
-        const sidebar = document.getElementById('sidebar');
-        const mainContent = document.getElementById('mainContent');
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                // Hide the loader
+                loader.style.display = 'none';
 
-        hamburger.addEventListener('click', function() {
-            sidebar.classList.toggle('open');
-            hamburger.classList.toggle('open');
-            mainContent.classList.toggle('full');
-        });
-    </script>
+                // Show file info
+                fileInfo.textContent = `File Information: ${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)`;
+                fileInfo.style.display = 'block';
+
+                // Parse response
+                const response = JSON.parse(xhr.responseText);
+                const downloadUrl = response.url;
+
+                // Set download link
+                downloadLink.href = downloadUrl;
+                downloadLink.style.display = 'inline-block';
+
+                // Update progress bar (100% - upload complete)
+                progressBar.style.width = '100%';
+            } else {
+                const response = JSON.parse(xhr.responseText);
+                alert('Error compressing the PDF: ' + response.error);
+            }
+        };
+
+        xhr.onerror = function() {
+            alert('An error occurred during the transaction');
+        };
+
+        xhr.send(formData);
+    }
+});
+</script>
 </body>
 </html>
