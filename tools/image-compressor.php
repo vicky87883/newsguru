@@ -24,6 +24,7 @@
             bottom: 0;
             color: #fff;
             z-index: 1000; /* Ensure sidebar is above content */
+            overflow-y: auto; /* Enable scrollbar */
         }
         .sidebar h2 {
             font-size: 1.5em;
@@ -45,6 +46,21 @@
         .sidebar a.active {
             background-color: #007BFF;
             color: #fff;
+        }
+
+        /* Custom Scrollbar */
+        .sidebar::-webkit-scrollbar {
+            width: 12px;
+        }
+        .sidebar::-webkit-scrollbar-track {
+            background: linear-gradient(180deg, #007BFF, #28A745, #DC3545, #FFC107);
+            border-radius: 6px;
+        }
+        .sidebar::-webkit-scrollbar-thumb {
+            background-color: #343a40;
+            border-radius: 6px;
+            border: 3px solid transparent;
+            background-clip: content-box;
         }
 
         /* Main Content Styles */
@@ -132,7 +148,7 @@
         .progress-bar {
             width: 0%;
             height: 100%;
-            background-color: #28a745;
+            background: linear-gradient(90deg, #007BFF, #28A745, #DC3545, #FFC107);
             border-radius: 5px;
             transition: width 0.4s ease;
         }
@@ -143,7 +159,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .resolution-info {
+        .resolution-info, .size-info {
             margin-top: 10px;
             font-size: 0.9em;
             color: #666;
@@ -161,6 +177,45 @@
         #downloadLink:hover {
             background-color: #0056b3;
         }
+        .rating-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .rating-section h2 {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .rating-buttons {
+            display: flex;
+            justify-content: center;
+        }
+        .rating-buttons button {
+            background-color: #ddd;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            color: #333;
+            padding: 10px 15px;
+            margin: 0 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .rating-buttons button:hover {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .rating-buttons button.selected {
+            background-color: #28a745;
+            color: #fff;
+            border: 2px solid #28a745;
+        }
+        .thank-you-message {
+            display: none; /* Initially hidden */
+            font-size: 1.1em;
+            color: #28a745;
+            margin-top: 20px;
+        }
+
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
@@ -220,7 +275,21 @@
         <canvas id="canvas" class="image-preview"></canvas>
         <div class="resolution-info" id="originalResolution">Original Resolution: </div>
         <div class="resolution-info" id="compressedResolution">Compressed Resolution: </div>
+        <div class="size-info" id="originalSize">Original Size: </div>
+        <div class="size-info" id="compressedSize">Compressed Size: </div>
         <a id="downloadLink" href="#" download="compressed_image.jpg">Download Compressed Image</a>
+        
+        <div class="rating-section">
+            <h2>Rate Your Experience</h2>
+            <div class="rating-buttons">
+                <button data-rating="1">1</button>
+                <button data-rating="2">2</button>
+                <button data-rating="3">3</button>
+                <button data-rating="4">4</button>
+                <button data-rating="5">5</button>
+            </div>
+            <div class="thank-you-message" id="thankYouMessage">Thank you for your feedback!</div>
+        </div>
     </div>
     
     <script>
@@ -234,15 +303,19 @@
                 const progressBar = document.getElementById('progressBar');
                 const originalResolution = document.getElementById('originalResolution');
                 const compressedResolution = document.getElementById('compressedResolution');
+                const originalSize = document.getElementById('originalSize');
+                const compressedSize = document.getElementById('compressedSize');
                 
                 // Show the loader and progress bar
                 loader.style.display = 'block';
                 progressContainer.style.display = 'block';
                 originalResolution.style.display = 'none';
                 compressedResolution.style.display = 'none';
+                originalSize.style.display = 'none';
+                compressedSize.style.display = 'none';
                 canvas.style.display = 'none';
                 downloadLink.style.display = 'none';
-                
+
                 const reader = new FileReader();
                 reader.onload = function(e) {
                     const img = new Image();
@@ -253,9 +326,11 @@
                         // Update progress bar (50% - image loaded)
                         progressBar.style.width = '50%';
 
-                        // Show original resolution
+                        // Show original resolution and size
                         originalResolution.textContent = `Original Resolution: ${img.width} x ${img.height}`;
                         originalResolution.style.display = 'block';
+                        originalSize.textContent = `Original Size: ${(file.size / 1024).toFixed(2)} KB`;
+                        originalSize.style.display = 'block';
 
                         // Set canvas dimensions
                         canvas.width = img.width;
@@ -266,33 +341,54 @@
 
                         // Compress the image
                         const quality = 0.5; // Adjust this value (0 to 1) to change compression level
-                        const compressedDataUrl = canvas.toDataURL('image/jpeg', quality);
+                        canvas.toBlob(function(blob) {
+                            const compressedUrl = URL.createObjectURL(blob);
+                            const compressedImage = new Image();
+                            compressedImage.onload = function() {
+                                canvas.width = compressedImage.width;
+                                canvas.height = compressedImage.height;
+                                ctx.drawImage(compressedImage, 0, 0);
+                                
+                                // Show compressed resolution
+                                compressedResolution.textContent = `Compressed Resolution: ${compressedImage.width} x ${compressedImage.height}`;
+                                compressedResolution.style.display = 'block';
+                                canvas.style.display = 'block';
 
-                        // Update the canvas with the compressed image
-                        const compressedImage = new Image();
-                        compressedImage.onload = function() {
-                            canvas.width = compressedImage.width;
-                            canvas.height = compressedImage.height;
-                            ctx.drawImage(compressedImage, 0, 0);
-                            
-                            // Show compressed resolution
-                            compressedResolution.textContent = `Compressed Resolution: ${compressedImage.width} x ${compressedImage.height}`;
-                            compressedResolution.style.display = 'block';
+                                // Update progress bar (100% - compression complete)
+                                progressBar.style.width = '100%';
 
-                            // Display the canvas and download link
-                            canvas.style.display = 'block';
-                            downloadLink.style.display = 'inline-block';
-                            downloadLink.href = compressedDataUrl;
+                                // Show compressed size
+                                compressedSize.textContent = `Compressed Size: ${(blob.size / 1024).toFixed(2)} KB`;
+                                compressedSize.style.display = 'block';
 
-                            // Update progress bar (100% - compression complete)
-                            progressBar.style.width = '100%';
-                        };
-                        compressedImage.src = compressedDataUrl;
+                                // Show the download link
+                                downloadLink.href = compressedUrl;
+                                downloadLink.style.display = 'block';
+                            };
+                            compressedImage.src = compressedUrl;
+                        }, 'image/jpeg', quality);
                     };
                     img.src = e.target.result;
                 };
                 reader.readAsDataURL(file);
             }
+        });
+
+        // Rating system logic
+        const ratingButtons = document.querySelectorAll('.rating-buttons button');
+        const thankYouMessage = document.getElementById('thankYouMessage');
+        
+        ratingButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove selected class from all buttons
+                ratingButtons.forEach(btn => btn.classList.remove('selected'));
+                
+                // Add selected class to the clicked button
+                button.classList.add('selected');
+                
+                // Show thank you message
+                thankYouMessage.style.display = 'block';
+            });
         });
     </script>
 </body>
