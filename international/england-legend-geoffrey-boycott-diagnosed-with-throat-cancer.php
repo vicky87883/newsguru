@@ -85,12 +85,39 @@ Wednesday, 3 July 2024</span>
 </figure>
 <div class=single-excerpt>
 	<p>The startling news is that Geoffrey Boycott, the former cricketer for England, has received a second diagnosis of throat cancer. The 83-year-old veteran of England issued a statement to confirm the situation. Boycott affirmed that he will have surgery to remove the malignancy from his throat. Boycott acknowledges the difficulties of receiving a fatal diagnosis at this stage of life, but he is still hopeful that he can recover.</p>
+	<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 	<p>After a few weeks of MRIs, CT scans, PET scans, and two biopsies, it has been determined that I have throat cancer and will need surgery. Experience has taught me that in order to survive cancer a second time, I will require top-notch medical care as well as a great deal of luck. Even in the event that the surgery is successful, every cancer patient must accept the chance that their disease may return. Thus, I'll just go ahead and cross my fingers," an official statement that The Telegraph cited said.
 	</p>
 	<p>At the age of sixty-two, Boycott received his cancer diagnosis in 2005 and was given a three-month prognosis. He then underwent rigorous chemotherapy treatments and overcame the fatal illnesses. Boycott stated in his book "The Corridor of Certainty" that his wife Rachael's support was the reason he was able to survive cancer.
 	</p>
+	<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 	<p>"It is truly a show-stopper to be handed three months to live. I'll never understand why I'm still here. The only thing I can truly say with certainty is that without my wife Rachael's support, I could not have made it through."
 	</p>
+	<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 	<p>Boycott earned over 8000 runs, including 22 hundreds, over his 108 Test appearances for England. In a 25-year career, he amassed an astounding 151 first-class centuries. Boycott joined the BBC's Test Match Special team upon his retirement from cricket, and he would eventually retire in 2020.
 	</p>
 </div>
