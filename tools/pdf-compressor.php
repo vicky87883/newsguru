@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Compression Tool</title>
+    <title>File Compression Tool</title>
     <style>
         body {
             display: flex;
@@ -12,6 +12,7 @@
             margin: 0;
             background: #f5f5f5;
         }
+        /* Sidebar Styles */
         .sidebar {
             width: 250px;
             background-color: #343a40;
@@ -23,9 +24,6 @@
             bottom: 0;
             color: #fff;
             transition: transform 0.3s ease;
-        }
-        .sidebar.hidden {
-            transform: translateX(-100%);
         }
         .sidebar h2 {
             font-size: 1.5em;
@@ -48,6 +46,35 @@
             background-color: #007BFF;
             color: #fff;
         }
+
+        /* Hamburger Styles */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+        }
+        .hamburger div {
+            width: 30px;
+            height: 3px;
+            background-color: #333;
+            margin: 5px 0;
+            transition: 0.4s;
+        }
+        .hamburger.open div:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+        .hamburger.open div:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.open div:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+
+        /* Main Content Styles */
         .main-content {
             margin-left: 250px;
             padding: 40px;
@@ -59,37 +86,6 @@
             background: #f8f9fa;
             transition: margin-left 0.3s ease;
         }
-        .main-content.full {
-            margin-left: 0;
-        }
-        .hamburger {
-            display: none;
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            width: 30px;
-            height: 30px;
-            cursor: pointer;
-            z-index: 10;
-        }
-        .hamburger div {
-            width: 100%;
-            height: 4px;
-            background-color: #343a40;
-            margin: 6px 0;
-            transition: transform 0.3s ease;
-        }
-        .hamburger.open div:nth-child(1) {
-            transform: translateY(10px) rotate(45deg);
-        }
-        .hamburger.open div:nth-child(2) {
-            opacity: 0;
-        }
-        .hamburger.open div:nth-child(3) {
-            transform: translateY(-10px) rotate(-45deg);
-        }
-
-        /* Styles for the rest of the content */
         h1 {
             color: #333;
             margin-bottom: 20px;
@@ -145,7 +141,7 @@
             width: 40px;
             height: 40px;
             animation: spin 1s linear infinite;
-            display: none;
+            display: none; /* Initially hidden */
             margin-top: 20px;
         }
         .progress-container {
@@ -155,7 +151,7 @@
             background-color: #ddd;
             border-radius: 5px;
             margin-top: 20px;
-            display: none;
+            display: none; /* Initially hidden */
         }
         .progress-bar {
             width: 0%;
@@ -164,13 +160,13 @@
             border-radius: 5px;
             transition: width 0.4s ease;
         }
-        .resolution-info {
-            margin-top: 10px;
+        .file-info {
+            margin-top: 20px;
             font-size: 0.9em;
             color: #666;
         }
         #downloadLink {
-            display: none;
+            display: none; /* Initially hidden */
             margin-top: 20px;
             text-decoration: none;
             padding: 10px 20px;
@@ -186,34 +182,40 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
         @media (max-width: 768px) {
             .sidebar {
                 transform: translateX(-100%);
+                width: 250px;
             }
             .sidebar.open {
                 transform: translateX(0);
             }
+            .hamburger {
+                display: flex;
+            }
             .main-content {
                 margin-left: 0;
+                transition: transform 0.3s ease;
             }
-            .hamburger {
-                display: block;
+            .main-content.full {
+                transform: translateX(250px);
             }
         }
     </style>
 </head>
 <body>
+    <div class="sidebar" id="sidebar">
+        <h2>Toolbox</h2>
+        <a href="#" class="active">Image Compressor</a>
+        <a href="#">PDF Compressor</a>
+        <a href="#">Large File Compressor</a>
+        <a href="#">Other Tools</a>
+    </div>
     <div class="hamburger" id="hamburger">
         <div></div>
         <div></div>
         <div></div>
-    </div>
-    <div class="sidebar" id="sidebar">
-        <h2>Toolbox</h2>
-        <a href="image-compressor">Image Compressor</a>
-        <a href="pdf_compressor" class="active">PDF Compressor</a>
-        <a href="#">Large File Compressor</a>
-        <a href="#">Other Tools</a>
     </div>
     <div class="main-content" id="mainContent">
         <h1>Compress Your PDF</h1>
@@ -227,72 +229,78 @@
         <div class="progress-container" id="progressContainer">
             <div class="progress-bar" id="progressBar"></div>
         </div>
-        <div class="resolution-info" id="fileInfo">File Information: </div>
-        <a id="downloadLink" href="#" download="compressed_pdf.pdf">Download Compressed PDF</a>
+        <div class="file-info" id="fileInfo">File Information: </div>
+        <a id="downloadLink" href="#" download="compressed_file.pdf">Download Compressed PDF</a>
     </div>
     
-   <script>document.getElementById('pdfInput').addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    if (file) {
-        const loader = document.getElementById('loader');
-        const downloadLink = document.getElementById('downloadLink');
-        const progressContainer = document.getElementById('progressContainer');
-        const progressBar = document.getElementById('progressBar');
-        const fileInfo = document.getElementById('fileInfo');
+    <!-- Include pdf-lib from a CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    
+    <script>
+        document.getElementById('pdfInput').addEventListener('change', async function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const loader = document.getElementById('loader');
+                const downloadLink = document.getElementById('downloadLink');
+                const progressContainer = document.getElementById('progressContainer');
+                const progressBar = document.getElementById('progressBar');
+                const fileInfo = document.getElementById('fileInfo');
 
-        // Show the loader and progress bar
-        loader.style.display = 'block';
-        progressContainer.style.display = 'block';
-        fileInfo.style.display = 'none';
-        downloadLink.style.display = 'none';
+                // Show the loader and progress bar
+                loader.style.display = 'block';
+                progressContainer.style.display = 'block';
+                fileInfo.style.display = 'none';
+                downloadLink.style.display = 'none';
 
-        // Create FormData object to send the file to server-side PHP script
-        const formData = new FormData();
-        formData.append('pdf', file);
+                // Read the file
+                const reader = new FileReader();
+                reader.readAsArrayBuffer(file);
+                reader.onload = async function(e) {
+                    const pdfDoc = await PDFLib.PDFDocument.load(e.target.result);
+                    const pages = pdfDoc.getPages();
 
-        // AJAX request to upload and compress PDF
-        const xhr = new XMLHttpRequest();
-        xhr.open('POST', 'compress_pdf.php', true);
+                    // Reduce image quality on each page
+                    for (const page of pages) {
+                        const { width, height } = page.getSize();
+                        page.scale(0.5, 0.5); // Adjust scale factor for compression
+                    }
 
-        xhr.upload.onprogress = function(event) {
-            if (event.lengthComputable) {
-                const percentComplete = (event.loaded / event.total) * 100;
-                progressBar.style.width = percentComplete + '%';
+                    // Serialize the PDFDocument to bytes (a Uint8Array)
+                    const pdfBytes = await pdfDoc.save();
+
+                    // Create a blob from the bytes
+                    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+
+                    // Create a URL for the blob
+                    const url = URL.createObjectURL(blob);
+
+                    // Set the download link
+                    downloadLink.href = url;
+                    downloadLink.style.display = 'inline-block';
+
+                    // Hide the loader
+                    loader.style.display = 'none';
+
+                    // Show file info
+                    fileInfo.textContent = `File Information: ${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)`;
+                    fileInfo.style.display = 'block';
+                };
+
+                reader.onerror = function(e) {
+                    alert('An error occurred while reading the file.');
+                    loader.style.display = 'none';
+                    progressContainer.style.display = 'none';
+                };
             }
-        };
+        });
 
-        xhr.onload = function() {
-            if (xhr.status === 200) {
-                // Hide the loader
-                loader.style.display = 'none';
-
-                // Show file info
-                fileInfo.textContent = `File Information: ${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)`;
-                fileInfo.style.display = 'block';
-
-                // Parse response
-                const response = JSON.parse(xhr.responseText);
-                const downloadUrl = response.url;
-
-                // Set download link
-                downloadLink.href = downloadUrl;
-                downloadLink.style.display = 'inline-block';
-
-                // Update progress bar (100% - upload complete)
-                progressBar.style.width = '100%';
-            } else {
-                const response = JSON.parse(xhr.responseText);
-                alert('Error compressing the PDF: ' + response.error);
-            }
-        };
-
-        xhr.onerror = function() {
-            alert('An error occurred during the transaction');
-        };
-
-        xhr.send(formData);
-    }
-});
-</script>
+        document.getElementById('hamburger').addEventListener('click', function() {
+            const sidebar = document.getElementById('sidebar');
+            const mainContent = document.getElementById('mainContent');
+            sidebar.classList.toggle('open');
+            mainContent.classList.toggle('full');
+            this.classList.toggle('open');
+        });
+    </script>
 </body>
 </html>
