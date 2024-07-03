@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High Quality Image Compressor</title>
+     <title>High Quality Image Compressor</title>
     
 <meta name=news_keywords content="image compressor,image to 10kb,image to 20kb,image to 30kb,image to 40kb,image to 50kb,image to 100kb,image under 200kb" itemprop="keywords"/>
 <meta name=description content="Hight Quality image file compressor without losing pixel quality and easy download" itemprop="description"/>
@@ -163,10 +163,18 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        .resolution-info, .size-info {
+        /* Info Styles */
+        .info {
             margin-top: 10px;
             font-size: 0.9em;
             color: #666;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007BFF;
+            background-color: #e9f7ff;
+            padding: 5px;
+            border-radius: 5px;
         }
         #downloadLink {
             display: none; /* Initially hidden */
@@ -255,16 +263,6 @@
             }
         }
     </style>
-    	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-V6HH2RKGTW');
-</script>
 </head>
 <body>
     <div class="sidebar">
@@ -276,15 +274,6 @@
     </div>
     <div class="main-content">
         <h1>Compress Your Image</h1>
-        <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6958761602872755"
-     data-ad-slot="3917672390"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
         <div class="upload-area">
             <div class="upload-btn-wrapper">
                 <button class="btn">Upload Image</button>
@@ -296,10 +285,10 @@
             <div class="progress-bar" id="progressBar"></div>
         </div>
         <canvas id="canvas" class="image-preview"></canvas>
-        <div class="resolution-info" id="originalResolution">Original Resolution: </div>
-        <div class="resolution-info" id="compressedResolution">Compressed Resolution: </div>
-        <div class="size-info" id="originalSize">Original Size: </div>
-        <div class="size-info" id="compressedSize">Compressed Size: </div>
+        <div class="info" id="originalResolution">Original Resolution: <span class="highlight"></span></div>
+        <div class="info" id="compressedResolution">Compressed Resolution: <span class="highlight"></span></div>
+        <div class="info" id="originalSize">Original Size: <span class="highlight"></span></div>
+        <div class="info" id="compressedSize">Compressed Size: <span class="highlight"></span></div>
         <a id="downloadLink" href="#" download="compressed_image.jpg">Download Compressed Image</a>
         
         <div class="rating-section">
@@ -324,18 +313,18 @@
                 const downloadLink = document.getElementById('downloadLink');
                 const progressContainer = document.getElementById('progressContainer');
                 const progressBar = document.getElementById('progressBar');
-                const originalResolution = document.getElementById('originalResolution');
-                const compressedResolution = document.getElementById('compressedResolution');
-                const originalSize = document.getElementById('originalSize');
-                const compressedSize = document.getElementById('compressedSize');
+                const originalResolution = document.getElementById('originalResolution').querySelector('.highlight');
+                const compressedResolution = document.getElementById('compressedResolution').querySelector('.highlight');
+                const originalSize = document.getElementById('originalSize').querySelector('.highlight');
+                const compressedSize = document.getElementById('compressedSize').querySelector('.highlight');
                 
                 // Show the loader and progress bar
                 loader.style.display = 'block';
                 progressContainer.style.display = 'block';
-                originalResolution.style.display = 'none';
-                compressedResolution.style.display = 'none';
-                originalSize.style.display = 'none';
-                compressedSize.style.display = 'none';
+                originalResolution.parentNode.style.display = 'none';
+                compressedResolution.parentNode.style.display = 'none';
+                originalSize.parentNode.style.display = 'none';
+                compressedSize.parentNode.style.display = 'none';
                 canvas.style.display = 'none';
                 downloadLink.style.display = 'none';
 
@@ -350,10 +339,10 @@
                         progressBar.style.width = '50%';
 
                         // Show original resolution and size
-                        originalResolution.textContent = `Original Resolution: ${img.width} x ${img.height}`;
-                        originalResolution.style.display = 'block';
-                        originalSize.textContent = `Original Size: ${(file.size / 1024).toFixed(2)} KB`;
-                        originalSize.style.display = 'block';
+                        originalResolution.textContent = `${img.width} x ${img.height}`;
+                        originalResolution.parentNode.style.display = 'block';
+                        originalSize.textContent = `${(file.size / 1024).toFixed(2)} KB`;
+                        originalSize.parentNode.style.display = 'block';
 
                         // Set canvas dimensions
                         canvas.width = img.width;
@@ -373,16 +362,16 @@
                                 ctx.drawImage(compressedImage, 0, 0);
                                 
                                 // Show compressed resolution
-                                compressedResolution.textContent = `Compressed Resolution: ${compressedImage.width} x ${compressedImage.height}`;
-                                compressedResolution.style.display = 'block';
+                                compressedResolution.textContent = `${compressedImage.width} x ${compressedImage.height}`;
+                                compressedResolution.parentNode.style.display = 'block';
                                 canvas.style.display = 'block';
 
                                 // Update progress bar (100% - compression complete)
                                 progressBar.style.width = '100%';
 
                                 // Show compressed size
-                                compressedSize.textContent = `Compressed Size: ${(blob.size / 1024).toFixed(2)} KB`;
-                                compressedSize.style.display = 'block';
+                                compressedSize.textContent = `${(blob.size / 1024).toFixed(2)} KB`;
+                                compressedSize.parentNode.style.display = 'block';
 
                                 // Show the download link
                                 downloadLink.href = compressedUrl;
