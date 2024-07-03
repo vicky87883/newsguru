@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Compression with JavaScript</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            display: none; /* Initially hidden */
+        }
+        #downloadLink {
+            display: none; /* Initially hidden */
+            margin-top: 20px;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+        }
+        #downloadLink:hover {
+            background-color: #0056b3;
+        }
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            animation: spin 2s linear infinite;
+            display: none; /* Initially hidden */
+            margin-top: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Compression using JavaScript</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <div class="loader" id="loader"></div>
+    <canvas id="canvas"></canvas>
+    <a id="downloadLink" href="#" download="compressed_image.jpg">Download Compressed Image</a>
+    
+    <script>
+        document.getElementById('imageInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const loader = document.getElementById('loader');
+                const canvas = document.getElementById('canvas');
+                const downloadLink = document.getElementById('downloadLink');
+                
+                // Show the loader
+                loader.style.display = 'block';
+                canvas.style.display = 'none';
+                downloadLink.style.display = 'none';
+                
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const img = new Image();
+                    img.onload = function() {
+                        // Hide the loader
+                        loader.style.display = 'none';
+
+                        // Set canvas dimensions
+                        canvas.width = img.width;
+                        canvas.height = img.height;
+                        
+                        const ctx = canvas.getContext('2d');
+                        ctx.drawImage(img, 0, 0);
+
+                        // Compress the image
+                        const quality = 0.5; // Adjust this value (0 to 1) to change compression level
+                        const compressedDataUrl = canvas.toDataURL('image/jpeg', quality);
+
+                        // Update the canvas with the compressed image
+                        const compressedImage = new Image();
+                        compressedImage.onload = function() {
+                            canvas.width = compressedImage.width;
+                            canvas.height = compressedImage.height;
+                            ctx.drawImage(compressedImage, 0, 0);
+                            
+                            // Display the canvas and download link
+                            canvas.style.display = 'block';
+                            downloadLink.style.display = 'inline-block';
+                            downloadLink.href = compressedDataUrl;
+                        };
+                        compressedImage.src = compressedDataUrl;
+                    };
+                    img.src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+</html>
