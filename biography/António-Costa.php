@@ -201,7 +201,7 @@ Saturday, 15 June 2024</span>
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
 </figure>
-<div class=single-excerpt>
+<div class=>
 	<p>A Portuguese lawyer and politician, António Luís Santos da Costa GCIH (born July 17, 1961)[3] was the 118th prime minister of Portugal from 2015 to 2024, leading the XXI (2015–2019), XXII (2019–2022), and XXIII Constitutional Governments (2022–2024). After that, in December 2024, Costa will assume the role of <a href="https://www.newsguru.live/current-affairs/article.php?id=4" style="color:blue !important;">President of the European Council</a>.[4]
 </p>
 <p>
