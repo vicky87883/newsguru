@@ -23,7 +23,7 @@ $result1 = $conn->query($sql1);
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Current Affairs Today - Latest Current Affairs 2024 by newsguru | Current Affairs Daily | All Around World</title>
+<title>Current Affairs Today - Latest Current Affairs 2024 | Current Affairs Daily | All Around World</title>
 <meta name="description" content="Newsguru's Current Affairs Today Section provides latest and Best Daily Current Affairs 2022-2023 for UPSC, IAS/PCS, Banking, IBPS, SSC, Railway, UPPSC, RPSC, BPSC, MPPSC, TNPSC, MPSC, KPSC and other competition exams.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="site.webmanifest">
