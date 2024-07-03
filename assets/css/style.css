@@ -2,22 +2,17 @@
 
 
 @import url(vendor/owl.carousel.min.css);@import url(vendor/ticker-style.css);@import url(vendor/material-icons.min.css);@import url(vendor/weather-icons.min.css);@import url(vendor/ionicons.min.css);@import url(vendor/flaticon.css);@import url(vendor/slicknav.css);@import url(vendor/animate.min.css);@import url(vendor/magnific-popup.css);@import url(vendor/fontawesome-all.min.css);@import url(vendor/themify-icons.css);@import url(vendor/slick.css);@import url(vendor/nice-select.css);@import url(vendor/perfect-scrollbar.css);
-body{font-family:'Roboto',sans-serif;font-weight:normal;font-style:normal;background:#f7f8f9;
-    background-color: #ffffff;
+body{font-family: 'Georgia', serif; /* Use a serif font for readability */
+    margin-bottom: 1em; /* Space out paragraphs */
+    font-weight:normal;
+    font-style:normal;
+    background:#f7f8f9;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     line-height: 1.6;
     font-size: 1.1em;
     color: #333;
 }
-.single-excerpt p {
-    font-family: 'Georgia', serif; /* Use a serif font for readability */
-    font-size: 1.1rem; /* Slightly increase the font size */
-    line-height: 1.6; /* Increase line height for better readability */
-    margin-bottom: 1em; /* Space out paragraphs */
-    color: #333; /* Use a dark color for good contrast */
-}
-
 /* Optional: Adjust for different screen sizes */
 @media (max-width: 768px) {
     .single-excerpt p {
