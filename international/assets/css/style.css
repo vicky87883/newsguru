@@ -1,8 +1,10 @@
 @import url('../../../../css2');@import url(vendor/bootstrap.min.css);
 
 
-@import url(vendor/owl.carousel.min.css);@import url(vendor/ticker-style.css);@import url(vendor/material-icons.min.css);@import url(vendor/weather-icons.min.css);@import url(vendor/ionicons.min.css);@import url(vendor/flaticon.css);@import url(vendor/slicknav.css);@import url(vendor/animate.min.css);@import url(vendor/magnific-popup.css);@import url(vendor/fontawesome-all.min.css);@import url(vendor/themify-icons.css);@import url(vendor/slick.css);@import url(vendor/nice-select.css);@import url(vendor/perfect-scrollbar.css);body{font-family:'Roboto',sans-serif;font-weight:normal;font-style:normal;background:#f7f8f9;
-    background-color: #ffffff;
+@import url(vendor/owl.carousel.min.css);@import url(vendor/ticker-style.css);@import url(vendor/material-icons.min.css);@import url(vendor/weather-icons.min.css);@import url(vendor/ionicons.min.css);@import url(vendor/flaticon.css);@import url(vendor/slicknav.css);@import url(vendor/animate.min.css);@import url(vendor/magnific-popup.css);@import url(vendor/fontawesome-all.min.css);@import url(vendor/themify-icons.css);@import url(vendor/slick.css);@import url(vendor/nice-select.css);@import url(vendor/perfect-scrollbar.css);
+body{font-family: 'Georgia', serif; /* Use a serif font for readability */
+    font-weight:normal;font-style:normal;background:#f7f8f9;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     line-height: 1.6;
