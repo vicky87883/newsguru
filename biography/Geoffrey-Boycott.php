@@ -221,20 +221,56 @@ Saturday, 15 June 2024</span>
 </figure>
 <div class=single-excerpt>
 	<p>Former Test cricket player Sir Geoffrey Boycott OBE was born on October 21, 1940, and represented Yorkshire and England in the sport. During his prolific and occasionally contentious playing career, which spanned from 1962 to 1986, Boycott became one of England's most accomplished opening batsmen. He was a member of the English team that placed second in the 1979 Cricket World Cup.</p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>In a test match against Australia in 1964, Boycott made his debut for his country. He was a mainstay of England's Test batting lineup for many years due to his ability to stay at the crease, while having less success in his few One Day International outings. He amassed enormous totals—he is the eighth-highest career run scorer, tied for fifth place in first-class history, and the first English player to average over 100 in a season (1971 and 1979)—but he also frequently had disagreements with his colleagues.
     </p>
     <p>A journalist Ian Wooldridge once observed of Boycott, "Boycott, in short, walks alone"[9], while cricket writer John Arlott said that Boycott had a "lonely" career. Boycott was never very popular among his contemporaries.[10] Some have argued that, despite his obsession with his personal success, he was not inherently a selfish player and that the depth of his introversion has been overstated.
     </p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>Boycott's international career ended in 1982, having played in 108 Test match appearances for England, and being the top scorer with almost 8,000 Test match runs. For his contributions to cricket, he was awarded an OBE. He was the first-class cricketer to score the most runs until he was dropped from the Yorkshire team in 1986. He was admitted into the International Cricket Council's Hall of Fame in 2009, and in 1965, Wisden Cricketers' Almanack named him one of the five Cricketers of the Year.
     </p>
     <p>After the conclusion of his playing career, Boycott developed into a well-known and contentious radio and television cricket pundit who was never afraid to call out the methods used by contemporary players. He was found guilty in France in 1998 of beating his ex-girlfriend Margaret Moore; he received a fine and a suspended sentence. He was diagnosed with throat cancer in 2002, had a successful radiation treatment, and his condition entered remission. In 2003, he brought back his commentary career and received negative feedback. In 2020, he announced his retirement from the BBC Radio 4 Test Match Special commentary team.
     </p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <div><strong>Early life</strong></div>
     <p>Boycott was born in Fitzwilliam, a mining community in the West Riding of Yorkshire, close to Wakefield and Pontefract. Jane (née Speight) and her husband Thomas Wilfred Boycott, a colliery worker from Little Dawley, Shropshire, had three sons, the oldest of whom was him.
 </p>
 <p>
 Boycott fell off an iron railing near his house when he was eight years old, and the handle of a mangle stabbed him through his chest. Boycott's spleen was removed during attempts to save his life while he was on the verge of death. Boycott's father was a coalminer when he had a terrible accident in March 1950. He was struck by empty coal carts, which severely damaged his spine. He never fully recovered and passed away in 1967.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Boycott used a manhole for the wicket when he started playing cricket in Fitzwilliam's terraced streets at a young age. His favorite shots, the square cut, the clip to leg, and the straight drive, he later stated, started during this period "because if you hit it straight past the bowler it went right to the bottom of the street, and you could run as many runs as you could get."
 </p>
 </div>
