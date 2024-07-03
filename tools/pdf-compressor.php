@@ -12,7 +12,6 @@
             margin: 0;
             background: #f5f5f5;
         }
-        /* Sidebar Styles */
         .sidebar {
             width: 250px;
             background-color: #343a40;
@@ -23,8 +22,8 @@
             left: 0;
             bottom: 0;
             color: #fff;
-            z-index: 1000; /* Ensure sidebar is above content */
-            overflow-y: auto; /* Enable scrollbar */
+            z-index: 1000;
+            overflow-y: auto;
         }
         .sidebar h2 {
             font-size: 1.5em;
@@ -47,8 +46,6 @@
             background-color: #007BFF;
             color: #fff;
         }
-
-        /* Custom Scrollbar */
         .sidebar::-webkit-scrollbar {
             width: 12px;
         }
@@ -62,8 +59,6 @@
             border: 3px solid transparent;
             background-clip: content-box;
         }
-
-        /* Main Content Styles */
         .main-content {
             margin-left: 250px;
             padding: 40px;
@@ -73,7 +68,7 @@
             align-items: center;
             justify-content: center;
             background: #f8f9fa;
-            margin-top: 60px; /* Ensure content is below the fixed sidebar */
+            margin-top: 60px;
         }
         h1 {
             color: #333;
@@ -90,7 +85,7 @@
             transition: background-color 0.3s ease;
             margin-bottom: 20px;
             width: 100%;
-            max-width: 600px; /* Limit width for smaller screens */
+            max-width: 600px;
         }
         .upload-area:hover {
             background-color: #f1f1f1;
@@ -133,7 +128,7 @@
             width: 40px;
             height: 40px;
             animation: spin 1s linear infinite;
-            display: none; /* Initially hidden */
+            display: none;
             margin-top: 20px;
         }
         .progress-container {
@@ -143,7 +138,7 @@
             background-color: #ddd;
             border-radius: 5px;
             margin-top: 20px;
-            display: none; /* Initially hidden */
+            display: none;
         }
         .progress-bar {
             width: 0%;
@@ -152,14 +147,6 @@
             border-radius: 5px;
             transition: width 0.4s ease;
         }
-        .image-preview {
-            margin-top: 20px;
-            max-width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        /* Info Styles */
         .info {
             margin-top: 10px;
             font-size: 0.9em;
@@ -173,7 +160,7 @@
             border-radius: 5px;
         }
         #downloadLink {
-            display: none; /* Initially hidden */
+            display: none;
             margin-top: 20px;
             text-decoration: none;
             padding: 10px 20px;
@@ -218,18 +205,15 @@
             border: 2px solid #28a745;
         }
         .thank-you-message {
-            display: none; /* Initially hidden */
+            display: none;
             font-size: 1.1em;
             color: #28a745;
             margin-top: 20px;
         }
-
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
-
-        /* Responsive Design */
         @media (max-width: 768px) {
             .sidebar {
                 width: 100%;
@@ -251,7 +235,7 @@
             }
             .main-content {
                 margin-left: 0;
-                margin-top: 60px; /* Adjust margin to align content below fixed header */
+                margin-top: 60px;
             }
             .upload-area {
                 width: 80%;
@@ -334,7 +318,28 @@
                     const pages = pdfDoc.getPages();
                     for (let page of pages) {
                         const { width, height } = page.getSize();
-                        page.scale(0.5, 0.5); // Reduce size
+                        const scale = 0.75; // Reduce page size to 75%
+                        page.setSize(width * scale, height * scale);
+
+                        const images = page.getImages();
+                        for (let img of images) {
+                            const imgBytes = await img.image.getBytes();
+                            const canvas = document.createElement('canvas');
+                            const ctx = canvas.getContext('2d');
+                            const image = new Image();
+                            image.src = URL.createObjectURL(new Blob([imgBytes]));
+                            await new Promise((resolve) => {
+                                image.onload = () => {
+                                    canvas.width = image.width * scale;
+                                    canvas.height = image.height * scale;
+                                    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+                                    resolve();
+                                };
+                            });
+                            const newImgBytes = canvas.toDataURL('image/jpeg', 0.75); // Reduce quality to 75%
+                            const newImage = await pdfDoc.embedJpg(newImgBytes);
+                            img.image = newImage;
+                        }
                     }
                     const pdfBytes = await pdfDoc.save();
                     
