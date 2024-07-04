@@ -111,6 +111,15 @@
     </div>
     <div class="main-content">
         <h1>EMI Calculator</h1>
+        <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         <div class="calculator">
             <label for="principal">Principal Amount (₹):</label>
             <input type="number" id="principal" placeholder="Enter principal amount" required>
