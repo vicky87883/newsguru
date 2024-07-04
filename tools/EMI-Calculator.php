@@ -154,6 +154,12 @@
     </div>
     <div class="main-content">
         <h1>EMI Calculator</h1>
+        <div class="clock">
+            <div class="hand hour" id="hourHand"></div>
+            <div class="hand minute" id="minuteHand"></div>
+            <div class="hand second" id="secondHand"></div>
+            <div class="center"></div>
+        </div>
         <div class="calculator">
             <label for="principal">Principal Amount (₹):</label>
             <input type="number" id="principal" placeholder="Enter principal amount" required>
@@ -172,12 +178,7 @@
                 <p>Total Payment (Principal + Interest): <span id="totalPayment">₹0</span></p>
             </div>
         </div>
-        <div class="clock">
-            <div class="hand hour" id="hourHand"></div>
-            <div class="hand minute" id="minuteHand"></div>
-            <div class="hand second" id="secondHand"></div>
-            <div class="center"></div>
-        </div>
+        
     </div>
 
     <script>
