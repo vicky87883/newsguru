@@ -75,7 +75,7 @@
             font-size: 2.5em;
             text-align: center;
         }
-        .calculator, .upload-area {
+        .tool-section {
             border: 2px dashed #007BFF;
             border-radius: 10px;
             padding: 40px;
@@ -86,7 +86,7 @@
             width: 100%;
             max-width: 600px;
         }
-        .calculator:hover, .upload-area:hover {
+        .tool-section:hover {
             background-color: #f1f1f1;
         }
         .upload-btn-wrapper, .calculator label {
@@ -109,10 +109,30 @@
             font-size: 16px;
             cursor: pointer;
             transition: all 0.3s ease;
+            position: relative;
         }
         .btn:hover {
             background-color: #007BFF;
             color: #fff;
+        }
+        .btn:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #343a40;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            white-space: nowrap;
+            font-size: 0.9em;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+        .btn:hover::after {
+            opacity: 1;
         }
         .loader, .progress-container, .result {
             display: none;
@@ -190,7 +210,7 @@
                 margin-left: 0;
                 margin-top: 60px;
             }
-            .upload-area, .calculator {
+            .tool-section {
                 width: 80%;
                 max-width: 300px;
             }
@@ -233,29 +253,23 @@
                 <input type="number" id="loanAmount" placeholder="Enter loan amount">
                 
                 <label for="annualInterestRate">Annual Interest Rate (%):</label>
-                <input type="number" id="annualInterestRate" placeholder="Enter interest rate">
+                <input type="number" id="annualInterestRate" step="0.01" placeholder="Enter annual interest rate">
                 
-                <label for="loanTenure">Tenure (years):</label>
-                <input type="number" id="loanTenure" placeholder="Enter tenure">
-        
-                <button class="btn" onclick="calculateEMI()">Calculate EMI</button>
+                <label for="loanTenure">Loan Tenure (Years):</label>
+                <input type="number" id="loanTenure" placeholder="Enter loan tenure">
+                
+                <button class="btn" data-tooltip="Calculate" onclick="calculateEMI()">Calculate EMI</button>
                 
                 <div class="result" id="emiResult"></div>
                 <div class="result" id="totalPaymentResult"></div>
             </div>
         </div>
     </div>
-    
     <script>
-        // Function to handle section display
         function showSection(sectionId) {
             const sections = document.querySelectorAll('.tool-section');
             sections.forEach(section => {
-                if (section.id === sectionId) {
-                    section.style.display = 'block';
-                } else {
-                    section.style.display = 'none';
-                }
+                section.style.display = section.id === sectionId ? 'block' : 'none';
             });
 
             const links = document.querySelectorAll('.sidebar a');
@@ -268,7 +282,6 @@
             });
         }
 
-        // EMI Calculation Logic
         function calculateEMI() {
             const loanAmount = parseFloat(document.getElementById('loanAmount').value);
             const annualInterestRate = parseFloat(document.getElementById('annualInterestRate').value) / 100;
@@ -291,7 +304,7 @@
 
         // Initial section to show on page load
         document.addEventListener('DOMContentLoaded', () => {
-            showSection('imageCompressor');  // Default section to show
+            showSection('imageCompressor');
         });
     </script>
 </body>
