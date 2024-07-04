@@ -11,7 +11,8 @@
     <meta name="keywords" content="EMI Calculator, monthly EMI, loan calculator, home loan EMI, car loan EMI, personal loan EMI, financial planning, loan interest, loan repayment, online calculator, free EMI calculation">
 
     <link rel="canonical" href="https://www.newsguru.live/tools/EMI-Calculator" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
@@ -26,6 +27,7 @@
         body {
             display: flex;
             min-height: 100vh;
+            flex-direction: column;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f5f5f5;
             margin: 0;
@@ -36,6 +38,9 @@
             color: white;
             padding: 20px;
             box-sizing: border-box;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
         }
         .sidebar h2 {
             color: #fff;
@@ -45,21 +50,20 @@
             text-decoration: none;
             display: block;
             margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
         }
         .sidebar a.active {
             color: #fff;
+            background-color: #007BFF;
         }
         .main-content {
             flex: 1;
             padding: 20px;
+            margin-left: 220px;
         }
-        .calculator {
-            width: 100%;
-            max-width: 600px;
-            background: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .card {
+            padding: 20px;
             margin-bottom: 20px;
         }
         .calculator label {
@@ -100,47 +104,13 @@
             font-weight: bold;
             color: #007BFF;
         }
-        .clock {
-            position: relative;
-            width: 300px;
-            height: 300px;
-            border: 2px solid #007BFF;
-            border-radius: 50%;
-            margin: 0 auto;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .clock .hand {
-            position: absolute;
-            width: 50%;
-            height: 6px;
-            background: #007BFF;
-            top: 50%;
-            transform-origin: 100%;
-            transform: rotate(90deg);
-            transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.3, 1);
-        }
-        .clock .hour {
-            height: 8px;
-            width: 35%;
-            background: #333;
-        }
-        .clock .minute {
-            height: 6px;
-        }
-        .clock .second {
-            height: 4px;
-            background: #FF0000;
-        }
-        .clock .center {
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            background: #007BFF;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 50%;
+        .digital-clock {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            color: #007BFF;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -154,14 +124,8 @@
     </div>
     <div class="main-content">
         <h1>EMI Calculator</h1>
-        <div class="clock">
-            <div class="hand hour" id="hourHand"></div>
-            <div class="hand minute" id="minuteHand"></div>
-            <div class="hand second" id="secondHand"></div>
-            <div class="center"></div>
-        </div>
-        <br>
-        <div class="calculator">
+        <div class="digital-clock" id="digitalClock">00:00:00</div>
+        <div class="calculator card">
             <label for="principal">Principal Amount (₹):</label>
             <input type="number" id="principal" placeholder="Enter principal amount" required>
 
@@ -171,7 +135,7 @@
             <label for="tenure">Loan Tenure (years):</label>
             <input type="number" id="tenure" placeholder="Enter loan tenure in years" required>
 
-            <button onclick="calculateEMI()">Calculate EMI</button>
+            <button class="btn waves-effect waves-light" onclick="calculateEMI()">Calculate EMI</button>
 
             <div class="results" id="results" style="display: none;">
                 <p>EMI Amount: <span id="emiAmount">₹0</span></p>
@@ -179,7 +143,6 @@
                 <p>Total Payment (Principal + Interest): <span id="totalPayment">₹0</span></p>
             </div>
         </div>
-        
     </div>
 
     <script>
@@ -190,7 +153,7 @@
             const tenure = parseInt(document.getElementById('tenure').value);
 
             if (isNaN(principal) || isNaN(rate) || isNaN(tenure)) {
-                alert("Please enter valid values.");
+                M.toast({html: 'Please enter valid values!', classes: 'red'});
                 return;
             }
 
@@ -217,28 +180,18 @@
             document.getElementById('results').style.display = 'block';
         }
 
-        // Clock functionality
+        // Digital clock functionality
         function updateClock() {
             const now = new Date();
-            const seconds = now.getSeconds();
-            const minutes = now.getMinutes();
-            const hours = now.getHours();
-
-            const secondHand = document.getElementById('secondHand');
-            const minuteHand = document.getElementById('minuteHand');
-            const hourHand = document.getElementById('hourHand');
-
-            const secondDegree = ((seconds / 60) * 360) + 90;
-            const minuteDegree = ((minutes / 60) * 360) + ((seconds / 60) * 6) + 90;
-            const hourDegree = ((hours / 12) * 360) + ((minutes / 60) * 30) + 90;
-
-            secondHand.style.transform = `rotate(${secondDegree}deg)`;
-            minuteHand.style.transform = `rotate(${minuteDegree}deg)`;
-            hourHand.style.transform = `rotate(${hourDegree}deg)`;
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('digitalClock').textContent = `${hours}:${minutes}:${seconds}`;
         }
 
         setInterval(updateClock, 1000);
         updateClock();
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
