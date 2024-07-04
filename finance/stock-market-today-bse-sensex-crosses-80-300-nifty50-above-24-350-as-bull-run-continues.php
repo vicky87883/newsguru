@@ -212,14 +212,21 @@ Thursday, 4 July 2024</span>
 </ul>
 </div>
 <div class="bt-1 border-color-1 mb-30"></div>
-<figure class="single-thumnail mb-30">
+
+<div class=single-excerpt>
+    <div class="container">
+        <div class="col-md-6">
+        <figure class="single-thumnail mb-30">
 <img src="assets/imgs/news/stock.JPG" alt=blog width=100%>
 <div class="credit mt-15 font-small color-grey">
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
 </figure>
-<div class=single-excerpt>
+</div>
+<div class="col-md-6">
 <p>Today's stock market: On Thursday morning, the major Indian equity indices, the BSE Sensex and Nifty50, reached all-time highs. The BSE Sensex crossed 80,300, and the Nifty50 crossed 24,350. The BSE Sensex was up 212 points, or 0.27%, at 80,199.12 at 9:18 AM. The Nifty50 was up 65 points, or 0.27%, at 24,351.55.
+</div>
+</div>
 </p>	
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
