@@ -229,20 +229,28 @@ Thursday, 4 July 2024</span>
 <p>When services are terminated, Universal Analytics settings and data obtained or used through publisher, advertiser, or other product integrations will be lost. As an illustration:
 </p>
 <p>
-New conversions, including those within connected advertising accounts, will no longer be measured by Universal Analytics goals and e-commerce transactions. If those conversions are combined with smart bidding, this could have an impact on the performance of the ad campaign.
+1. New conversions, including those within connected advertising accounts, will no longer be measured by Universal Analytics goals and e-commerce transactions. If those conversions are combined with smart bidding, this could have an impact on the performance of the ad campaign.
 </p>
 <p>
-1. The closure of Universal Analytics audience lists could have an impact on the performance and media activation of advertising campaigns.
+2. The closure of Universal Analytics audience lists could have an impact on the performance and media activation of advertising campaigns.
 </p>
 <p>
-2. queries made via the User Deletion API to delete Universal Analytics data will be unsuccessful, as will any other API queries pertaining to Universal Analytics attributes. Additionally, this means that any Universal Analytics data will not be displayed by tools that depend on an API, such Looker Studio.
+3. queries made via the User Deletion API to delete Universal Analytics data will be unsuccessful, as will any other API queries pertaining to Universal Analytics attributes. Additionally, this means that any Universal Analytics data will not be displayed by tools that depend on an API, such Looker Studio.
 </p>
-<p>3. Up until and including June 30, 2024, BigQuery export and backfill of historical data from Universal Analytics 360 properties are only available. There is still data in BigQuery that has already been exported.
+<p>4. Up until and including June 30, 2024, BigQuery export and backfill of historical data from Universal Analytics 360 properties are only available. There is still data in BigQuery that has already been exported.
 </p>
 <p>
-4. Projects related to attribution that were a part of Google Analytics' Attribution (beta) program will be eliminated.
+5. Projects related to attribution that were a part of Google Analytics' Attribution (beta) program will be eliminated.
 </p>
-
+<div><strong>Find out which properties will be deleted</strong></div>
+<p>You will still be able to access your Google Analytics account after July 1, but it will only display GA4 properties. You won't see any property at all in your account if you haven't yet created a GA4 property. Universal Analytics properties are identified by their tracking code, which begins with “UA-” and is followed by a string of digits, such as UA-000000-1. Additionally, a red banner emphasizing the necessity of migrating to GA4 may be seen at the top of all UA properties.
+</p>
+<div><strong>What's happened so far</strong></div>
+<p><b>Starting in March 2023:</b> We established a Google Analytics 4 property on your behalf if you chose not to opt out of an automatic property generation and did not manually convert your active standard Universal Analytics property to a new Google Analytics 4 property. When feasible, Google Analytics 4 automatically generated properties reuse preexisting site tags. 
+</p>
+<p>
+Standard Universal Analytics properties, including standard properties in accounts that also have 360 properties, ceased processing hits on July 1, 2023. After this, for a few while, some properties kept processing data while we prepared to shut down Universal Analytics. Up until July 1, 2024, you can view the data that you have already processed in your Universal Analytics property.
+</p>
 </div>
 <?php include('../sociallink.php') ?>
 	<?php include('../relatedpost.php') ?>
