@@ -7,6 +7,7 @@
 <meta name=news_keywords content="image compressor,image to 10kb,image to 20kb,image to 30kb,image to 40kb,image to 50kb,image to 100kb,image under 200kb" itemprop="keywords"/>
 <meta name=description content="Hight Quality image file compressor without losing pixel quality and easy download" itemprop="description"/>
 <link rel=canonical href=https://www.newsguru.live/tools/image-compressor />
+<link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
 <link rel=stylesheet href=assets/css/style.css>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
