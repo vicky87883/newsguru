@@ -22,9 +22,9 @@
 <body>
     <div class="sidebar">
         <h2>Toolbox</h2>
-        <a href="image-compressor">PDF Compressor</a>
+        <a href="image-compressor">Image Compressor</a>
         <a href="pdf-compressor" class="active">PDF Compressor</a>
-        <a href="#">Large File Compressor</a>
+        <a href="EMI-Calculator"> Compressor</a>
         <a href="#">Other Tools</a>
     </div>
     <div class="main-content">

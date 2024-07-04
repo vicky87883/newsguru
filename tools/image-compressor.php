@@ -25,7 +25,7 @@
         <h2>Toolbox</h2>
         <a href="image-compressor" class="active">Image Compressor</a>
         <a href="pdf-compressor">PDF Compressor</a>
-        <a href="#">Large File Compressor</a>
+        <a href="EMI-Calculator">EMI-Calculator</a>
         <a href="#">Other Tools</a>
     </div>
     <div class="main-content">
