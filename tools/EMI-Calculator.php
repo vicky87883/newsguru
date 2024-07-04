@@ -3,23 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EMI Calculator</title>
+    <title>High Quality PDF Compressor</title>    
+    <!-- Meta Description -->
+    <meta name="description" content="Calculate your monthly EMI easily with our free online EMI Calculator. Enter your loan details and get instant results for your home, car, or personal loans. Plan your finances better with accurate and fast calculations.">
+
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="EMI Calculator, monthly EMI, loan calculator, home loan EMI, car loan EMI, personal loan EMI, financial planning, loan interest, loan repayment, online calculator, free EMI calculation">
+
+    <link rel="canonical" href="https://www.newsguru.live/tools/EMI-Calculator" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-V6HH2RKGTW');
+    </script>
     <style>
         body {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
             min-height: 100vh;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f5f5f5;
             margin: 0;
-            padding: 20px;
         }
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 2em;
+        .sidebar {
+            width: 200px;
+            background: #333;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar h2 {
+            color: #fff;
+        }
+        .sidebar a {
+            color: #bbb;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .sidebar a.active {
+            color: #fff;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
         }
         .calculator {
             width: 100%;
@@ -70,23 +102,32 @@
     </style>
 </head>
 <body>
-    <h1>EMI Calculator</h1>
-    <div class="calculator">
-        <label for="principal">Principal Amount (₹):</label>
-        <input type="number" id="principal" placeholder="Enter principal amount" required>
+    <div class="sidebar">
+        <h2>Toolbox</h2>
+        <a href="image-compressor">Image Compressor</a>
+        <a href="pdf-compressor">PDF Compressor</a>
+        <a href="EMI-Calculator" class="active">EMI Calculator</a>
+        <a href="#">Other Tools</a>
+    </div>
+    <div class="main-content">
+        <h1>EMI Calculator</h1>
+        <div class="calculator">
+            <label for="principal">Principal Amount (₹):</label>
+            <input type="number" id="principal" placeholder="Enter principal amount" required>
 
-        <label for="rate">Annual Interest Rate (%):</label>
-        <input type="number" id="rate" step="0.01" placeholder="Enter annual interest rate" required>
+            <label for="rate">Annual Interest Rate (%):</label>
+            <input type="number" id="rate" step="0.01" placeholder="Enter annual interest rate" required>
 
-        <label for="tenure">Loan Tenure (years):</label>
-        <input type="number" id="tenure" placeholder="Enter loan tenure in years" required>
+            <label for="tenure">Loan Tenure (years):</label>
+            <input type="number" id="tenure" placeholder="Enter loan tenure in years" required>
 
-        <button onclick="calculateEMI()">Calculate EMI</button>
+            <button onclick="calculateEMI()">Calculate EMI</button>
 
-        <div class="results" id="results" style="display: none;">
-            <p>EMI Amount: <span id="emiAmount">₹0</span></p>
-            <p>Total Interest Payable: <span id="totalInterest">₹0</span></p>
-            <p>Total Payment (Principal + Interest): <span id="totalPayment">₹0</span></p>
+            <div class="results" id="results" style="display: none;">
+                <p>EMI Amount: <span id="emiAmount">₹0</span></p>
+                <p>Total Interest Payable: <span id="totalInterest">₹0</span></p>
+                <p>Total Payment (Principal + Interest): <span id="totalPayment">₹0</span></p>
+            </div>
         </div>
     </div>
 
