@@ -13,9 +13,9 @@ $result4 = mysqli_query($con,$query4);
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Will China end up destroying or saving the planet? | Is china destroying planet? Latest News - Newsguru.live</title>
-<meta name=news_keywords content="Will China end up destroying or saving the planet?" itemprop="keywords"/>
-<meta name=description content="Uncover the role of China in shaping the fate of our planet. Delve into thought-provoking content exploring the potential for destruction and salvation on our website." itemprop="description"/>
+<title>Write For Us</title>
+<meta name=news_keywords content="" itemprop="keywords"/>
+<meta name=description content="" itemprop="description"/>
 <meta name=viewport content="width=device-width, initial-scale=1">
 <link rel=canonical href=https://www.newsguru.live/Will-China-end-up-destroying-or-saving-the-planet.php />
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
