@@ -11,8 +11,7 @@
     <meta name="keywords" content="EMI Calculator, monthly EMI, loan calculator, home loan EMI, car loan EMI, personal loan EMI, financial planning, loan interest, loan repayment, online calculator, free EMI calculation">
 
     <link rel="canonical" href="https://www.newsguru.live/tools/EMI-Calculator" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
@@ -27,7 +26,6 @@
         body {
             display: flex;
             min-height: 100vh;
-            flex-direction: column;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f5f5f5;
             margin: 0;
@@ -38,9 +36,6 @@
             color: white;
             padding: 20px;
             box-sizing: border-box;
-            position: fixed;
-            height: 100%;
-            overflow: auto;
         }
         .sidebar h2 {
             color: #fff;
@@ -50,20 +45,21 @@
             text-decoration: none;
             display: block;
             margin: 10px 0;
-            padding: 10px;
-            border-radius: 4px;
         }
         .sidebar a.active {
             color: #fff;
-            background-color: #007BFF;
         }
         .main-content {
             flex: 1;
             padding: 20px;
-            margin-left: 220px;
         }
-        .card {
-            padding: 20px;
+        .calculator {
+            width: 100%;
+            max-width: 600px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
         }
         .calculator label {
@@ -165,7 +161,7 @@
             <div class="center"></div>
         </div>
         <br>
-        <div class="calculator card">
+        <div class="calculator">
             <label for="principal">Principal Amount (₹):</label>
             <input type="number" id="principal" placeholder="Enter principal amount" required>
 
@@ -175,7 +171,7 @@
             <label for="tenure">Loan Tenure (years):</label>
             <input type="number" id="tenure" placeholder="Enter loan tenure in years" required>
 
-            <button class="btn waves-effect waves-light" onclick="calculateEMI()">Calculate EMI</button>
+            <button onclick="calculateEMI()">Calculate EMI</button>
 
             <div class="results" id="results" style="display: none;">
                 <p>EMI Amount: <span id="emiAmount">₹0</span></p>
@@ -183,6 +179,7 @@
                 <p>Total Payment (Principal + Interest): <span id="totalPayment">₹0</span></p>
             </div>
         </div>
+        
     </div>
 
     <script>
@@ -193,7 +190,7 @@
             const tenure = parseInt(document.getElementById('tenure').value);
 
             if (isNaN(principal) || isNaN(rate) || isNaN(tenure)) {
-                M.toast({html: 'Please enter valid values!', classes: 'red'});
+                alert("Please enter valid values.");
                 return;
             }
 
@@ -243,6 +240,5 @@
         setInterval(updateClock, 1000);
         updateClock();
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
