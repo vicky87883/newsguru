@@ -9,6 +9,16 @@
 <meta name=description content="Hight Quality image file compressor without losing pixel quality and easy download" itemprop="description"/>
 <link rel=canonical href="https://www.newsguru.live/tools/image-compressor" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V6HH2RKGTW');
+</script>
 </head>
 <body>
     <div class="sidebar">
@@ -20,6 +30,15 @@
     </div>
     <div class="main-content">
         <h1>Compress Your Image</h1>
+        <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         <div class="upload-area">
             <div class="upload-btn-wrapper">
                 <button class="btn">Upload Image</button>
