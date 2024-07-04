@@ -88,7 +88,7 @@ $result5 = mysqli_query($con,$query5);
 <div class=row>
 <div class="col-lg-8 col-md-12">
 <div class="featured-post mb-50">
-<h1 class="widget-title mb-30">Today <span>Highlight</span></h1>
+<h4 class="widget-title mb-30">Today <span>Highlight</span></h4>
 </div>
 	<?php include('topsection.php') ?>
 </div>

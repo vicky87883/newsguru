@@ -31,7 +31,7 @@
             margin: 0;
         }
         .sidebar {
-            width: 200px;
+            width: 250px;
             background: #333;
             color: white;
             padding: 20px;
