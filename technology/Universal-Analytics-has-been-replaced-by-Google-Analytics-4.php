@@ -237,8 +237,12 @@ New conversions, including those within connected advertising accounts, will no 
 <p>
 2. queries made via the User Deletion API to delete Universal Analytics data will be unsuccessful, as will any other API queries pertaining to Universal Analytics attributes. Additionally, this means that any Universal Analytics data will not be displayed by tools that depend on an API, such Looker Studio.
 </p>
-
+<p>3. Up until and including June 30, 2024, BigQuery export and backfill of historical data from Universal Analytics 360 properties are only available. There is still data in BigQuery that has already been exported.
 </p>
+<p>
+4. Projects related to attribution that were a part of Google Analytics' Attribution (beta) program will be eliminated.
+</p>
+
 </div>
 <?php include('../sociallink.php') ?>
 	<?php include('../relatedpost.php') ?>
