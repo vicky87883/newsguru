@@ -31,7 +31,7 @@
             margin: 0;
         }
         .sidebar {
-            width: 250px;
+            width: 200px;
             background: #333;
             color: white;
             padding: 20px;
@@ -60,6 +60,7 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
         .calculator label {
             font-weight: bold;
@@ -99,6 +100,48 @@
             font-weight: bold;
             color: #007BFF;
         }
+        .clock {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 2px solid #007BFF;
+            border-radius: 50%;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .clock .hand {
+            position: absolute;
+            width: 50%;
+            height: 6px;
+            background: #007BFF;
+            top: 50%;
+            transform-origin: 100%;
+            transform: rotate(90deg);
+            transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.3, 1);
+        }
+        .clock .hour {
+            height: 8px;
+            width: 35%;
+            background: #333;
+        }
+        .clock .minute {
+            height: 6px;
+        }
+        .clock .second {
+            height: 4px;
+            background: #FF0000;
+        }
+        .clock .center {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: #007BFF;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
@@ -111,15 +154,6 @@
     </div>
     <div class="main-content">
         <h1>EMI Calculator</h1>
-        <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6958761602872755"
-     data-ad-slot="5307231561"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
         <div class="calculator">
             <label for="principal">Principal Amount (₹):</label>
             <input type="number" id="principal" placeholder="Enter principal amount" required>
@@ -137,6 +171,12 @@
                 <p>Total Interest Payable: <span id="totalInterest">₹0</span></p>
                 <p>Total Payment (Principal + Interest): <span id="totalPayment">₹0</span></p>
             </div>
+        </div>
+        <div class="clock">
+            <div class="hand hour" id="hourHand"></div>
+            <div class="hand minute" id="minuteHand"></div>
+            <div class="hand second" id="secondHand"></div>
+            <div class="center"></div>
         </div>
     </div>
 
@@ -174,6 +214,29 @@
 
             document.getElementById('results').style.display = 'block';
         }
+
+        // Clock functionality
+        function updateClock() {
+            const now = new Date();
+            const seconds = now.getSeconds();
+            const minutes = now.getMinutes();
+            const hours = now.getHours();
+
+            const secondHand = document.getElementById('secondHand');
+            const minuteHand = document.getElementById('minuteHand');
+            const hourHand = document.getElementById('hourHand');
+
+            const secondDegree = ((seconds / 60) * 360) + 90;
+            const minuteDegree = ((minutes / 60) * 360) + ((seconds / 60) * 6) + 90;
+            const hourDegree = ((hours / 12) * 360) + ((minutes / 60) * 30) + 90;
+
+            secondHand.style.transform = `rotate(${secondDegree}deg)`;
+            minuteHand.style.transform = `rotate(${minuteDegree}deg)`;
+            hourHand.style.transform = `rotate(${hourDegree}deg)`;
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();
     </script>
 </body>
 </html>
