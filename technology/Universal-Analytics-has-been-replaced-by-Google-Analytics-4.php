@@ -208,7 +208,7 @@ Thursday, 4 July 2024</span>
 </div>
 <div class="bt-1 border-color-1 mb-30"></div>
 <figure class="single-thumnail mb-30">
-<img src="assets/imgs/news/analytics.JPG" alt=blog width=100%>
+<img src="assets/imgs/news/analytics.JPG" alt=blog width=80%>
 <div class="credit mt-15 font-small color-grey">
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
@@ -216,6 +216,29 @@ Thursday, 4 July 2024</span>
 <div class=single-excerpt>
 <p><mark>Important: As of July 1, 2024, you will no longer be able to access Universal Analytics data through product integrations like Google Ads or Search Ads 360, as well as through the interface and API. To begin using Google Analytics 4 (GA4), visit the Setup Assistant if you haven't finished the migration. You should download your data right away if you want to keep having access to it from your property.
 </mark></p>
+<p>Our next-generation measuring tool, Google Analytics 4, has taken the place of Universal Analytics. You must have a Google Analytics 4 property in order to keep track of your website measurement. Upgrade to Google Analytics 4 if you haven't already.
+</p>
+<div><strong>Understand the migration timeline</strong></div>
+<p><b>Beginning the week of July 1, 2024:</b> Most users will no longer be able to use the interface or the API, and you will not have access to any past or current Universal Analytics data. In certain cases, it can take longer. There will be a banner indicating that all properties visible after July 1, 2024, are scheduled for deletion. For the duration of an ongoing BigQuery backfill, Universal Analytics 360 properties will be displayed in the UI. Properly set BigQuery backfills will run until they are finished, even if they begin after July 1, 2024, on or before June 30, 2024.
+</p>
+<p><b>Once a property disappears from the interface after July 1, 2024, you should consider it closed.
+</b></p>
+<p>Although the normal Universal Analytics sunset takes some time to complete, most customers will see the full Universal Analytics shutdown on July 1st or during the next week. We understand how essential your data is to you, thus before this date, we advise you to export your already processed data.
+</p>
+<div><strong>Product integrations</strong></div>
+<p>When services are terminated, Universal Analytics settings and data obtained or used through publisher, advertiser, or other product integrations will be lost. As an illustration:
+</p>
+<p>
+New conversions, including those within connected advertising accounts, will no longer be measured by Universal Analytics goals and e-commerce transactions. If those conversions are combined with smart bidding, this could have an impact on the performance of the ad campaign.
+</p>
+<p>
+1. The closure of Universal Analytics audience lists could have an impact on the performance and media activation of advertising campaigns.
+</p>
+<p>
+2. queries made via the User Deletion API to delete Universal Analytics data will be unsuccessful, as will any other API queries pertaining to Universal Analytics attributes. Additionally, this means that any Universal Analytics data will not be displayed by tools that depend on an API, such Looker Studio.
+</p>
+
+</p>
 </div>
 <?php include('../sociallink.php') ?>
 	<?php include('../relatedpost.php') ?>
