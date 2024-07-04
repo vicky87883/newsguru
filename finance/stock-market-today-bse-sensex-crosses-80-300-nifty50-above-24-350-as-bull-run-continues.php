@@ -38,6 +38,13 @@ $result4 = mysqli_query($con,$query4);
 
   gtag('config', 'G-V6HH2RKGTW');
 </script>
+<style>.single-excerpt p {
+    font-family: 'Georgia', serif; /* Use a serif font for readability */
+    font-size: 1.1rem; /* Slightly increase the font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 1em; /* Space out paragraphs */
+    color: #333; /* Use a dark color for good contrast */
+}</style>
 </head>
 <body>
 <div id=preloader-active>
