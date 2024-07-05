@@ -33,6 +33,13 @@ $result4 = mysqli_query($con,$query4);
 
   gtag('config', 'G-V6HH2RKGTW');
 </script>
+<style>.single-excerpt p {
+    font-family: 'Georgia', serif; /* Use a serif font for readability */
+    font-size: 1.1rem; /* Slightly increase the font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 1em; /* Space out paragraphs */
+    color: #333; /* Use a dark color for good contrast */
+}</style>
 </head>
 <body>
 <div id=preloader-active>
@@ -40,7 +47,7 @@ $result4 = mysqli_query($con,$query4);
 <div class="preloader-inner position-relative">
 <div class=text-center>
 <img class="jump mb-50" src=assets/imgs/loading.svg alt>
-<h6>Now Loading</h6>
+<how Loading</h6>
 <div class=loader>
 <div class="bar bar1"></div>
 <div class="bar bar2"></div>
