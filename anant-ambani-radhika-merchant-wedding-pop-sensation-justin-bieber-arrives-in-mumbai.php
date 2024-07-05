@@ -199,6 +199,15 @@ $result4 = mysqli_query($con,$query4);
                         <div class=single-excerpt>
                             <p>Mumbai: After the performances of Rihanna and Katy Perry at Anant Ambani and Radhika Merchant's pre-wedding events, Canadian singer-songwriter Justin Bieber appears to be the next in line to enthrall guests at the highly anticipated wedding.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Early on Friday morning, the Canadian pop artist touched down at the Mumbai airport accompanied by his staff.
 </p>
@@ -207,6 +216,15 @@ Bieber was spotted getting into a car and driving out of the airport while weari
 </p>
 <p>According to reports, Justin Bieber, who is well-known for hits like "Baby," "Sorry," and "Never Say Never," among others, will be performing during Anant and Radhika's sangeet ceremony.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 On Friday, July 5, Anant and Radhika's sangeet celebrations are planned.
 On July 12, the couple will exchange promises at Mumbai's Jio World Convention Centre.
@@ -216,6 +234,15 @@ On July 12, the couple will exchange promises at Mumbai's Jio World Convention C
 <p>
 On July 2, at Swami Vivekanand Vidyamandir in Palghar, Mukesh and Nita Ambani arranged a mass wedding for the impoverished as part of their wedding celebrations.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The Ambanis arranged a grandiose Mameru ceremony on July 3. In Gujarati wedding customs, the bride's maternal uncle, or "mama," pays her a visit and presents her with gifts and candies.
 </p>
@@ -224,6 +251,15 @@ The Ambanis arranged a grandiose Mameru ceremony on July 3. In Gujarati wedding 
 <p>
 Shubh Aashirwad, on Saturday, July 13, will bring the festivities to a close. The wedding celebration, or Mangal Utsav, is the last event and is set for Sunday, July 14. It is requested that guests dress in "Indian chic" for this special event.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Radhika Merchant, the daughter of entrepreneur Shaila Merchant and Encore Healthcare CEO Viren Merchant, is expected to become the first of two well-known industrialist families to marry into the Ambani family.
 
 A star-studded guest list from all over the world attended the couple's pre-wedding celebrations in Jamnagar earlier this year.
@@ -233,12 +269,30 @@ Heads of state, business executives, and Bollywood and Hollywood celebrities gra
 </p>
 <p>Ivanka Trump, Microsoft co-founder Bill Gates, and Meta founder Mark Zuckerberg and his wife Priscilla Chan were among the esteemed visitors.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Pop sensation Rihanna made her debut in India with an incredible performance that was the highlight of the pre-wedding festivities.
 </p>
 <p>
 World-famous illusionist David Blaine was also a part of the three-day event, captivating guests with his amazing accomplishments.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The audience was captivated by actor-singer Diljit Dosanjh's special presence during the sangeet performances, which included Bollywood celebrities and their families. 
 </p>
