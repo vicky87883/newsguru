@@ -20,7 +20,7 @@ gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
 <a href=image-compressor class=active>Image Compressor</a>
 <a href=pdf-compressor>PDF Compressor</a>
 <a href=EMI-Calculator>EMI-Calculator</a>
-<a href=#>Other Tools</a>
+<a href=photoshop-online>Image Editor</a>
 </div>
 <div class=main-content>
 <h1>Compress Your Image</h1>
