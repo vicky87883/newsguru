@@ -3,9 +3,22 @@
 <head>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width, initial-scale=1.0">
-<title>Advanced Image Editor</title>
+<title>Photoshop Online | Advanced Image Editor</title>
+<meta name="keywords" content="online Photoshop, advanced image editor, online image editing, photo editing tools, online photo editor, free Photoshop alternative, web-based photo editor, image enhancement, graphic design, photo retouching, photo manipulation, online design tools">
+<meta name="description" content="Experience the power of an advanced online Photoshop editor. Edit, enhance, and retouch your photos with our web-based image editing tools. Perfect for graphic design, photo manipulation, and professional-quality results.">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css>
+
 <style>body{display:flex;min-height:100vh;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#f5f5f5;margin:0}.sidebar{width:200px;background:#333;color:white;padding:20px;box-sizing:border-box;display:flex;flex-direction:column}.sidebar h2{color:#fff}.sidebar a{color:#bbb;text-decoration:none;display:block;margin:10px 0}.sidebar a.active{color:#fff}.main-content{flex:1;padding:20px;display:flex;flex-direction:column;align-items:center}.upload-area{margin-bottom:20px}.upload-btn-wrapper{position:relative;overflow:hidden;display:inline-block}.upload-btn-wrapper .btn{border:2px solid #007bff;color:#fff;background-color:#007bff;padding:10px 20px;border-radius:8px;font-size:20px;cursor:pointer;transition:background-color .3s}.upload-btn-wrapper input[type=file]{font-size:100px;position:absolute;left:0;top:0;opacity:0}.image-section{position:relative;display:flex;justify-content:center;margin-bottom:20px;border:2px solid #444;padding:10px;background:#fff;width:100%;max-width:800px}#canvas{border:1px solid #ddd;max-width:100%}.controls{display:flex;flex-direction:column;align-items:center;width:100%;max-width:800px}.controls label{margin-top:10px;font-weight:bold}.controls input[type=range]{width:80%;margin:5px 0}.shape-controls,.text-controls,.buttons{display:flex;flex-wrap:wrap;margin-top:10px}.shape-controls .button,.text-controls .button,.buttons .button{margin:5px;padding:10px;border:0;border-radius:8px;background-color:#007bff;color:#fff;font-size:16px;cursor:pointer;transition:background-color .3s}.shape-controls .button:hover,.text-controls .button:hover,.buttons .button:hover{background-color:#0056b3}#colorPicker,#lineWidth,#textInput{margin:5px;padding:10px;border-radius:5px;border:1px solid #444;outline:0;background-color:#fff;color:#000}#crop-area{border:2px solid #007bff;position:absolute;display:none}.font-select{margin:5px;padding:10px;border-radius:5px;border:1px solid #444;outline:0;background-color:#fff;color:#000}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V6HH2RKGTW');
+</script>
 </head>
 <body>
 <div class=sidebar>
