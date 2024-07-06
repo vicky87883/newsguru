@@ -1,34 +1,43 @@
 <?php
-// db_connection.php
-$servername = "localhost";
-$username = "vikram";
-$password = "Parjapat@123";
-$dbname = "coder";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
-
-<?php
-// job_details.php
+// Include the database connection
 include 'db_connection.php';
 
-$job_id = $_GET['id'];
-$sql = "SELECT * FROM job_alerts WHERE id = $job_id";
-$result = $conn->query($sql);
+// Check if the 'id' parameter is set and is a valid integer
+if (isset($_GET['id']) && is_numeric($_GET['id'])) {
+    $job_id = intval($_GET['id']); // Convert to integer for security
 
-if ($result->num_rows > 0) {
-    $job = $result->fetch_assoc();
+    // Prepare SQL statement to prevent SQL injection
+    $stmt = $conn->prepare("SELECT * FROM job_alerts WHERE id = ?");
+    if ($stmt === false) {
+        die("Failed to prepare statement: " . $conn->error);
+    }
+
+    // Bind the job_id parameter
+    $stmt->bind_param("i", $job_id);
+
+    // Execute the query
+    if ($stmt->execute()) {
+        // Get the result
+        $result = $stmt->get_result();
+
+        if ($result->num_rows > 0) {
+            $job = $result->fetch_assoc(); // Fetch the job details
+        } else {
+            echo "Job not found";
+            exit;
+        }
+    } else {
+        die("Error executing query: " . $stmt->error);
+    }
+
+    // Close the statement
+    $stmt->close();
 } else {
-    echo "Job not found";
+    echo "Invalid job ID";
     exit;
 }
 
+// Close the database connection
 $conn->close();
 ?>
 
@@ -37,7 +46,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Details - <?php echo $job['job_title']; ?></title>
+    <title>Job Details - <?php echo htmlspecialchars($job['job_title']); ?></title>
     <style>
         /* Global Styles */
         body {
@@ -203,13 +212,13 @@ $conn->close();
     <nav class="breadcrumb">
         <a href="index.html">Home</a> &gt;
         <a href="#">Latest Jobs</a> &gt;
-        <span><?php echo $job['job_title']; ?></span>
+        <span><?php echo htmlspecialchars($job['job_title']); ?></span>
     </nav>
     <main>
         <section class="job-summary">
-            <h2><?php echo $job['job_title']; ?></h2>
+            <h2><?php echo htmlspecialchars($job['job_title']); ?></h2>
             <p>Posted on: <?php echo date('d-M-Y', strtotime($job['posted_date'])); ?></p>
-            <p>Organization: <?php echo $job['company']; ?></p>
+            <p>Organization: <?php echo htmlspecialchars($job['company']); ?></p>
         </section>
         <section class="job-details">
             <h3>Job Details</h3>
@@ -225,11 +234,11 @@ $conn->close();
                 </thead>
                 <tbody>
                     <tr>
-                        <td><?php echo $job['job_title']; ?></td>
-                        <td><?php echo $job['vacancies']; ?></td>
-                        <td><?php echo $job['qualification']; ?></td>
-                        <td><?php echo $job['age_limit']; ?></td>
-                        <td><?php echo $job['pay_scale']; ?></td>
+                        <td><?php echo htmlspecialchars($job['job_title']); ?></td>
+                        <td><?php echo htmlspecialchars($job['vacancies']); ?></td>
+                        <td><?php echo htmlspecialchars($job['qualification']); ?></td>
+                        <td><?php echo htmlspecialchars($job['age_limit']); ?></td>
+                        <td><?php echo htmlspecialchars($job['pay_scale']); ?></td>
                     </tr>
                 </tbody>
             </table>
@@ -239,16 +248,16 @@ $conn->close();
             <ul>
                 <li><strong>Application Start Date:</strong> <?php echo date('d-M-Y', strtotime($job['application_start_date'])); ?></li>
                 <li><strong>Application End Date:</strong> <?php echo date('d-M-Y', strtotime($job['application_end_date'])); ?></li>
-                <li><strong>Application Fee:</strong> <?php echo $job['application_fee']; ?></li>
-                <li><strong>How to Apply:</strong> <?php echo $job['how_to_apply']; ?></li>
+                <li><strong>Application Fee:</strong> <?php echo htmlspecialchars($job['application_fee']); ?></li>
+                <li><strong>How to Apply:</strong> <?php echo htmlspecialchars($job['how_to_apply']); ?></li>
             </ul>
         </section>
         <section class="important-links">
             <h3>Important Links</h3>
             <ul>
-                <li><a href="<?php echo $job['official_notification']; ?>">Official Notification</a></li>
-                <li><a href="<?php echo $job['apply_online']; ?>">Apply Online</a></li>
-                <li><a href="<?php echo $job['official_website']; ?>">Official Website</a></li>
+                <li><a href="<?php echo htmlspecialchars($job['official_notification']); ?>">Official Notification</a></li>
+                <li><a href="<?php echo htmlspecialchars($job['apply_online']); ?>">Apply Online</a></li>
+                <li><a href="<?php echo htmlspecialchars($job['official_website']); ?>">Official Website</a></li>
             </ul>
         </section>
     </main>
