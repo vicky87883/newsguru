@@ -138,6 +138,11 @@
     </div>
     <div class="main-content">
         <h1>High Quality Image Compressor</h1>
+        <p>This online image compressor reduces the size of JPEG, GIF, and PNG images to the smallest size while maintaining the necessary quality using a clever blend of lossy compression and optimization techniques.
+</p>
+<p>
+Upload unlimited images. Await the completion of the compression. To compare photographs, use your mouse or gestures and the slider to adjust the compression level.
+</p>
         <ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6958761602872755" data-ad-slot="5307231561"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         <div class="upload-area">
