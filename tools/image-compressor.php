@@ -5,7 +5,7 @@
 <meta name=viewport content="width=device-width, initial-scale=1.0">
 <title>High Quality Image Compressor</title>
 <meta name=news_keywords content="image compressor,image to 10kb,image to 20kb,image to 30kb,image to 40kb,image to 50kb,image to 100kb,image under 200kb" itemprop="keywords"/>
-<meta name=description content="Hight Quality image file compressor without losing pixel quality and easy download" itemprop="description"/>
+<meta name=description content="High Quality image compressor without losing pixel quality and easy download" itemprop="description"/>
 <link rel=canonical href=https://www.newsguru.live/tools/image-compressor />
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
 <link rel=stylesheet href=assets/css/style.css>
@@ -23,7 +23,7 @@ gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
 <a href=photoshop-online>Image Editor</a>
 </div>
 <div class=main-content>
-<h1>Compress Your Image</h1>
+<h1>High Quality Image Compressor</h1>
 <ins class=adsbygoogle style=display:block;text-align:center data-ad-layout=in-article data-ad-format=fluid data-ad-client=ca-pub-6958761602872755 data-ad-slot=5307231561></ins>
 <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
 <div class=upload-area>
