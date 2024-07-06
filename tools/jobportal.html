@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Job Alert Table</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: 'Roboto', sans-serif;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .styled-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #dddddd;
+            white-space: nowrap; /* Prevent text wrapping */
+            overflow: hidden;    /* Hide overflow content */
+            text-overflow: ellipsis; /* Show ellipsis for overflow text */
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        .styled-table tbody tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        .styled-table a {
+            color: #009879;
+            text-decoration: none;
+        }
+
+        .styled-table a:hover {
+            text-decoration: underline;
+        }
+
+        /* Icons */
+        .styled-table .icon {
+            margin-right: 8px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .styled-table thead {
+                display: none;
+            }
+
+            .styled-table, .styled-table tbody, .styled-table tr, .styled-table td {
+                display: block;
+                width: 100%;
+            }
+
+            .styled-table tr {
+                margin-bottom: 15px;
+                border: none;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                overflow: hidden;
+                background: #fff;
+            }
+
+            .styled-table td {
+                text-align: left;
+                padding: 10px;
+                border-bottom: none;
+                position: relative;
+                border-bottom: 1px solid #eeeeee;
+                white-space: normal; /* Allow text to wrap */
+            }
+
+            .styled-table td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                width: calc(50% - 20px);
+                padding-right: 10px;
+                font-weight: bold;
+                color: #009879;
+                white-space: nowrap;
+            }
+
+            .styled-table td {
+                padding-left: calc(50% + 10px);
+            }
+
+            .styled-table td[data-label]:first-of-type {
+                border-top: 2px solid #009879;
+            }
+
+            .styled-table td[data-label]:last-of-type {
+                border-bottom: 2px solid #009879;
+            }
+
+            .styled-table td a {
+                display: inline-block;
+                margin: 10px 0;
+            }
+        }
+
+        /* Additional styling for long text in cells */
+        @media (max-width: 480px) {
+            .styled-table td::before {
+                width: 100%; /* Allow header labels to take full width */
+                position: static; /* Move to normal flow */
+                display: block;
+                padding-bottom: 5px;
+            }
+
+            .styled-table td {
+                padding-left: 15px; /* Reset padding to normal */
+                text-align: left;
+                overflow-x: auto; /* Enable horizontal scrolling */
+            }
+
+            .styled-table tr {
+                margin-bottom: 20px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><i class="fas fa-briefcase"></i> Latest Job Updates</h2>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Job Title</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Last Date to Apply</th>
+                    <th>More Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="S.No">1</td>
+                    <td data-label="Job Title"><i class="fas fa-code icon"></i> Software Engineer with a Very Long Title That Might Overflow</td>
+                    <td data-label="Company"><i class="fas fa-building icon"></i> XYZ Corp</td>
+                    <td data-label="Location"><i class="fas fa-map-marker-alt icon"></i> New York, NY</td>
+                    <td data-label="Last Date to Apply"><i class="fas fa-calendar-alt icon"></i> 30-Jul-2024</td>
+                    <td data-label="More Info"><a href="#"><i class="fas fa-info-circle icon"></i> Details</a></td>
+                </tr>
+                <tr>
+                    <td data-label="S.No">2</td>
+                    <td data-label="Job Title"><i class="fas fa-chart-line icon"></i> Data Analyst</td>
+                    <td data-label="Company"><i class="fas fa-building icon"></i> ABC Ltd</td>
+                    <td data-label="Location"><i class="fas fa-map-marker-alt icon"></i> San Francisco, CA</td>
+                    <td data-label="Last Date to Apply"><i class="fas fa-calendar-alt icon"></i> 25-Jul-2024</td>
+                    <td data-label="More Info"><a href="#"><i class="fas fa-info-circle icon"></i> Details</a></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
