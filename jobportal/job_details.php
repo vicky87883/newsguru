@@ -1,48 +1,29 @@
 <?php
-// Enable error reporting
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-// Include the database connection
+// job_details.php
 include 'db_connection.php';
 
-// Check if the 'id' parameter is set and is a valid integer
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
-    $job_id = intval($_GET['id']); // Convert to integer for security
+    $job_id = intval($_GET['id']);
 
-    // Prepare SQL statement to prevent SQL injection
+    // Prepare statement
     $stmt = $conn->prepare("SELECT * FROM job_alerts WHERE id = ?");
-    if ($stmt === false) {
-        die("Failed to prepare statement: " . $conn->error);
-    }
-
-    // Bind the job_id parameter
     $stmt->bind_param("i", $job_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
-    // Execute the query
-    if ($stmt->execute()) {
-        // Get the result
-        $result = $stmt->get_result();
-
-        if ($result->num_rows > 0) {
-            $job = $result->fetch_assoc(); // Fetch the job details
-        } else {
-            echo "Job not found with ID: " . $job_id;
-            exit;
-        }
+    if ($result->num_rows > 0) {
+        $job = $result->fetch_assoc();
     } else {
-        die("Error executing query: " . $stmt->error);
+        echo "Job not found";
+        exit;
     }
 
-    // Close the statement
     $stmt->close();
 } else {
-    echo "Invalid job ID: " . (isset($_GET['id']) ? htmlspecialchars($_GET['id']) : "None provided");
+    echo "Invalid job ID";
     exit;
 }
 
-// Close the database connection
 $conn->close();
 ?>
 
@@ -262,12 +243,12 @@ $conn->close();
             <ul>
                 <li><a href="<?php echo htmlspecialchars($job['official_notification']); ?>">Official Notification</a></li>
                 <li><a href="<?php echo htmlspecialchars($job['apply_online']); ?>">Apply Online</a></li>
-                <li><a href="index.html">Go Back to Job List</a></li> <!-- Added this link for easy navigation back to the job list -->
+                <li><a href="<?php echo htmlspecialchars($job['official_website']); ?>">Official Website</a></li>
             </ul>
         </section>
     </main>
     <footer class="footer">
-        <p>&copy; <?php echo date('Y'); ?> Job Alert. All rights reserved.</p>
+        <p>&copy; 2024 Job Alert. All rights reserved.</p>
     </footer>
 </body>
 </html>
