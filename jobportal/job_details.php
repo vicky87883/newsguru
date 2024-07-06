@@ -1,4 +1,9 @@
 <?php
+// Enable error reporting
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // Include the database connection
 include 'db_connection.php';
 
@@ -23,7 +28,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
         if ($result->num_rows > 0) {
             $job = $result->fetch_assoc(); // Fetch the job details
         } else {
-            echo "Job not found";
+            echo "Job not found with ID: " . $job_id;
             exit;
         }
     } else {
@@ -33,7 +38,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     // Close the statement
     $stmt->close();
 } else {
-    echo "Invalid job ID";
+    echo "Invalid job ID: " . (isset($_GET['id']) ? htmlspecialchars($_GET['id']) : "None provided");
     exit;
 }
 
@@ -257,12 +262,12 @@ $conn->close();
             <ul>
                 <li><a href="<?php echo htmlspecialchars($job['official_notification']); ?>">Official Notification</a></li>
                 <li><a href="<?php echo htmlspecialchars($job['apply_online']); ?>">Apply Online</a></li>
-                <li><a href="<?php echo htmlspecialchars($job['official_website']); ?>">Official Website</a></li>
+                <li><a href="index.html">Go Back to Job List</a></li> <!-- Added this link for easy navigation back to the job list -->
             </ul>
         </section>
     </main>
     <footer class="footer">
-        <p>&copy; 2024 Job Alert. All rights reserved.</p>
+        <p>&copy; <?php echo date('Y'); ?> Job Alert. All rights reserved.</p>
     </footer>
 </body>
 </html>
