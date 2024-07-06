@@ -1,9 +1,43 @@
+<?php
+// db_connection.php
+$servername = "localhost";
+$username = "vikram";
+$password = "Parjapat@123";
+$dbname = "coder";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+
+<?php
+// job_details.php
+include 'db_connection.php';
+
+$job_id = $_GET['id'];
+$sql = "SELECT * FROM job_alerts WHERE id = $job_id";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    $job = $result->fetch_assoc();
+} else {
+    echo "Job not found";
+    exit;
+}
+
+$conn->close();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Details - MSRTC Multiple Posts 2024</title>
+    <title>Job Details - <?php echo $job['job_title']; ?></title>
     <style>
         /* Global Styles */
         body {
@@ -169,13 +203,13 @@
     <nav class="breadcrumb">
         <a href="index.html">Home</a> &gt;
         <a href="#">Latest Jobs</a> &gt;
-        <span>MSRTC Multiple Posts 2024</span>
+        <span><?php echo $job['job_title']; ?></span>
     </nav>
     <main>
         <section class="job-summary">
-            <h2>MSRTC Multiple Posts 2024</h2>
-            <p>Posted on: 05-Jul-2024</p>
-            <p>Organization: Maharashtra State Road Transport Corporation (MSRTC)</p>
+            <h2><?php echo $job['job_title']; ?></h2>
+            <p>Posted on: <?php echo date('d-M-Y', strtotime($job['posted_date'])); ?></p>
+            <p>Organization: <?php echo $job['company']; ?></p>
         </section>
         <section class="job-details">
             <h3>Job Details</h3>
@@ -191,38 +225,30 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Driver</td>
-                        <td>100</td>
-                        <td>10th Pass</td>
-                        <td>21-35 years</td>
-                        <td>Rs. 20,000 - 25,000</td>
+                        <td><?php echo $job['job_title']; ?></td>
+                        <td><?php echo $job['vacancies']; ?></td>
+                        <td><?php echo $job['qualification']; ?></td>
+                        <td><?php echo $job['age_limit']; ?></td>
+                        <td><?php echo $job['pay_scale']; ?></td>
                     </tr>
-                    <tr>
-                        <td>Conductor</td>
-                        <td>150</td>
-                        <td>10th Pass</td>
-                        <td>18-33 years</td>
-                        <td>Rs. 18,000 - 22,000</td>
-                    </tr>
-                    <!-- Add more rows as needed -->
                 </tbody>
             </table>
         </section>
         <section class="application-info">
             <h3>Application Details</h3>
             <ul>
-                <li><strong>Application Start Date:</strong> 10-Jul-2024</li>
-                <li><strong>Application End Date:</strong> 25-Jul-2024</li>
-                <li><strong>Application Fee:</strong> Rs. 500 for General/OBC, Rs. 250 for SC/ST</li>
-                <li><strong>How to Apply:</strong> Interested candidates can apply online through the official website.</li>
+                <li><strong>Application Start Date:</strong> <?php echo date('d-M-Y', strtotime($job['application_start_date'])); ?></li>
+                <li><strong>Application End Date:</strong> <?php echo date('d-M-Y', strtotime($job['application_end_date'])); ?></li>
+                <li><strong>Application Fee:</strong> <?php echo $job['application_fee']; ?></li>
+                <li><strong>How to Apply:</strong> <?php echo $job['how_to_apply']; ?></li>
             </ul>
         </section>
         <section class="important-links">
             <h3>Important Links</h3>
             <ul>
-                <li><a href="#">Official Notification</a></li>
-                <li><a href="#">Apply Online</a></li>
-                <li><a href="#">Official Website</a></li>
+                <li><a href="<?php echo $job['official_notification']; ?>">Official Notification</a></li>
+                <li><a href="<?php echo $job['apply_online']; ?>">Apply Online</a></li>
+                <li><a href="<?php echo $job['official_website']; ?>">Official Website</a></li>
             </ul>
         </section>
     </main>
