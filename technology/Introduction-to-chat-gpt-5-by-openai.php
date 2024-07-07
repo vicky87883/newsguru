@@ -205,7 +205,7 @@ Sunday, 7 July 2024</span>
 </div>
 <div class="bt-1 border-color-1 mb-30"></div>
 <figure class="single-thumnail mb-30">
-<img src="assets/imgs/news/img.JPG" alt=blog width=100%>
+<img src="assets/imgs/news/gptfive.jpg" alt=blog width=100%>
 <div class="credit mt-15 font-small color-grey">
 <i class="ti-credit-card mr-5"></i><span>Image credit: additional resources.</span>
 </div>
@@ -242,8 +242,6 @@ Sunday, 7 July 2024</span>
 <p>As AI systems like GPT -5 handle large amounts of sensitive information, ensuring that this data is protected from misuse and breaches is essential. There must be strict measures in place to safeguard personal and confidential information, preventing unauthorized access and ensuring compliance with data protection regulations. The impact of AI on employment is another big issue. Advanced AI systems capable of automating specialized tasks could displace certain professionals. This raises questions about job security and the future of work. For example, GPT -5 could potentially perform tasks traditionally done by researchers, analysts, and even some creative professionals.</p>
 
 <p>While this might lead to Greater efficiency, it could also result in job losses. Even mirror mirati open ai's CTO acknowledge this concern suggesting that some creative jobs might disappear but also implying that perhaps these jobs were not essential in the first place. This perspective underscores the need for a thoughtful approach to integrating AI into the workforce. It's important to consider how to support workers who may be displaced by automation perhaps through retraining programs education and new job creation in AI related fields proactive measures are necessary to address these socio-economic implications policy makers businesses and Educators need to work together to create strategies that mitigate the negative impacts of AI on employment. This might include promoting lifelong learning developing skills that complement Ai and ensuring that the benefits of AI advancements are widely shared across Society. </p>
-
-
 
 </div>
 <?php include('../sociallink.php') ?>
