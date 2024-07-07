@@ -4,33 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>High Quality PDF Compressor</title>
-    <meta name="news_keywords" content="PDF Compressor, compress PDF, reduce PDF size" itemprop="keywords"/>
+    <meta name="news_keywords" content="PDF Compressor, compress PDF, reduce PDF size, multiple PDF compressor" itemprop="keywords"/>
     <meta name="description" content="High Quality PDF file compressor without losing quality, easy to use and download" itemprop="description"/>
     <link rel="canonical" href="https://www.newsguru.live/tools/pdf-compressor" />
     <link rel="stylesheet" href="assets/css/style.css">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin=anonymous referrerpolicy=no-referrer />
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin="anonymous"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
-    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-V6HH2RKGTW');</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-V6HH2RKGTW');
+    </script>
     <style>
         /* General Styles */
         body {
-            font-family: 'Roboto', Arial, sans-serif; /* Changed font to Roboto */
+            font-family: 'Roboto', Arial, sans-serif; 
             margin: 0;
             padding: 0;
             display: flex;
-            background-color: #f4f7f6; /* Light background color for better contrast */
+            background-color: #f4f7f6; 
             color: #333;
             line-height: 1.6;
+            min-height: 100vh;
+            flex-direction: column;
         }
 
         /* Sidebar Styling */
         .sidebar {
-            width: 240px; /* Slightly wider for better layout */
+            width: 200px; 
             background: #2c3e50;
             color: white;
             padding: 20px;
             height: 100vh;
             position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            z-index: 1000;
+            overflow-y: auto;
         }
 
         .sidebar h2 {
@@ -48,103 +64,122 @@
             margin-bottom: 10px;
             text-decoration: none;
             border-radius: 4px;
-            transition: background 0.3s ease, transform 0.2s ease; /* Added transform for a subtle hover effect */
+            transition: background 0.3s ease, transform 0.2s ease;
             font-size: 1.1em;
-            text-align: center; /* Centering text for better readability */
+            text-align: center; 
         }
 
         .sidebar a.active,
         .sidebar a:hover {
             background: #34495e;
-            transform: scale(1.05); /* Slight zoom on hover */
+            transform: scale(1.05); 
         }
 
         /* Main Content Styling */
         .main-content {
             flex: 1;
-            margin-left: 260px; /* Adjusted to align with sidebar width */
+            margin-left: 270px; 
             padding: 30px;
             background-color: #ffffff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            max-width: 1000px; /* Set max-width for better layout on larger screens */
-            margin-top: 20px;
+            max-width: 1250px; 
         }
 
         .main-content h1 {
-            font-size: 2.5em; /* Larger font size for headings */
+            font-size: 2.5em;
             color: #34495e;
             margin-bottom: 20px;
             text-align: center;
         }
 
         .main-content p {
-            font-size: 1.2em; /* Increased font size for readability */
-            text-align: justify; /* Justified text for better layout */
+            font-size: 1.2em;
+            text-align: justify; 
             margin-bottom: 20px;
         }
 
-        /* Upload Button */
+        /* Upload Area */
+        .upload-area {
+            border: 2px dashed #007bff;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            background: #fff;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .upload-area:hover {
+            background-color: #f1f1f1;
+        }
+
         .upload-btn-wrapper {
             position: relative;
             overflow: hidden;
             display: inline-block;
-            margin-top: 20px;
-            width: 100%;
-            text-align: center; /* Centering the upload button */
+            cursor: pointer;
+        }
+
+        .upload-btn-wrapper input[type="file"] {
+            font-size: 100px;
+            display: inline-block;
+            cursor: pointer;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
         }
 
         .btn {
-            border: 2px solid #1abc9c;
-            color: white;
-            background-color: #1abc9c;
-            padding: 12px 24px; /* Increased padding for better button size */
-            border-radius: 8px;
-            font-size: 18px; /* Larger font size */
+            border: 2px solid #007bff;
+            color: #007bff;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
             cursor: pointer;
-            display: inline-flex; /* Inline-flex for proper button styling */
-            align-items: center;
-            justify-content: center;
-            transition: background 0.3s ease, transform 0.2s ease;
+            transition: all 0.3s ease;
         }
 
         .btn:hover {
-            background-color: #16a085;
-            transform: scale(1.05);
-        }
-
-        .btn i {
-            margin-right: 8px;
-        }
-
-        .upload-btn-wrapper input[type=file] {
-            font-size: 100px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            opacity: 0;
-            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
         }
 
         /* Loader and Progress */
-        .loader,
-        .progress-container {
+        .loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
             display: none;
             margin-top: 20px;
         }
 
         .progress-container {
-            width: 100%;
-            background-color: #e0e0e0;
-            border-radius: 4px;
-            overflow: hidden;
+            width: 80%;
+            max-width: 300px;
+            height: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: none;
+            margin: 10px auto;
         }
 
         .progress-bar {
             width: 0;
-            height: 24px;
-            background-color: #1abc9c;
-            border-radius: 4px;
+            height: 100%;
+            background-color: #28a745;
+            border-radius: 5px;
             transition: width 0.4s ease;
         }
 
@@ -156,6 +191,8 @@
             border-radius: 8px;
             background-color: #fafafa;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         .info {
@@ -167,7 +204,7 @@
         .download-link {
             display: block;
             margin-top: 10px;
-            color: #1abc9c;
+            color: #007bff;
             text-decoration: none;
             font-weight: bold;
         }
@@ -192,16 +229,16 @@
             border: none;
             background: none;
             cursor: pointer;
-            font-size: 32px; /* Larger icons for better visibility */
+            font-size: 32px; 
             transition: color 0.3s ease, transform 0.2s ease;
             padding: 0 10px;
-            color: #ccc; /* Default color */
+            color: #ccc; 
         }
 
         .rating-buttons button:hover,
         .rating-buttons button.selected {
             color: #f1c40f;
-            transform: scale(1.2); /* Larger scale on hover and selected */
+            transform: scale(1.2); 
         }
 
         .thank-you-message {
@@ -211,6 +248,46 @@
             font-weight: bold;
             font-size: 1.2em;
         }
+
+        /* Spinner Animation */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: 60px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 0;
+                box-shadow: none;
+                z-index: 1000;
+            }
+
+            .sidebar h2 {
+                display: none;
+            }
+
+            .sidebar a {
+                margin: 0;
+                padding: 15px;
+            }
+
+            .main-content {
+                margin-left: 0;
+                margin-top: 60px;
+            }
+
+            .upload-area {
+                width: 80%;
+                max-width: 300px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -218,30 +295,22 @@
         <h2>Toolbox</h2>
         <a href="image-compressor">Image Compressor</a>
         <a href="pdf-compressor" class="active">PDF Compressor</a>
-        <a href="EMI-Calculator">EMI Calculator</a>
-        <a href="photoshop-online">Image Editor</a>
+        <a href="large-file-compressor">Large File Compressor</a>
+        <a href="other-tools">Other Tools</a>
     </div>
     <div class="main-content">
-        <h1>Compress Your PDF</h1>
-        <p>This online PDF compressor reduces the size of your PDF files to the smallest size while maintaining necessary quality using a blend of compression and optimization techniques.</p>
-        <p>Upload your PDF files and wait for the compression to complete. Download your compressed PDF files easily.</p>
-        <ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6958761602872755" data-ad-slot="5307231561"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        <h1>Compress Your PDFs</h1>
         <div class="upload-area">
             <div class="upload-btn-wrapper">
-                <button class="btn"><i class="fas fa-upload"></i>Upload PDF</button>
-                <input type="file" id="pdfInput" accept="application/pdf">
+                <button class="btn">Upload PDFs</button>
+                <input type="file" id="pdfInput" accept="application/pdf" multiple>
             </div>
         </div>
-        <div class="loader" id="loader">Loading...</div>
+        <div class="loader" id="loader"></div>
         <div class="progress-container" id="progressContainer">
             <div class="progress-bar" id="progressBar"></div>
         </div>
-        <div class="pdf-wrapper" id="pdfWrapper">
-            <div class="info" id="originalSize">Original Size: </div>
-            <div class="info" id="compressedSize">Compressed Size: </div>
-            <a id="downloadLink" class="download-link">Download Compressed PDF</a>
-        </div>
+        <div class="pdf-wrapper" id="pdfWrapper"></div>
         <div class="rating-section">
             <h2>Rate Your Experience</h2>
             <div class="rating-buttons">
@@ -256,32 +325,45 @@
     </div>
     <script>
         document.getElementById('pdfInput').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const loader = document.getElementById('loader');
-                const progressContainer = document.getElementById('progressContainer');
-                const progressBar = document.getElementById('progressBar');
-                const pdfWrapper = document.getElementById('pdfWrapper');
-                const originalSize = document.getElementById('originalSize');
-                const compressedSize = document.getElementById('compressedSize');
-                const downloadLink = document.getElementById('downloadLink');
-                loader.style.display = 'block';
-                progressContainer.style.display = 'block';
-                progressBar.style.width = '0%';
+            const files = event.target.files;
+            const loader = document.getElementById('loader');
+            const progressContainer = document.getElementById('progressContainer');
+            const progressBar = document.getElementById('progressBar');
+            const pdfWrapper = document.getElementById('pdfWrapper');
+            
+            loader.style.display = 'block';
+            progressContainer.style.display = 'block';
+            progressBar.style.width = '0%';
+            pdfWrapper.innerHTML = '';
+
+            let completed = 0;
+            const totalFiles = files.length;
+
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const originalSize = (file.size / 1024).toFixed(2);
 
                 setTimeout(() => {
-                    // Simulate compression process
-                    const compressedSizeValue = (file.size / 2).toFixed(2);
-                    originalSize.textContent = `Original Size: ${(file.size / 1024).toFixed(2)} KB`;
-                    compressedSize.textContent = `Compressed Size: ${compressedSizeValue} KB`;
-                    progressBar.style.width = '100%';
-
+                    const compressedSize = (file.size / 2 / 1024).toFixed(2); // Simulate compression
                     const compressedBlob = new Blob([file.slice(0, file.size / 2)], { type: 'application/pdf' });
                     const compressedUrl = URL.createObjectURL(compressedBlob);
-                    downloadLink.href = compressedUrl;
-                    downloadLink.download = 'compressed.pdf';
-                    loader.style.display = 'none';
-                }, 2000); // Simulate a 2-second compression process
+
+                    const pdfInfo = document.createElement('div');
+                    pdfInfo.className = 'info';
+                    pdfInfo.innerHTML = `
+                        <p>Original Size: ${originalSize} KB</p>
+                        <p>Compressed Size: ${compressedSize} KB</p>
+                        <a href="${compressedUrl}" class="download-link" download="compressed_${file.name}">Download Compressed PDF</a>
+                    `;
+
+                    pdfWrapper.appendChild(pdfInfo);
+                    completed++;
+                    progressBar.style.width = `${(completed / totalFiles) * 100}%`;
+
+                    if (completed === totalFiles) {
+                        loader.style.display = 'none';
+                    }
+                }, 2000); // Simulate a 2-second compression process for each file
             }
         });
 
