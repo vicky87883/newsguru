@@ -22,17 +22,19 @@
     </script>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
+            background-color: #f4f4f4;
         }
         .sidebar {
-            width: 200px;
+            width: 220px;
             background: #333;
             color: white;
             padding: 20px;
             height: 100vh;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
         }
         .sidebar h2 {
             text-align: center;
@@ -41,32 +43,59 @@
         .sidebar a {
             display: block;
             color: white;
-            padding: 10px 0;
+            padding: 12px 0;
             text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+            font-size: 16px;
         }
-        .sidebar a.active {
+        .sidebar a:hover, .sidebar a.active {
             background: #575757;
+            color: #fff;
         }
         .main-content {
             flex: 1;
             padding: 20px;
         }
+        .main-content h1 {
+            font-size: 26px;
+            margin-bottom: 20px;
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
         .upload-btn-wrapper {
             position: relative;
             overflow: hidden;
             display: inline-block;
+            margin-bottom: 20px;
         }
         .btn {
             border: 2px solid #4CAF50;
             color: white;
             background-color: #4CAF50;
-            padding: 8px 20px;
+            padding: 10px 25px;
             border-radius: 8px;
             font-size: 16px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: background 0.3s, border 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049;
+            border-color: #45a049;
         }
         .btn i {
             margin-right: 8px;
@@ -100,9 +129,13 @@
             padding: 10px;
             margin-top: 20px;
             border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .info {
             margin: 10px 0;
+            font-size: 16px;
+            color: #666;
         }
         .download-link {
             display: block;
@@ -111,13 +144,23 @@
             text-decoration: none;
             font-weight: bold;
         }
+        .rating-section {
+            margin-top: 40px;
+        }
+        .rating-section h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
         .rating-buttons button {
             border: none;
             background: none;
             cursor: pointer;
             font-size: 24px;
+            color: black;
+            transition: color 0.3s;
         }
-        .rating-buttons button.selected {
+        .rating-buttons button:hover, .rating-buttons button.selected {
             color: #FFD700;
         }
         .thank-you-message {
@@ -127,17 +170,21 @@
             font-weight: bold;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="sidebar">
-        <h2>Toolbox</h2>
-        <a href="image-compressor" class="active">Image Compressor</a>
-        <a href="pdf-compressor">PDF Compressor</a>
-        <a href="EMI-Calculator">EMI-Calculator</a>
-        <a href="photoshop-online">Image Editor</a>
+        <h2><i class="fas fa-toolbox"></i> Toolbox</h2>
+        <a href="image-compressor" class="active"><i class="fas fa-compress-arrows-alt"></i> Image Compressor</a>
+        <a href="pdf-compressor"><i class="fas fa-file-pdf"></i> PDF Compressor</a>
+        <a href="EMI-Calculator"><i class="fas fa-calculator"></i> EMI-Calculator</a>
+        <a href="photoshop-online"><i class="fas fa-edit"></i> Image Editor</a>
     </div>
     <div class="main-content">
-        <h1>High Quality Image Compressor</h1>
+        <h1><i class="fas fa-compress"></i> High Quality Image Compressor</h1>
+        <p>This online image compressor reduces the size of JPEG, GIF, and PNG images to the smallest size while maintaining the necessary quality using a clever blend of lossy compression and optimization techniques.<br>
+        Upload unlimited images. Await the completion of the compression. To compare photographs, use your mouse or gestures and the slider to adjust the compression level.
+        </p>
         <ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6958761602872755" data-ad-slot="5307231561"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         <div class="upload-area">
@@ -151,6 +198,7 @@
         <div class="progress-container" id="progressContainer">
             <div class="progress-bar" id="progressBar"></div>
         </div>
+        p
         <div class="rating-section">
             <h2>Rate Your Experience</h2>
             <div class="rating-buttons">
@@ -160,7 +208,7 @@
                 <button data-rating="4"><i class="fas fa-star"></i></button>
                 <button data-rating="5"><i class="fas fa-star"></i></button>
             </div>
-            <div class="thank-you-message" id="thankYouMessage">Thank you for your feedback!</div>
+            <div id="thankYouMessage" class="thank-you-message">Thank you for your feedback!</div>
         </div>
     </div>
     <script>
