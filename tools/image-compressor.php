@@ -22,7 +22,7 @@ gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
 <h2>Toolbox</h2>
 <a href=image-compressor class=active>Image Compressor</a>
 <a href=pdf-compressor>PDF Compressor</a>
-<a href=EMI-Calculator>EMI Calculator</a>
+<a href=javascript-compressor>JavaScript Compressor</a>
 <a href=photoshop-online>Image Editor</a>
 </div>
 <div class=main-content>
