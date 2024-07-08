@@ -6,20 +6,21 @@
     <title>HTML Compressor</title>
     <meta name="description" content="Compress HTML files easily using our online HTML compressor.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Raleway', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
             display: flex;
         }
         .sidebar {
-            width: 250px;
+            width: 200px;
             background-color: #333;
             color: #fff;
             height: 100vh;
-            padding: 20px;
+            padding: 15px;
             box-sizing: border-box;
             position: fixed;
         }
@@ -30,9 +31,9 @@
         .sidebar a {
             display: block;
             color: #ccc;
-            padding: 10px;
+            padding: 8px;
             text-decoration: none;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             border-radius: 5px;
         }
         .sidebar a:hover, .sidebar a.active {
@@ -40,7 +41,7 @@
             color: #fff;
         }
         .main-content {
-            margin-left: 270px;
+            margin-left: 220px;
             padding: 20px;
             flex: 1;
             display: flex;
@@ -55,48 +56,58 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            max-width: 500px;
+            max-width: 800px;
             width: 100%;
         }
-        .upload-btn-wrapper {
-            position: relative;
-            overflow: hidden;
-            display: inline-block;
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
         }
         .btn {
             border: 2px solid #ccc;
             color: #333;
-            background-color: #f8f8f8;
+            background-color: #87CEEB;
             padding: 10px 20px;
             border-radius: 8px;
             font-size: 16px;
             cursor: pointer;
+            margin-bottom: 20px;
         }
-        .upload-btn-wrapper input[type="file"] {
-            font-size: 100px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            opacity: 0;
+        .btn i {
+            margin-right: 8px;
+        }
+        .btn:hover {
+            background-color: #00BFFF;
+            border-color: #00BFFF;
+            color: #fff;
+        }
+        .progress-container {
+            display: none;
+            margin: 20px 0;
+            width: 100%;
+        }
+        .progress-bar {
+            width: 0;
+            height: 10px;
+            background: linear-gradient(to right, #4caf50, #8bc34a);
+            border-radius: 10px;
         }
         .file-info {
             margin: 20px 0;
             font-size: 14px;
             color: #555;
         }
-        .progress-container {
-            display: none;
-            margin: 20px 0;
-        }
-        .progress-bar {
-            width: 0;
-            height: 20px;
-            background-color: #4caf50;
-            border-radius: 10px;
-        }
-        #downloadLink {
-            display: none;
-            margin-top: 20px;
+        .note {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #ff6347;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -114,70 +125,71 @@
 
 <div class="main-content">
     <div class="container">
-        <h1>HTML Compressor</h1>
-        <p>Upload your HTML file to compress it.</p>
-        <div class="upload-btn-wrapper">
-            <button class="btn"><i class="fas fa-upload"></i> Upload HTML File</button>
-            <input type="file" id="htmlFileInput" accept=".html,.htm">
-        </div>
-        <div class="file-info" id="fileInfo"></div>
+        <h1 style="color: #4682B4;">HTML Compressor</h1>
+        <p class="note">This tool will remove whitespace and comments from your HTML code, making it smaller and faster to load.</p>
+        <p style="color: #4682B4;">Paste your HTML code below and click "Compress" to get the compressed HTML.</p>
+        <textarea id="htmlInput" placeholder="Paste your HTML code here..."></textarea>
+        <button class="btn" id="compressButton"><i class="fas fa-compress"></i> Compress HTML</button>
         <div class="progress-container" id="progressContainer">
             <div class="progress-bar" id="progressBar"></div>
         </div>
-        <a href="#" id="downloadLink" class="btn"><i class="fas fa-download"></i> Download Compressed File</a>
+        <div class="file-info" id="fileInfo"></div>
+        <textarea id="htmlOutput" placeholder="Compressed HTML will appear here..." readonly></textarea>
+        <a href="#" id="downloadLink" class="btn" style="display: none;"><i class="fas fa-download"></i> Download Compressed File</a>
     </div>
 </div>
 
 <script>
-    document.getElementById('htmlFileInput').addEventListener('change', async function(event) {
-        const file = event.target.files[0];
-        if (!file) return;
+    document.getElementById('compressButton').addEventListener('click', function() {
+        const htmlInput = document.getElementById('htmlInput').value;
+        const progressBar = document.getElementById('progressBar');
+        const progressContainer = document.getElementById('progressContainer');
+        const htmlOutput = document.getElementById('htmlOutput');
+        const fileInfo = document.getElementById('fileInfo');
+        const downloadLink = document.getElementById('downloadLink');
 
-        const reader = new FileReader();
-        reader.onload = async function(e) {
-            const originalHtml = e.target.result;
+        if (!htmlInput) {
+            alert("Please paste your HTML code.");
+            return;
+        }
 
-            // Show original file size
-            const fileInfo = document.getElementById('fileInfo');
-            fileInfo.innerHTML = `Original Size: ${(file.size / 1024).toFixed(2)} KB`;
+        // Calculate original size
+        const originalSize = new Blob([htmlInput], { type: 'text/html' }).size;
+        fileInfo.innerHTML = `Original Size: ${(originalSize / 1024).toFixed(2)} KB`;
 
-            // Show progress bar
-            const progressContainer = document.getElementById('progressContainer');
-            const progressBar = document.getElementById('progressBar');
-            progressContainer.style.display = 'block';
-            progressBar.style.width = '0%';
+        // Show progress bar
+        progressContainer.style.display = 'block';
+        progressBar.style.width = '0%';
 
-            try {
+        // Simulate progress
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += 10;
+            progressBar.style.width = `${progress}%`;
+            if (progress >= 100) {
+                clearInterval(interval);
+
                 // Compress HTML by removing whitespace and comments
-                const compressedHtml = originalHtml.replace(/\s+/g, ' ').trim();
+                const compressedHtml = htmlInput.replace(/\s+/g, ' ').trim();
 
                 // Hide progress bar
                 progressContainer.style.display = 'none';
 
-                // Create a Blob with the compressed HTML
+                // Display compressed HTML
+                htmlOutput.value = compressedHtml;
+
+                // Calculate compressed size
+                const compressedSize = new Blob([compressedHtml], { type: 'text/html' }).size;
+                fileInfo.innerHTML += `<br>Compressed Size: ${(compressedSize / 1024).toFixed(2)} KB`;
+
+                // Update download link
                 const blob = new Blob([compressedHtml], { type: 'text/html' });
                 const url = URL.createObjectURL(blob);
-
-                // Show compressed file size
-                fileInfo.innerHTML += `<br>Compressed Size: ${(blob.size / 1024).toFixed(2)} KB`;
-
-                // Update the download link
-                const downloadLink = document.getElementById('downloadLink');
                 downloadLink.href = url;
-                downloadLink.download = 'compressed_' + file.name;
+                downloadLink.download = 'compressed.html';
                 downloadLink.style.display = 'inline-block';
-
-                // Update progress bar to 100%
-                progressBar.style.width = '100%';
-            } catch (error) {
-                console.error('Error compressing the HTML file:', error);
-                fileInfo.innerHTML = 'Error compressing the file. Please try again.';
-                progressContainer.style.display = 'none';
             }
-        };
-
-        // Read the file as text
-        reader.readAsText(file);
+        }, 100);
     });
 </script>
 
