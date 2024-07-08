@@ -214,53 +214,53 @@ Monday, 8 July 2024</span>
 <p>Since the year 2000, technological advancements have been made quickly. Things that were only dreams a few decades ago now occupy our lives. Given the course of history, I was interested in imagining what the next thirty years would bring. I therefore looked at what our lives would be like in 2050. Let's examine.
 </p>
 
-<h2>Nanotechnology</h2>
+<h5>Nanotechnology</h5>
 
 <p>First, let's take a look at nanotechnology. Over the years, scientists have made exciting developments and discovered numerous innovative applications for nanotechnology. As it stands, nanotechnology has the potential to change life as we know it. Experts in the field believe that nanobots will, in the future, be fitted into our brains to connect us to the virtual world more readily and faster. With the use of brain-computer interface technology, the mind and computer will be one, making humans very powerful beings with access to endless information and solutions to problems that the mind wouldn't be able to solve. If nanotechnology reaches that stage, there may be no need for gadgets like phones and calculators. Well, this is very exciting for the students of the future. Looks like math will not be a universal challenge much longer.</p>
 
-<h2>3D Print Technology</h2>
+<h5>3D Print Technology</h5>
 
 <p>The next tech advancement that we can expect in the future is the rise of 3D print technology. 3D print technology is already advanced, but we can expect it to be even more advanced in 2050. Right now, we have 3D printed tools and homes. In the future, we will be able to print more tools and perhaps even some modes of transportation if bigger machines are built. This technology will also become more accessible to everyone who may want a 3D printer, making the possibilities of what can be printed infinite. If the current trend of open-source 3D printable files continues, it will not be long before everyone prints their own large objects like furniture and weapons. Well, here's an idea. How about developing an affordable 3D printer for food? That could be the end of world hunger, despite global warming.</p>
 
-<h2>Medical</h2>
+<h5>Medical</h5>
 
 <p>Now we go from the extinction of phones to the eradication of death. By 2050, the finality of death may be a thing of the past. With the brain connected to a computer through BCI technology, the information stored in our brains can be transferred into a hard disk like computer files. That means the data, including memories, can be retrieved and uploaded into another being. Maybe a more advanced humanoid robot. This way, the best minds in every field will be preserved, able to continue working on innovations. Another improvement to consider in the medical field is that serious diseases like cancer will be cured. The only downside to this development is that every new technology is very expensive when it first comes out, so the rest of us may not have access to this literally life-saving technology for a while.</p>
 
-<h2>Transportation</h2>
+<h5>Transportation</h5>
 
 <p>Something that we may have access to is transportation. In 2050, transportation will have immensely changed, with experimentation focused on self-driving cars already underway from car manufacturers such as Tesla. It is not much of a stretch to believe that by 2050, the technology for fully automated vehicles will exist. Some notable advantages of such automated vehicles include a drastic reduction in traffic-related deaths because the vehicles will collaborate with traffic control systems. Another advantage is the change in lifestyle that self-driving vehicles will bring. With no need to man a vehicle, people will be free to choose whether to relax or be more productive as they travel. A lot of free time, considering the amount of time spent in traffic.</p>
 
 <p>Another interesting development is the Hyperloop 1 project by Elon Musk, which aims to move the bulk of public transportation underground, with the use of electromagnetic levitation at historic speeds of 300 km per hour. This train presents the opportunity for a faster, cheaper, and cleaner mode of transportation, and if more people opt for it, then there will be even fewer traffic-related incidents.</p>
 
-<h2>Fuel</h2>
+<h5>Fuel</h5>
 
 <p>Still on transportation, the fuel used in all future transportation modes will be renewable energy. Currently, the world is plagued by global warming and the threat of depleting natural resources, so we do need to be looking at adapting to a more sustainable source of energy. Now, Hyperloop 1 is exploring electromagnetic levitation, and the automobile industry has also been looking for ways to reduce harmful vehicle emissions. These are all efforts aimed at achieving the goal of stopping the use of carbon-emitting fuels. Besides those, research is being done on the ocean's wind, solar, and thermal energy. One company in particular, Bluerise, a specialist developer of ocean thermal energy conversion, is working on a project that could completely phase out the use of fossil fuels. Hopefully, Bluerise and their colleagues will be successful soon enough to alleviate some of the environmental problems we face.</p>
 
-<h2>Space Exploration</h2>
+<h5>Space Exploration</h5>
 
 <p>Now, if there is one thing that has been mentioned as a mitigating option for our current environmental challenges, it's space exploration and colonization. Companies like SpaceX and Blue Origin are set on revolutionizing space technology, with goals of spatial exploration and ultimately enabling people to live on other planets in colonies. With all the strides already made by 2050, space tourism will also be a reality for those who can afford it. The possibilities for holiday destinations will expand to include places like Mars and the Moon. Unfortunately, a trip to orbit will be significantly expensive, making it exclusive for the extremely wealthy. At least at first.</p>
 
-<h2>Artificial Intelligence</h2>
+<h5>Artificial Intelligence</h5>
 
 <p>Something that may be available for everyone is artificial intelligence. Already more advanced than most of the innovations mentioned here, the development of artificial intelligence will only get better through the years. Experts in the field believe that AI will surpass the processing power of living brains. That wouldn't be scary if it didn't open the door to the Robopocalypse. Luckily, scientists still have to figure out how to impart all the important human values into an AI before it can become a part of our everyday life.</p>
 
 <p>But the rise of AI will, of course, change the face of the workforce. Not only that, but the job market will also face radical change, and with the way things are going, about half of the world's current jobs will be extinct. Taken over by AI machines and robots. In 2050, the world will be more interconnected and even more driven by data than it is now. Some of us will definitely need to consider a career change.</p>
 
-<h2>Education</h2>
+<h5>Education</h5>
 
 <p>As the job market changes, education will also see some significant changes. Already there has been an increase in digital learning, especially during the pandemic. By 2050, completely digital schools will be commonplace. Even if we have physically attended schools, they will have no need for books, using tablets and laptops instead. For higher education, experts believe that more than 70% of the student population will be enrolled in online degrees, making education more globalized. A rather welcome step in the right direction if we are to make good education accessible to all, I believe. Online degrees may even be taught by AI-powered robots. At that time, I imagine the robots will be able to prepare course material, give lectures, and mark assignments. Sadly, you may be unable to twist your lecture's arms so they give you a deadline extension.</p>
 
-<h2>The Metaverse</h2>
+<h5>The Metaverse</h5>
 
 <p>Now we move on to the Metaverse. Since Facebook CEO Mark Zuckerberg announced it, Virtual reality and AI have been assimilated into our everyday life through the social media giant. For those who may be a bit confused about the Metaverse, you're not alone and you've come to the right place. The Metaverse is a virtual reality computer-generated environment in which you can interact with other users through AI-enabled software. So it's about simulation, with avatars representing users.</p>
 
 <p>As Metaverse functions get more developed by 2050, it will be able to offer a full virtual experience, that includes shopping to travel right from the comfort of your own home. People will have the option to share their virtual experiences with the world. Imagine taking a trip to your favourite holiday destination with your family, only you're not physically there. That's what the Metaverse will offer. It seems to me like the more we get connected, the more we stay apart.</p>
 
-<h2>Money</h2>
+<h5>Money</h5>
 
 <p>Next is money. Even though we will still use money, one thing that has been used less and less over the years is cash. Keeping up with that trend, cash will most likely no longer be used in 2050. All transactions will be done virtually, and new modes of financial transactions will emerge because of AI and decentralized finance. As the world slowly starts to adopt those technologies, we may not even have to do our own grocery shopping anymore, making traditional paper and plastic money even less useful. Like Tesla, which orders its own car parts as needed, our automated pantries and refrigerators may order our groceries, no more getting the wrong milk, or even running out of milk.</p>
 
-<h2>Real Estate</h2>
+<h5>Real Estate</h5>
 
 <p>Speaking of the automation of home appliances, the homes in 2050 will also be completely automated smart homes. Although smart homes already exist, the developments that will be available in the next few decades will be a great improvement to what we have now. Smart homes in 2050 will have full AI activation functions, allowing the home to sense our moods and requirements without giving it a single command. Additionally, interactive hologram televisions will exist, meaning that you can verbally call up your hologram TV, and it will appear right in front of you. The best part, you will never have to look for the remote again, because you can control the TV with your mind using nanotechnology as discussed at the beginning of the video.</p>
 
