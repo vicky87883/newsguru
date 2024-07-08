@@ -109,6 +109,46 @@
             color: #ff6347;
             font-weight: bold;
         }
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 150px;
+            }
+            .main-content {
+                margin-left: 170px;
+                padding: 10px;
+            }
+            .container {
+                max-width: 100%;
+            }
+            .btn {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+            .note {
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: static;
+            }
+            .main-content {
+                margin-left: 0;
+                padding: 10px;
+            }
+            .btn {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+            .note {
+                font-size: 12px;
+            }
+        }
     </style>
 </head>
 <body>

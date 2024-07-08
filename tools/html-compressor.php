@@ -7,7 +7,6 @@
     <meta name="description" content="Compress HTML files easily using our online HTML compressor.">
     <link rel=canonical href=https://www.newsguru.live/tools/image-compressor />
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
-<meta name="keywords" content="HTML compressor, online tool, compress HTML, minimize file size, web development">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
 <meta name="keywords" content="HTML compressor, online tool, compress HTML, minimize file size, web development">
@@ -15,6 +14,7 @@
 gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
 <link rel="stylesheet" href="assets/css/imagestyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
     <style>
         body {
             font-family: 'Raleway', sans-serif;
@@ -116,6 +116,46 @@ gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
             font-size: 16px;
             color: #ff6347;
             font-weight: bold;
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 150px;
+            }
+            .main-content {
+                margin-left: 170px;
+                padding: 10px;
+            }
+            .container {
+                max-width: 100%;
+            }
+            .btn {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+            .note {
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: static;
+            }
+            .main-content {
+                margin-left: 0;
+                padding: 10px;
+            }
+            .btn {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+            .note {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
