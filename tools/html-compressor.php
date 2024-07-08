@@ -175,6 +175,15 @@ gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
     <div class="container">
         <h1 style="color: #4682B4;">HTML Compressor</h1>
         <p class="note">This tool will remove whitespace and comments from your HTML code, making it smaller and faster to load.</p>
+        <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         <p style="color: #4682B4;">Paste your HTML code below and click "Compress" to get the compressed HTML.</p>
         <textarea id="htmlInput" placeholder="Paste your HTML code here..."></textarea>
         <button class="btn" id="compressButton"><i class="fas fa-compress"></i> Compress HTML</button>
