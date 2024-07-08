@@ -9,6 +9,7 @@
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
+<meta name="keywords" content="HTML compressor, online tool, compress HTML, minimize file size, web development">
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
 <link rel="stylesheet" href="assets/css/imagestyle.css">
