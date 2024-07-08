@@ -4,7 +4,7 @@ require 'config.php';
 
 try {
     // Fetch posts from the database with prepared statement to secure the query
-    $stmt = $pdo->prepare("SELECT heading, text, link, time, image FROM posts ORDER BY pubDate DESC");
+    $stmt = $pdo->prepare("SELECT heading, text, link, time, image FROM frontload ORDER BY pubDate DESC");
     $stmt->execute();
     $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
