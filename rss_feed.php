@@ -4,7 +4,7 @@ require 'config.php';
 
 try {
     // Fetch posts from the database with prepared statement to secure the query
-    $stmt = $pdo->prepare("SELECT title, description, link, pubDate, image FROM posts ORDER BY pubDate DESC");
+    $stmt = $pdo->prepare("SELECT heading, text, link, time, image FROM posts ORDER BY pubDate DESC");
     $stmt->execute();
     $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -37,8 +37,8 @@ try {
 
     foreach ($posts as $post) {
         // Sanitize output using htmlspecialchars
-        $title = htmlspecialchars($post['title']);
-        $description = htmlspecialchars($post['description']);
+        $title = htmlspecialchars($post['heading']);
+        $description = htmlspecialchars($post['text']);
         $link = htmlspecialchars($post['link']);
         $pubDate = date(DATE_RSS, strtotime($post['pubDate']));
         $image = htmlspecialchars($post['image']);
