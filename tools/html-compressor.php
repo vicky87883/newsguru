@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Compressor</title>
+    <title>High Quality HTML Compressor</title>
     <meta name="description" content="Compress HTML files easily using our online HTML compressor.">
+    <link rel=canonical href=https://www.newsguru.live/tools/image-compressor />
+<link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755" crossorigin=anonymous></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-V6HH2RKGTW');</script>
+<link rel="stylesheet" href="assets/css/imagestyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
