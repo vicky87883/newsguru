@@ -3,8 +3,8 @@ header("Content-Type: application/rss+xml; charset=UTF-8");
 require 'config.php';
 
 try {
-    // Fetch posts from the database with prepared statement to secure the query
-    $stmt = $pdo->prepare("SELECT heading, text, link, time, image FROM frontload ORDER BY pubDate DESC");
+    // Fetch data from the frontload table
+    $stmt = $pdo->prepare("SELECT heading, text, link, time, image FROM frontload ORDER BY time DESC");
     $stmt->execute();
     $posts = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -12,13 +12,13 @@ try {
     echo '<?xml version="1.0" encoding="UTF-8" ?>';
     echo '<rss version="2.0">';
     echo '<channel>';
-    echo '<title><![CDATA[My RSS Feed]]></title>';
+    echo '<title><![CDATA[Frontload RSS Feed]]></title>';
     echo '<link>http://example.com</link>';
-    echo '<description><![CDATA[This is an example RSS feed with styled content]]></description>';
+    echo '<description><![CDATA[This is the RSS feed from the frontload table]]></description>';
     echo '<language>en-us</language>';
     echo '<image>';
     echo '<url>http://example.com/path/to/image.jpg</url>'; // Replace with the actual image URL
-    echo '<title><![CDATA[My RSS Feed Image]]></title>';
+    echo '<title><![CDATA[Frontload RSS Feed Image]]></title>';
     echo '<link>http://example.com</link>';
     echo '</image>';
 
@@ -40,7 +40,7 @@ try {
         $title = htmlspecialchars($post['heading']);
         $description = htmlspecialchars($post['text']);
         $link = htmlspecialchars($post['link']);
-        $pubDate = date(DATE_RSS, strtotime($post['pubDate']));
+        $pubDate = date(DATE_RSS, strtotime($post['time']));
         $image = htmlspecialchars($post['image']);
 
         echo '<item>';
@@ -57,7 +57,7 @@ try {
 
         $descriptionContent .= "
                 <div class='rss-description'>" . $description . "</div>
-                <div class='rss-date'>" . date("F j, Y, g:i a", strtotime($post['pubDate'])) . "</div>
+                <div class='rss-date'>" . date("F j, Y, g:i a", strtotime($post['time'])) . "</div>
             </div>
         ";
 
@@ -67,19 +67,6 @@ try {
 
         // Optionally include GUID, which is a unique identifier for the item
         echo '<guid isPermaLink="false">' . sha1($link) . '</guid>';
-
-        // Optionally include author if available
-        if (!empty($post['author'])) {
-            echo '<author><![CDATA[' . htmlspecialchars($post['author']) . ']]></author>';
-        }
-
-        // Optionally include categories if available
-        if (!empty($post['categories'])) {
-            $categories = explode(',', $post['categories']);
-            foreach ($categories as $category) {
-                echo '<category><![CDATA[' . htmlspecialchars(trim($category)) . ']]></category>';
-            }
-        }
 
         echo '</item>';
     }
@@ -93,7 +80,7 @@ try {
     echo '<?xml version="1.0" encoding="UTF-8" ?>';
     echo '<rss version="2.0">';
     echo '<channel>';
-    echo '<title>My RSS Feed - Error</title>';
+    echo '<title>Frontload RSS Feed - Error</title>';
     echo '<description>An error occurred while generating the RSS feed. Please try again later.</description>';
     echo '</channel>';
     echo '</rss>';
