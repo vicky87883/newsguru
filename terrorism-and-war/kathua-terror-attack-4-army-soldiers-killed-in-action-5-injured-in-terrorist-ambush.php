@@ -215,15 +215,42 @@ Tuesday, July 9, 2024</span>
 <div class=single-excerpt>
     <p>Kathua: Terrorists attacked the vehicle of four Indian Army soldiers, killing them in the process in the isolated Machedi area of the Kathua district in Jammu and Kashmir. There were apparently five soldiers injured in the terror incident as well. There are soldiers that are critically hurt. The terrorist organization Jaish-e-Mohammed (JeM)'s operative, "Kashmir Tigers," took credit for the attack.
     </p>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>The incident happened 150 kilometers from Kathua town, at roughly 3:30 PM, close to Badnota village in Lohai Malhar. The Army vehicles were on a normal patrol on the Machedi-Kindli-Malhar road when the terrorists opened fire and threw a grenade to begin their assault.
     </p>
     <p>The security personnel struck back, but the terrorists were able to escape into the adjacent woodland. As per the recent reports, there were intermittent gunshot exchanges between security troops and terrorists.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>In the last four weeks, there have been two significant incidents in the Kathua district, including this attack. In a ferocious battle that took place during a search and cordon operation in the Hira Nagar region of the Kathua district on June 12 and 13, two terrorists and a CRPF jawan were killed.
 </p>
 <p>
 To neutralize the terrorists, who are thought to have recently infiltrated from across the border and were moving towards higher altitudes, further reinforcements have been sent to the area. The two wounded troops are reportedly in critical condition at the hospital where they have been taken.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The assault on the army vehicle occurred one day after two separate confrontations in the Kulgam area of Jammu and Kashmir resulted in the deaths of six militants.
 </p>
 <p>
