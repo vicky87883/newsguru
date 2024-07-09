@@ -207,17 +207,44 @@ Tuesday, July 9, 2024</span>
 <div class=single-excerpt>
 <p><mark>Updates on the Mumbai BMW hit-and-run case: The police investigation in the Mumbai BMW hit-and-run case has shown that victim Kaveri Nakhwa was run over by accused Rajrishi Bidawat shortly before Bandra Worli Sea Link. The two had been hauled there by primary accused Mihir Shah as they escaped, according to news agency PTI.
 </mark></p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>According to a source who spoke with PTI, Rajesh Shah, the leader of the Palghar Shiv Sena, actively assisted in making sure his son made his getaway and had planned to have the offending car towed away.
 </p>
 <p>
 According to police, Kaveri Nakhwa, 45, was fatally knocked down and her husband Pradeep was injured when they were riding their two-wheeler in Mumbai's Worli district on Sunday morning. Mihir Shah, 24, is presently evading capture. The other passenger in the BMW was the detained Rajrishi Bidawat.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div><strong>Mumbai BMW hit-and-run case: What investigation found</strong></div>
 <p>1. In court on Monday, Mumbai Police presented CCTV evidence of Kaveri Nakhwa being pulled 1.5 kilometers by the BMW vehicle.
 </p>
 <p>
 2. Video showed Rajrishi Bidawat and Mihir Shah removing the woman from the bonnet, putting her on the road, and then mowing her down once more as they reversed the fancy car.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 3. Mihir Shah and Rajrishi Bidawat retrieved the woman who became caught in the car's tire just before BWSL after she was hauled from Worli.
 </p>
@@ -226,6 +253,15 @@ According to police, Kaveri Nakhwa, 45, was fatally knocked down and her husband
 </p>
 <p>5. "They drove quickly in the direction of Kala Nagar, where the car's engine died. Next, using Rajrishi Bidawat's phone, Mihir Shah called his father Rajesh Shah and informed him of the collision and the car stalling. When Rajesh Shah drove up in a 
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <p>6. Mercedes, he approached Mihir Shah and ordered him to leave. Rajesh Shah intended to pull the BMW from there later," the unidentified official was quoted as saying by PTI.
 </p>
@@ -235,6 +271,15 @@ According to police, Kaveri Nakhwa, 45, was fatally knocked down and her husband
 <p>
 8. To capture Mihir Shah, Mumbai police set up eleven teams and enlisted the help of the Crime Branch.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="5307231561"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Additionally, a Look Out Circular (LOC) has been released against him by the authorities
 </p>
