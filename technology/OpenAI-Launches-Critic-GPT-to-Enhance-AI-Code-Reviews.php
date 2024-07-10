@@ -295,9 +295,6 @@ Wednesday, 10 July 2024</span>
 </script>
 <h5>Challenges for Companies in China</h5>
 <p>I still think that international tech collaboration is vital, but companies viewing China as a crucial market now face complex geopolitical challenges. Apple, for example, is reportedly seeking local partners to provide services compliant with China's strict AI regulations, showing how firms must navigate these delicate waters. In the end, the future of AI depends not only on technological advancements, but also on the geopolitical strategies and policies that shape its development and use.</p>
-
-<p>Alright, don't forget to hit that subscribe button for more updates. Thanks for tuning in, and we'll catch you in the next one.</p>
-```
 </div>
 <?php include('../sociallink.php') ?>
 	<?php include('../relatedpost.php') ?>
