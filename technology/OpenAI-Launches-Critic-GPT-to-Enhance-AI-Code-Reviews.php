@@ -212,9 +212,7 @@ Wednesday, 10 July 2024</span>
 </div>
 </figure>
 <div class=single-excerpt>
-    
-<h1>OpenAI Launches Critic GPT to Enhance AI Code Reviews</h1>
-<p>OpenAI has recently launched a fascinating new model called Critic GPT, and it's creating quite a buzz in the AI community. Critic GPT is essentially an AI designed to critique other AI models, specifically targeting errors in code produced by chat GPT.</p>
+    <p><mark>OpenAI has recently launched a fascinating new model called Critic GPT, and it's creating quite a buzz in the AI community. Critic GPT is essentially an AI designed to critique other AI models, specifically targeting errors in code produced by chat GPT.</mark></p>
 
 <h5>The Need for Critic GPT</h5>
 <p>And if you wonder why OpenAI felt the need to create such a tool, the answer lies in the challenges posed by the increasing sophistication and complexity of AI systems like chat GPT. So chat GPT, powered by the GPT-4 series of models, is already pretty advanced and is continually learning and improving through a process known as reinforcement learning from human feedback, or RLHF. This means that human trainers review chat GPT's responses and provide feedback, which the model then uses to refine its future outputs. However, as these AI models get better and more nuanced, spotting their mistakes becomes a lot harder for human reviewers. This is where Critic GPT will be very useful, even crucial.</p>
