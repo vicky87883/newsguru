@@ -220,11 +220,29 @@ Friday, July 12, 2024</span>
 <div class=single-excerpt>
 <p><mark>Prime Minister Narendra Modi met with leading economists on July 11 to get suggestions and ideas for the next budget, which would be for 2024–2025.</mark>
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Union Finance Minister Nirmala Sitharaman was present at the conference, which called for crystallizing the Modi 3.0 government's financial roadmap. On July 23, Sitharaman would present the budget to the Lok Sabha.
 </p>
 <p>Lead participants included renowned banker K.V. Kamath, notable economists Surjit Bhalla and Ashok Gulati, Chief Economic Advisor V. Anantha Nageswaran, Union Minister for Finance Sitharaman, and Vice Chairman of Niti Aayog Suman Bery.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 In her recent address to Parliament, President Droupadi Murmu stated that the budget is anticipated to expedite the development of a roadmap outlining India's path toward becoming a developed nation by 2047.
 </p>
@@ -233,11 +251,29 @@ In her recent address to Parliament, President Droupadi Murmu stated that the bu
 <p>
 In order to gather opinions that might make this Budget comprehensive, FM Sitharaman has been proactive in her preparation and has engaged with a wide range of stakeholders, including economists and business executives.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 It has consistently been suggested that tax relief from the government is necessary to increase consumer spending, exert external pressure on inflation, and boost economic growth.
 </p>
 <p>India's economy grew by an impressive 8.2 percent in the financial year 2023–2024. After the temporary budget that Ms. Sitharaman delivered in February, this one was created specifically with the Lok Sabha elections in mind.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 All things considered, the next budget ought to be the result of fresh thinking rather than minor tweaks; the government's comprehensive policies will determine India's future economic destiny.
 </p>
