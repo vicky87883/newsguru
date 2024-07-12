@@ -207,19 +207,55 @@ Friday, July 12, 2024</span>
 <div class=single-excerpt>
 <p><mark>Radhika Merchant and Anant Ambani's wedding: Employees in a number of offices at the upscale Bandra Kurla Complex (BKC) in Mumbai have been told to work remotely through July 15.
 </mark></p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>This decision is the result of access restrictions and traffic diversions brought about by Anant Ambani and Radhika Merchant's upcoming wedding. On July 12 at the Jio World Convention Centre in BKC, Anant Ambani, the youngest son of Reliance Industries Ltd. Chairman Mukesh Ambani, and Radhika Merchant, the daughter of Viren Merchant, will get married together. The celebration will last until July 14.
 </p>
 <p>Mumbai office professionals and locals alike are annoyed and frustrated by the flashy celebrations. From July 12 to July 15, there will be traffic restrictions in the vicinity of the wedding location, which is located in Mumbai's thriving financial district—the Bandra Kurla Complex.
 The main stock exchange of India, the market regulator, and several foreign banks are located in this region.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>There has been a noticeable increase in hotel reservations and rates in Mumbai due to the Ambani-Mercant wedding. Up to ₹1 lakh is reportedly charged by opulent hotels in BKC, with events like Trident and Oberoi completely booked from July 10 to 14. A star-studded guest list from Bollywood, Hollywood, business, and sports circles has been drawn to the extravagant event.
 </p>
 <p>One of the pre-wedding ceremonies that took place earlier was a traditional Gujarati pre-wedding ritual called'mameru' ceremony, which was arranged by the Ambani family on July 3. On July 7, a grandiose sangeet ceremony marked the peak of the festivities. Justin Bieber, the global pop sensation, performed for the guests, wowing them with tunes like "Baby," "Peaches," and "Love Yourself."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Celebrities and international business titans, such as Kim and Khloe Kardashian and boxer Mike Tyson, are anticipated to attend Anant Ambani's wedding. Anant is the youngest son of the richest person in Asia.
 </p>
 <p>Prominent figures including Jay Lee of Samsung Electronics Co. Ltd. and Mark Tucker of HSBC Holdings plc, as well as former UK leaders Boris Johnson and Tony Blair, are expected to attend, according to Bloomberg.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Top executives such as Amin Nasser of Saudi Aramco, Murray Auchincloss of BP Plc, Emma Walmsley of GSK Plc, Jim Taiclet of Lockheed Martin, and FIFA President Gianni Infantino are also on the guest list.
 </p>
