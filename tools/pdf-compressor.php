@@ -17,7 +17,12 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6958761602872755"
         crossorigin="anonymous"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6HH2RKGTW"></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-V6HH2RKGTW'); </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-V6HH2RKGTW');
+    </script>
     <style>
         /* General Styles */
         body {
@@ -296,15 +301,19 @@
 
 <body>
     <div class="sidebar">
-        <h2>Toolbox</h2> <a href="image-compressor">Image Compressor</a> <a href="pdf-compressor" class="active">PDF
-            Compressor</a> <a href="large-file-compressor">Large File Compressor</a> <a href="other-tools">Other
-            Tools</a>
+        <h2>Toolbox</h2>
+        <a href="image-compressor">Image Compressor</a>
+        <a href="pdf-compressor" class="active">PDF Compressor</a>
+        <a href="large-file-compressor">Large File Compressor</a>
+        <a href="other-tools">Other Tools</a>
     </div>
     <div class="main-content">
         <h1>Compress Your PDFs</h1>
         <div class="upload-area">
-            <div class="upload-btn-wrapper"> <button class="btn">Upload PDFs</button> <input type="file" id="pdfInput"
-                    accept="application/pdf" multiple> </div>
+            <div class="upload-btn-wrapper">
+                <button class="btn">Upload PDFs</button>
+                <input type="file" id="pdfInput" accept="application/pdf" multiple>
+            </div>
         </div>
         <div class="loader" id="loader"></div>
         <div class="progress-container" id="progressContainer">
@@ -313,31 +322,64 @@
         <div class="pdf-wrapper" id="pdfWrapper"></div>
         <div class="rating-section">
             <h2>Rate Your Experience</h2>
-            <div class="rating-buttons"> <button data-rating="1"><i class="fas fa-star"></i></button> <button
-                    data-rating="2"><i class="fas fa-star"></i></button> <button data-rating="3"><i
-                        class="fas fa-star"></i></button> <button data-rating="4"><i class="fas fa-star"></i></button>
+            <div class="rating-buttons">
+                <button data-rating="1"><i class="fas fa-star"></i></button>
+                <button data-rating="2"><i class="fas fa-star"></i></button>
+                <button data-rating="3"><i class="fas fa-star"></i></button>
+                <button data-rating="4"><i class="fas fa-star"></i></button>
                 <button data-rating="5"><i class="fas fa-star"></i></button>
             </div>
             <div class="thank-you-message" id="thankYouMessage">Thank you for your feedback!</div>
         </div>
     </div>
-    <script> document.getElementById('pdfInput').addEventListener('change', function (event) 
-    { const files = event.target.files; 
-        const loader = document.getElementById('loader'); 
-        const progressContainer = document.getElementById('progressContainer'); 
-        const progressBar = document.getElementById('progressBar'); 
-        const pdfWrapper = document.getElementById('pdfWrapper'); 
-        loader.style.display = 'block'; 
-        progressContainer.style.display = 'block'; 
-        progressBar.style.width = '0%'; pdfWrapper.innerHTML = ''; 
-        let completed = 0;
-         const totalFiles = files.length; 
-         for (let i = 0; i < files.length; i++) 
-         { const file = files[i]; 
-            const originalSize = (file.size / 1024).toFixed(2);
-             setTimeout(() => { 
-                const compressedSize = (file.size / 2 / 1024).toFixed(2); 
-                // Simulate compression const compressedBlob = new Blob([file.slice(0, file.size / 2)], { type: 'application/pdf' }); const compressedUrl = URL.createObjectURL(compressedBlob); const pdfInfo = document.createElement('div'); pdfInfo.className = 'info'; pdfInfo.innerHTML = ` <p>Original Size: ${originalSize} KB</p> <p>Compressed Size: ${compressedSize} KB</p> <a href="${compressedUrl}" class="download-link" download="compressed_${file.name}">Download Compressed PDF</a> `; pdfWrapper.appendChild(pdfInfo); completed++; progressBar.style.width = `${(completed / totalFiles) * 100}%`; if (completed === totalFiles) { loader.style.display = 'none'; } }, 2000); // Simulate a 2-second compression process for each file } }); // Rating system functionality const ratingButtons = document.querySelectorAll('.rating-buttons button'); const thankYouMessage = document.getElementById('thankYouMessage'); ratingButtons.forEach(button => { button.addEventListener('click', () => { ratingButtons.forEach(btn => btn.classList.remove('selected')); button.classList.add('selected'); thankYouMessage.style.display = 'block'; }); }); </script>
+    <script>
+        document.getElementById('pdfInput').addEventListener('change', function (event) {
+            const files = event.target.files;
+            const loader = document.getElementById('loader');
+            const progressContainer = document.getElementById('progressContainer');
+            const progressBar = document.getElementById('progressBar');
+            const pdfWrapper = document.getElementById('pdfWrapper');
+            loader.style.display = 'block';
+            progressContainer.style.display = 'block';
+            progressBar.style.width = '0%';
+            pdfWrapper.innerHTML = '';
+            let completed = 0;
+            const totalFiles = files.length;
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const originalSize = (file.size / 1024).toFixed(2);
+                setTimeout(() => {
+                    const compressedSize = (file.size / 2 / 1024).toFixed(2); // Simulate compression
+                    const compressedBlob = new Blob([file.slice(0, file.size / 2)], { type: 'application/pdf' });
+                    const compressedUrl = URL.createObjectURL(compressedBlob);
+                    const pdfInfo = document.createElement('div');
+                    pdfInfo.className = 'info';
+                    pdfInfo.innerHTML = `
+                        <p>Original Size: ${originalSize} KB</p>
+                        <p>Compressed Size: ${compressedSize} KB</p>
+                        <a href="${compressedUrl}" class="download-link" download="compressed_${file.name}">Download Compressed PDF</a>
+                    `;
+                    pdfWrapper.appendChild(pdfInfo);
+                    completed++;
+                    progressBar.style.width = `${(completed / totalFiles) * 100}%`;
+                    if (completed === totalFiles) {
+                        loader.style.display = 'none';
+                    }
+                }, 2000); // Simulate a 2-second compression process for each file
+            }
+        });
+
+        // Rating system functionality
+        const ratingButtons = document.querySelectorAll('.rating-buttons button');
+        const thankYouMessage = document.getElementById('thankYouMessage');
+        ratingButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                ratingButtons.forEach(btn => btn.classList.remove('selected'));
+                button.classList.add('selected');
+                thankYouMessage.style.display = 'block';
+            });
+        });
+    </script>
 </body>
 
 </html>
