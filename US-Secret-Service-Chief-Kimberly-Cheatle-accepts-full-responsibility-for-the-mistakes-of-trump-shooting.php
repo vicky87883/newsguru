@@ -207,28 +207,78 @@ Tuesday, 23 July 2024</span>
 <div class=single-excerpt>
     <p>At a campaign rally this week in Pennsylvania on July 13, Republican presidential candidate Donald Trump was not adequately protected, according to US Secret Service Director Kimberly Cheatle.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <p>
 The director stated in testimony before the House of Representatives Oversight Committee, "We failed. As the director of the United States Secret Service, I take full responsibility for any security lapse."
 </p>
 <p>"The assassination attempt on former President Donald Trump on July 13th is the most significant operational failure at the Secret Service in decades," she stated.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <p>
 She added that the degree of security had been raised following the attempted assassination incident and had continued to rise as new threats emerged. "We don't have a political goal. It genuinely comes down to life or death."
 </p>
 <div><strong>Secret Service chief faces calls to resign</strong></div>
 <p>On the social networking platform X, Senate Minority Leader Mitch McConnell, a Republican from Kentucky, wrote, "The nation deserves answers and accountability." "A significant step in that direction would be new leadership at the Secret Service."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <p>
 Noting Comperatore's passing and stating that "we...were millimeters away from losing President Trump," House Speaker Mike Johnson, R-La., stated on X that Biden had to fire Cheatle right away. It is unacceptable. In a statement released on Saturday, Representative Brendan Boyle, a Democrat from Pennsylvania, stated that "the evidence coming to light has shown unacceptable operational failures" and that, should Cheatle continue in her position, he would have no faith in her leadership.
 </p>
 <p>On the social networking platform X, Senate Minority Leader Mitch McConnell, a Republican from Kentucky, wrote, "The nation deserves answers and accountability." "A significant step in that direction would be new leadership at the Secret Service."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <p>
 Noting Comperatore's passing and stating that "we...were millimeters away from losing President Trump," House Speaker Mike Johnson, R-La., stated on X that Biden had to fire Cheatle right away. It is unacceptable. In a statement released on Saturday, Representative Brendan Boyle, a Democrat from Pennsylvania, stated that "the evidence coming to light has shown unacceptable operational failures" and that, should Cheatle continue in her position, he would have no faith in her leadership.
 </p>
 <p>In an interview with ABC News last week, Democratic President Joe Biden, who appointed Cheatle in August 2022, stated that she would not resign and that on Monday, the agency would emphasize its plans to assist with multiple investigations into how the agency was unable to stop the gunman.
 </p>
 <div><strong>What happened on July 13</strong></div>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <p>Gunshots were heard in the crowd at Trump's speech in Butler, Pennsylvania, and he was taken to a secure area. He was taken off the stage after the gunshot, with obvious bleeding from his right ear.
 </p>
 <p>
@@ -236,6 +286,16 @@ A White House spokesman said that two others were hurt during the event, in addi
 </p>
 <p>Trump then issued a statement in which he said he was "fine" and was getting checked out at a hospital. According to Trump, "I knew immediately that something was wrong in that I heard a whizzing sound, shots, and immediately felt the bullet ripping through the skin." He said, "The bullet pierced the upper part of my right ear."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <p>"An incident occurred the evening of July 13 at a Trump rally in Pennsylvania. The Secret Service has implemented protective measures and the former President is safe. This is now an active Secret Service investigation and further information will be released when available," spokesperson Anthony Guglielmi for the Secret Service said on social media.</p>
 </div>
 	<?php include('sociallink.php') ?>
