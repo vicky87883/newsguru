@@ -14,6 +14,7 @@ $result5 = mysqli_query($con,$query5);
 <title>NewsGuru Insights: Unlocking the Secrets of Media Literacy</title>
 <meta name=description content="Get your daily dose of news from NewsGuru, where you can access breaking news, in-depth analysis, and trending stories all in one place.">
 <meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="keyword" content="newsguru">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="shortcut icon" type=image/x-icon href=assets/imgs/favicon.svg>
 <link rel=canonical href=https://www.newsguru.live/ />
@@ -32,7 +33,7 @@ $result5 = mysqli_query($con,$query5);
 <div class="preloader d-flex align-items-center justify-content-center">
 <div class="preloader-inner position-relative">
 <div class=text-center>
-<img class="jump mb-50" src=assets/imgs/loading.svg alt>
+<img class="jump mb-50" src=assets/imgs/loading.svg alt="newsguru">
 <h6>Now Loading</h6>
 <div class=loader>
 <div class="bar bar1"></div>
@@ -55,7 +56,7 @@ $result5 = mysqli_query($con,$query5);
 </div>
 <div class="sidebar-widget mb-50">
 <div class="widget-header mb-30">
-<h1 class=widget-title>Top <span>Trending</span></h1>
+<h1 class=widget-title>Newsguru</h1>
 </div>
 </div>
 <div class="sidebar-widget widget_tag_cloud mb-50">
