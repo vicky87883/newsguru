@@ -234,7 +234,6 @@ Wednesday, 7 August 2024</span>
 
 <p>Notably, the Flipkart Flagship sale is currently taking place in India. Here, you can save money on a variety of smartphones, including the Xiaomi 14 Civi, Realme 13 Pro+, Oppo K12X 5G, and Nothing Phone (2a) Plus.
 </p>
-</div>
 <?php include('sociallink.php') ?>
 	<?php include('relatedpost.php') ?>
 </div>
