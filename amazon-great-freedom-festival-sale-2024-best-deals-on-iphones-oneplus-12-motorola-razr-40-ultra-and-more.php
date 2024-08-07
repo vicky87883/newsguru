@@ -228,12 +228,13 @@ Wednesday, 7 August 2024</span>
 
 <p>During the Great Freedom Festival sale, Amazon is offering the Honor 200 5G for Rs 33,998. On all bank credit cards, customers will receive an instant discount of Rs 3,000 and an Amazon coupon worth Rs 1,000. The final price after the discounts is going to be Rs 29,998. Moonlight White and Black color variants are available for purchase.  
 </p>
-<div><strong>The Razr 40 Ultra from Motorola<strong></div>
+<div><strong>The Razr 40 Ultra from Motorola</strong></div>
 
 <p>Originally priced at Rs 89,999, the Motorola Razr 40 Ultra is currently available on Amazon for Rs 46,794. SBI Bank credit cards additionally come with a 1,000 rupee rebate. There are three color options for the foldable flip phone: Glacial Blue, Infinite Black, and Pink.</p>
 
 <p>Notably, the Flipkart Flagship sale is currently taking place in India. Here, you can save money on a variety of smartphones, including the Xiaomi 14 Civi, Realme 13 Pro+, Oppo K12X 5G, and Nothing Phone (2a) Plus.
 </p>
+</div>
 <?php include('sociallink.php') ?>
 	<?php include('relatedpost.php') ?>
 </div>
