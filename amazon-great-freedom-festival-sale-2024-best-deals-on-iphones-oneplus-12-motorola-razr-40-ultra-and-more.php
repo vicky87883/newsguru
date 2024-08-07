@@ -207,29 +207,78 @@ Wednesday, 7 August 2024</span>
 </figure>
 <div class=single-excerpt>
 <p><mark>During the Amazon sale, buyers will get an instant discount of 10 per cent on SBI Bank credit cards.</mark></p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>In addition to Flipkart's Flagship Freedom sale, Amazon is presently holding the Great Freedom Festival sale in India. The last day of the Amazon offer is August 11. Customers purchasing SBI Bank credit cards will receive an instant 10% discount. Customers who use Amazon Pay UPI will also receive Rs 50 cashback on minimum orders of Rs 750.
 </p>
 <div><strong>Best smartphone discounts during the Great Freedom Festival sale on Amazon</strong></div>
-
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>These are the best smartphone offers from the current Amazon sale.</p>
 
 <div><strong>The Apple iPhone 13</strong></div> 
-
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The current price of the Apple iPhone 13 is Rs 49,190. With SBI Bank credit cards, buyers would also receive an instant 1,000 discount, bringing the total cost down to Rs 48,190. The color options for it contain Product (Red), Midnight, Starlight, and Pink.</p>
 
 <div><strong>The Apple iPhone 14</strong></div> 
-
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Currently, Amazon is offering the iPhone 14 for Rs 60,900 during their sale. Additionally, buyers using SBI Bank credit cards would receive an instant discount of Rs 1,000. Notably, the iPhone had a starting price of Rs 79,900 when it was introduced in India. </p>
 <div><strong>OnePlus 12 5G</strong></div>
 
 <p>The OnePlus 12 5G, which retails for Rs 64,999, is currently on sale for Rs 59,999 on Amazon. On SBI Bank credit cards, buyers would receive an instant discount of Rs 6,000. As a result, the cost will drop to Rs 53,999. Glacial White, Silky Black, and Flowy Emerald are the color options that are offered.</p>
-
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <div><strong>Honor 200 5G</strong></div>
 
 <p>During the Great Freedom Festival sale, Amazon is offering the Honor 200 5G for Rs 33,998. On all bank credit cards, customers will receive an instant discount of Rs 3,000 and an Amazon coupon worth Rs 1,000. The final price after the discounts is going to be Rs 29,998. Moonlight White and Black color variants are available for purchase.  
 </p>
 <div><strong>The Razr 40 Ultra from Motorola</strong></div>
-
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Originally priced at Rs 89,999, the Motorola Razr 40 Ultra is currently available on Amazon for Rs 46,794. SBI Bank credit cards additionally come with a 1,000 rupee rebate. There are three color options for the foldable flip phone: Glacial Blue, Infinite Black, and Pink.</p>
 
 <p>Notably, the Flipkart Flagship sale is currently taking place in India. Here, you can save money on a variety of smartphones, including the Xiaomi 14 Civi, Realme 13 Pro+, Oppo K12X 5G, and Nothing Phone (2a) Plus.
