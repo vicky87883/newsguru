@@ -214,33 +214,96 @@ Friday, 16 August 2024</span>
 </figure>
 <div class=single-excerpt>
 	<div><strong>In discussions with US politicians, Mohammed bin Salman cited the late peacemaker Anwar Sadat to emphasize his own personal risk, according to a Newsweek story.</strong></div>
+    <ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <p>According to reports, Saudi Crown Prince Mohammed bin Salman revealed to US senators that he fears being killed because he wants to normalize relations with Israel.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The crown prince stated that he still plans to proceed with establishing links with the Jewish state, despite his concern that it could endanger his life, according to a Politico story that was published on Wednesday and quoted three sources who were briefed on the discussions.
 </p>
 <p>The killing of Egyptian President Anwar Sadat, who was shot dead by Islamist terrorists in 1981, two years after he signed a peace agreement with Israel, is said to have been mentioned at least once by Bin Salman, also known by his stage as MBS. After the historic peace agreement, MBS questioned his interlocutors about what the US had done to support Sadat.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>The possibility of murder was reportedly used by the crown prince to justify the inclusion of a "true path to a Palestinian state" in any normalization agreement between Riyadh and Jerusalem, something that the current Israeli government openly opposes.
 </p>
 <p>
 Politico cited a source familiar with the conversations as saying, "The way he put it was, 'Saudis care very deeply about this, and the street throughout the Middle East cares deeply about this, and my tenure as the keeper of the holy sites of Islam will not be secure if I don't address what is the most pressing issue of justice in our region.'"
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>How recently the crown prince had discussed his possible assassination was unclear. According to sources within US Congress, there is little chance that an agreement on normalization between the US and Saudi Arabia will be reached before November's presidential election, since the Senate won't have enough time to approve the US-Saudi portion of the agreement before its recess.
 </p>
 <p>
 Politico's senior foreign affairs journalist Nahal Toosi revealed the discussions in a post and implied that the crown prince was "saying his life is in danger to push US officials to raise pressure on Israel to bend to a deal he likes."
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>Toosi claimed that MBS was gambling when it came to forging diplomatic ties with Israel, even before to the Gaza War.
 </p>
 <p>
 Now that Saudi youth have been "galvanized by the first major conflict between Israelis and Palestinians that many of them have seen in their lives," she said, normalization could cost the crown prince their support.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Prime Minister Benjamin Netanyahu has long desired rapprochement between Israel and Saudi Arabia. A future Palestinian state has, however, been consistently rejected by the premier, making any such agreement a challenging and intricate task.
 </p>
 <p>According to US President Joe Biden, Saudi Arabia desires to "fully recognize Israel" in return for Washington's security assurances and the construction of a nuclear reactor for civilian use.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 The White House announced on Monday that it has lifted a prohibition imposed in 2021 due to human rights concerns and had started selling offensive weapons to Saudi Arabia again. The restart was interpreted as a component of Washington's endeavors to solicit Riyadh's assistance in establishing a ceasefire in Gaza and thwarting an imminent Iranian assault on Israel.
 </p>
