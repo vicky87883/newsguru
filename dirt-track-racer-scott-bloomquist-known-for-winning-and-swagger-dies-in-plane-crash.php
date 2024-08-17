@@ -213,16 +213,52 @@ Saturday, 17 August 2024</span>
 </figure>
 <div class=single-excerpt>
 <div><strong>Bloomquist was universally regarded as one of the greatest dirt late model racers of all-time</strong></div>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>One of the all-time great dirt late model racers, Scott Bloomquist, was a famous dirt track racer who his away Friday morning in an aircraft crash close to his Mooresburg, Tennessee, home. He was sixty years old.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 Authorities indicated that Bloomquist, who had a small private airfield close to his residence, may have crashed into a barn on his land in an incident that was reported at approximately 7:50 a.m. local time, according to the Rogersville Review. Authorities at the crash scene pronounced Bloomquist, the sole occupant of a 1938 Piper Cub J3C-65 N21811 aircraft, dead.
 </p>
 <p>Although Bloomquist's record as a dirt late model racer was impressive, it was his legendary personality that won him over everyone's admiration and recognition in the racing community. Among his victories were the 2004 World of Outlaws Late Model Series title, three titles in the Lucas Oil Late Model Dirt Series, eight victories in the Dirt Late Model Dream, four victories in the renowned Eldora Speedway World 100, and four victories at Cherokee Speedway's Blue-Gray 100.</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>In spite of recent health issues and injuries, Bloomquist was inducted into the National Dirt Late Model Hall of Fame in 2002 and continued to compete. Just a few weeks prior, he had participated in the USA Nationals at Cedar Lake Speedway, and he was well-known for his chassis building abilities.
 </p>
 <p>In a statement, World Racing Group CEO Brian Carter said, "Scott Bloomquist's legendary status not only grew out of his accomplishments on the track, but his innovations through the dirt late model industry." He was instrumental in rebuilding the World of Outlaws late models to enable it to develop into what it is now, as well as in DIRTcar Racing. Over time, his effects also aided in the development of racetracks and chassis.
 </p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6958761602872755"
+     data-ad-slot="3917672390"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <p>
 "Bloomquist's passion for the sport and innovative mind will be deeply missed by all."
 </p>
